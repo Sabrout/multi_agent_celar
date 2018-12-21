@@ -28,9 +28,14 @@ class Parser():
         const_file = open('bin/'+nbScen+'/CTR.TXT', 'r')
         const_hard = []
         const_soft = []
+        operation_gt, operation_eq = False, False
         for i in const_file:
             line = list(filter(lambda a: a != '', i[:-1].split(' ')))
             del line[2]
+            if line[-2] == '>':
+                operation_gt = True
+            if line[-2] == '=':
+                operation_eq = True
             if len(line) == 4:
                 const_hard.append(line)
             elif len(line) == 5:
@@ -40,12 +45,8 @@ class Parser():
                     const_soft.append(line)
             else:
                 raise Exception('CONSTRAINT FILE ERROR')
-        const_file.close()
 
-        # Process Hard Constraints
-        const_hard_set = set()
-        for i in range(len(const_hard)):
-            const_hard_set.add((const_hard[i][-2], const_hard[i][-1]))
+        const_file.close()
 
         # ------------ #
         # Writing XMLs
@@ -74,28 +75,30 @@ class Parser():
         # Domains
         domains = etree.SubElement(root, "domains", nbDomains=str(len(dom)))
         for i in range(len(dom)):
-            domain = etree.SubElement(domains, "domain", name=str(i), nbValues=str(len(dom[i])))
+            domain = etree.SubElement(domains, "domain", name='dom'+str(i), nbValues=str(len(dom[i])))
             domain.text = ' '.join(dom[i])
         # Variables
         variables = etree.SubElement(root, "variables", nbVariables=str(len(var)))
         if basic_strategy:
             for i in range(len(var)):
-                etree.SubElement(variables, "variable", name=var[i][0],
-                                            domain=var[i][1], agent=str_to_format.format(i+1))
+                etree.SubElement(variables, "variable", name='var'+var[i][0],
+                                            domain='dom'+var[i][1], agent=str_to_format.format(i+1))
         # Predicates
-        predicates = etree.SubElement(root, "predicates", nbPredicates=str(len(const_hard_set)))
-        for i in const_hard_set:
-            sign, constant = i
-            if sign == '>':
-                sign = 'gt'
-            if sign == '=':
-                sign = 'eq'
-            predicate = etree.SubElement(predicates, "predicate", name=sign+constant)
+        predicates = etree.SubElement(root, "predicates", nbPredicates=str(operation_eq+operation_gt))
+        if operation_gt:
+            predicate = etree.SubElement(predicates, "predicate", name="gt")
             parameters = etree.SubElement(predicate, "parameters")
-            parameters.text = ' int X1 int X2 '
+            parameters.text = ' int X1 int X2 int C '
             expression = etree.SubElement(predicate, "expression")
             functional = etree.SubElement(expression, "functional")
-            functional.text = sign+'(abs(sub(X1, X2)), '+constant+')'
+            functional.text = 'gt(abs(sub(X1, X2)), C)'
+        if operation_eq:
+            predicate = etree.SubElement(predicates, "predicate", name="eq")
+            parameters = etree.SubElement(predicate, "parameters")
+            parameters.text = ' int X1 int X2 int C '
+            expression = etree.SubElement(predicate, "expression")
+            functional = etree.SubElement(expression, "functional")
+            functional.text = 'eq(abs(sub(X1, X2)), C)'
         # Relations
         # Constraints
         constraints = etree.SubElement(root, "constraints", nbConstraints=str(len(const_hard)+len(const_soft)))
@@ -105,11 +108,11 @@ class Parser():
                 sign = 'gt'
             if i[-2] == '=':
                 sign = 'eq'
-            name = i[0]+'_'+i[1]+'_'+sign+'_'+i[-1]
-            constraint = etree.SubElement(constraints, "constraint", name=name, arity="2", scope=i[0]+" "+i[1],
-                                          reference=sign+i[-1])
+            name = 'var'+i[0]+'_'+'var'+i[1]+'_'+sign+'_'+i[-1]
+            constraint = etree.SubElement(constraints, "constraint", name=name,
+                                          arity="2", scope='var'+i[0]+" var"+i[1], reference=sign)
             parameters = etree.SubElement(constraint, "parameters")
-            parameters.text = ' '+i[0]+' '+i[1]+' '
+            parameters.text = ' '+i[0]+' '+i[1]+' '+i[-1]+' '
 
         # Print Output
         # print(etree.tostring(root, pretty_print=True).decode("utf-8"))
