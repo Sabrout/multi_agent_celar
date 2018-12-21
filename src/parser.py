@@ -111,15 +111,18 @@ class Parser():
             parameters = etree.SubElement(constraint, "parameters")
             parameters.text = ' '+i[0]+' '+i[1]+' '
 
-
-
-
         # Print Output
-        print(etree.tostring(root, pretty_print=True).decode("utf-8"))
+        # print(etree.tostring(root, pretty_print=True).decode("utf-8"))
+
+        # Write XMLs
+        file = open('xml/'+nbScen+'.xml', 'w')
+        file.write(etree.tostring(root, pretty_print=True).decode("utf-8"))
+        file.close()
 
 
 def main():
-    parser = Parser(nbScen=1)
+    for i in range(1, 12):
+        parser = Parser(nbScen=i)
 
 
 if __name__ == "__main__":
