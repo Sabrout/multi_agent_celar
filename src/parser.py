@@ -112,7 +112,7 @@ class Parser():
             constraint = etree.SubElement(constraints, "constraint", name=name,
                                           arity="2", scope='var'+i[0]+" var"+i[1], reference=sign)
             parameters = etree.SubElement(constraint, "parameters")
-            parameters.text = ' '+i[0]+' '+i[1]+' '+i[-1]+' '
+            parameters.text = ' var'+i[0]+' var'+i[1]+' '+i[-1]+' '
 
         # Print Output
         # print(etree.tostring(root, pretty_print=True).decode("utf-8"))
