@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<instance xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="src/frodo2/algorithms/XCSPschema.xsd">
+  <presentation name="graphColoring_1545151071909" maxConstraintArity="2" maximize="false" format="XCSP 2.1_FRODO">
+    <stats name="number of nodes">10</stats>
+    <stats name="target density">0.2</stats>
+    <stats name="true average density">0.2</stats>
+    <stats name="target unary tightness">1.0</stats>
+    <stats name="true average unary tightness">0.9999999999999999</stats>
+    <stats name="number of colors">5</stats>
+    <stats name="number of uncontrollable nodes">0</stats>
+    <stats name="number of disconnected components">4</stats>
+    <stats name="max degree">3</stats>
+  </presentation>
+  <agents nbAgents="10">
+    <agent name="a0" />
+    <agent name="a1" />
+    <agent name="a2" />
+    <agent name="a3" />
+    <agent name="a4" />
+    <agent name="a5" />
+    <agent name="a6" />
+    <agent name="a7" />
+    <agent name="a8" />
+    <agent name="a9" />
+  </agents>
+  <domains nbDomains="1">
+    <domain name="colors" nbValues="5">1..5</domain>
+  </domains>
+  <variables nbVariables="10">
+    <variable name="n0" domain="colors" agent="a0" />
+    <variable name="n1" domain="colors" agent="a1" />
+    <variable name="n2" domain="colors" agent="a2" />
+    <variable name="n3" domain="colors" agent="a3" />
+    <variable name="n4" domain="colors" agent="a4" />
+    <variable name="n5" domain="colors" agent="a5" />
+    <variable name="n6" domain="colors" agent="a6" />
+    <variable name="n7" domain="colors" agent="a7" />
+    <variable name="n8" domain="colors" agent="a8" />
+    <variable name="n9" domain="colors" agent="a9" />
+  </variables>
+  <relations nbRelations="11">
+    <relation name="neq" semantics="soft" arity="2" defaultCost="0" nbTuples="5">infinity: 1 1 | 2 2 | 3 3 | 4 4 | 5 5</relation>
+    <relation name="unaryRel_0" semantics="soft" arity="1" defaultCost="0" nbTuples="5">infinity: 5|4|3|2|1</relation>
+    <relation name="unaryRel_1" semantics="soft" arity="1" defaultCost="0" nbTuples="5">infinity: 5|4|3|2|1</relation>
+    <relation name="unaryRel_2" semantics="soft" arity="1" defaultCost="0" nbTuples="5">infinity: 5|4|3|2|1</relation>
+    <relation name="unaryRel_3" semantics="soft" arity="1" defaultCost="0" nbTuples="5">infinity: 5|4|3|2|1</relation>
+    <relation name="unaryRel_4" semantics="soft" arity="1" defaultCost="0" nbTuples="5">infinity: 5|4|3|2|1</relation>
+    <relation name="unaryRel_5" semantics="soft" arity="1" defaultCost="0" nbTuples="5">infinity: 5|4|3|2|1</relation>
+    <relation name="unaryRel_6" semantics="soft" arity="1" defaultCost="0" nbTuples="5">infinity: 5|4|3|2|1</relation>
+    <relation name="unaryRel_7" semantics="soft" arity="1" defaultCost="0" nbTuples="5">infinity: 5|4|3|2|1</relation>
+    <relation name="unaryRel_8" semantics="soft" arity="1" defaultCost="0" nbTuples="5">infinity: 5|4|3|2|1</relation>
+    <relation name="unaryRel_9" semantics="soft" arity="1" defaultCost="0" nbTuples="5">infinity: 5|4|3|2|1</relation>
+  </relations>
+  <constraints nbConstraints="19">
+    <constraint name="unaryCons_0" scope="n0" arity="1" reference="unaryRel_0" agent="a0" />
+    <constraint name="unaryCons_1" scope="n1" arity="1" reference="unaryRel_1" agent="a1" />
+    <constraint name="unaryCons_2" scope="n2" arity="1" reference="unaryRel_2" agent="a2" />
+    <constraint name="unaryCons_3" scope="n3" arity="1" reference="unaryRel_3" agent="a3" />
+    <constraint name="unaryCons_4" scope="n4" arity="1" reference="unaryRel_4" agent="a4" />
+    <constraint name="unaryCons_5" scope="n5" arity="1" reference="unaryRel_5" agent="a5" />
+    <constraint name="unaryCons_6" scope="n6" arity="1" reference="unaryRel_6" agent="a6" />
+    <constraint name="unaryCons_7" scope="n7" arity="1" reference="unaryRel_7" agent="a7" />
+    <constraint name="unaryCons_8" scope="n8" arity="1" reference="unaryRel_8" agent="a8" />
+    <constraint name="unaryCons_9" scope="n9" arity="1" reference="unaryRel_9" agent="a9" />
+    <constraint name="n1_neq_n8" scope="n1 n8" arity="2" reference="neq" />
+    <constraint name="n6_neq_n7" scope="n6 n7" arity="2" reference="neq" />
+    <constraint name="n8_neq_n9" scope="n8 n9" arity="2" reference="neq" />
+    <constraint name="n2_neq_n7" scope="n2 n7" arity="2" reference="neq" />
+    <constraint name="n4_neq_n6" scope="n4 n6" arity="2" reference="neq" />
+    <constraint name="n6_neq_n8" scope="n6 n8" arity="2" reference="neq" />
+    <constraint name="n4_neq_n7" scope="n4 n7" arity="2" reference="neq" />
+    <constraint name="n1_neq_n4" scope="n1 n4" arity="2" reference="neq" />
+    <constraint name="n2_neq_n9" scope="n2 n9" arity="2" reference="neq" />
+  </constraints>
+</instance>

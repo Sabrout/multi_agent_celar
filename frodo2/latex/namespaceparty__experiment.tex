@@ -1,0 +1,191 @@
+\hypertarget{namespaceparty__experiment}{}\section{party\+\_\+experiment Namespace Reference}
+\label{namespaceparty__experiment}\index{party\+\_\+experiment@{party\+\_\+experiment}}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+string \hyperlink{namespaceparty__experiment_ab94a6102a8d9a5ba4fd35b155a06b727}{java} = \char`\"{}java\char`\"{}
+\item 
+list \hyperlink{namespaceparty__experiment_a7f69216068bfee498c28ca4be6fda301}{java\+Params}
+\item 
+string \hyperlink{namespaceparty__experiment_a6867f51172751a35b28e2ff4dff9d1f5}{generator} = \char`\"{}frodo2.\+benchmarks.\+party.\+Party\+Game\char`\"{}
+\item 
+list \hyperlink{namespaceparty__experiment_a7b133c29cf6a6f324b2f41853c9bf62d}{gen\+Params}
+\item 
+string \hyperlink{namespaceparty__experiment_a213572fa0b4c4d2f05d22f438e19ee64}{problem\+File} = \char`\"{}party\+Leaute11.\+xml\char`\"{}
+\item 
+string \hyperlink{namespaceparty__experiment_a5f3bf37977f10a87d5e6d99d319490b8}{problem\+File\+M\+PC} = \char`\"{}party\+Vickrey02.\+xml\char`\"{}
+\item 
+int \hyperlink{namespaceparty__experiment_a489d5eedda75d9430bb1a5667b86c89f}{nbr\+Problems} = 101
+\item 
+list \hyperlink{namespaceparty__experiment_abce4cc8c36f7a780c5e01d91fe9f79a8}{algos}
+\item 
+int \hyperlink{namespaceparty__experiment_a0042bfc2443d967b3e0a70184688f8e7}{timeout} = 600
+\item 
+string \hyperlink{namespaceparty__experiment_ad72182b83d7e7b5dd7b567bce35bca26}{output} = \char`\"{}output\+Party.\+csv\char`\"{}
+\item 
+\hyperlink{namespaceparty__experiment_af23775e5ef50f9e8f66252122d3904ce}{x\+Col}
+\item 
+\hyperlink{namespaceparty__experiment_a8ed57d237b1836cae0e2ee9aa2ffceae}{y\+Col}
+\item 
+\hyperlink{namespaceparty__experiment_a2de34e8bcf1c61d5963bc1677058931e}{block}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}FRODO: a FRamework for Open/Distributed Optimization
+Copyright (C) 2008-2018  Thomas Leaute, Brammert Ottens & Radoslaw Szymanek
+
+FRODO is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+FRODO is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+
+How to contact the authors: 
+<https://frodo-ai.tech>
+\end{DoxyVerb}
+ 
+
+\subsection{Variable Documentation}
+\mbox{\Hypertarget{namespaceparty__experiment_abce4cc8c36f7a780c5e01d91fe9f79a8}\label{namespaceparty__experiment_abce4cc8c36f7a780c5e01d91fe9f79a8}} 
+\index{party\+\_\+experiment@{party\+\_\+experiment}!algos@{algos}}
+\index{algos@{algos}!party\+\_\+experiment@{party\+\_\+experiment}}
+\subsubsection{\texorpdfstring{algos}{algos}}
+{\footnotesize\ttfamily list party\+\_\+experiment.\+algos}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+1 =  [
+2 \textcolor{comment}{#        ["ADOPT", "frodo2.algorithms.adopt.ADOPTsolver", "../agents/ADOPT/ADOPTagentJaCoP.xml",
+       problemFile], }
+3 \textcolor{comment}{# }
+4 \textcolor{comment}{#        ["AFB", "frodo2.algorithms.afb.AFBsolver", "../agents/AFB/AFBagentJaCoP.xml", problemFile], }
+5 \textcolor{comment}{# }
+6         [\textcolor{stringliteral}{"DPOP"}, \textcolor{stringliteral}{"frodo2.algorithms.dpop.DPOPsolver"}, \textcolor{stringliteral}{"../agents/DPOP/DPOPagentJaCoP.xml"}, problemFile], 
+7 \textcolor{comment}{#        ["ASO-DPOP", "frodo2.algorithms.asodpop.ASODPOPsolver",
+       "../agents/DPOP/ASO-DPOP/ASO-DPOPagentJaCoP.xml", problemFile], }
+8 \textcolor{comment}{#        ["MB-DPOP", "frodo2.algorithms.dpop.DPOPsolver", "../agents/DPOP/MB-DPOP/MB-DPOPagentJaCoP.xml",
+       problemFile], }
+9 \textcolor{comment}{#         ["O-DPOP", "frodo2.algorithms.odpop.ODPOPsolver", "../agents/DPOP/O-DPOP/O-DPOPagentJaCoP.xml",
+       problemFile], }
+10         [\textcolor{stringliteral}{"P-DPOP"}, \textcolor{stringliteral}{"frodo2.algorithms.dpop.privacy.P\_DPOPsolver"}, \textcolor{stringliteral}{"
+      ../agents/DPOP/P-DPOP/P-DPOPagentJaCoP.xml"}, problemFile], 
+11         [\textcolor{stringliteral}{"P2-DPOP"}, \textcolor{stringliteral}{"frodo2.algorithms.dpop.privacy.P2\_DPOPsolver"}, \textcolor{stringliteral}{"
+      ../agents/DPOP/P-DPOP/P2-DPOPagentJaCoP\_DisCSP.xml"}, problemFile], 
+12 \textcolor{comment}{# }
+13 \textcolor{comment}{#        ["DSA", "frodo2.algorithms.localSearch.dsa.DSAsolver", "../agents/DSA/DSAagentJaCoP.xml",
+       problemFile], }
+14 \textcolor{comment}{# }
+15 \textcolor{comment}{#        ["MaxSum", "frodo2.algorithms.maxsum.MaxSumSolver", "../agents/MaxSum/MaxSumAgentJaCoP.xml",
+       problemFile], }
+16 \textcolor{comment}{# }
+17 \textcolor{comment}{#        ["MGM", "frodo2.algorithms.localSearch.mgm.MGMsolver", "../agents/MGM/MGMagentJaCoP.xml",
+       problemFile], }
+18 \textcolor{comment}{#        ["MGM2", "frodo2.algorithms.localSearch.mgm.mgm2.MGM2solver", "../agents/MGM/MGM2agentJaCoP.xml",
+       problemFile], }
+19 \textcolor{comment}{# }
+20         [\textcolor{stringliteral}{"MPC-DisCSP4"}, \textcolor{stringliteral}{"frodo2.algorithms.mpc\_discsp.MPC\_DisWCSP4solver"}, \textcolor{stringliteral}{"
+      ../agents/MPC/MPC-DisCSP4\_JaCoP.xml"}, problemFileMPC], 
+21 
+22 \textcolor{comment}{#        ["SynchBB", "frodo2.algorithms.synchbb.SynchBBsolver", "../agents/SynchBB/SynchBBagentJaCoP.xml",
+       problemFile], }
+23         ]
+\end{DoxyCode}
+\mbox{\Hypertarget{namespaceparty__experiment_a2de34e8bcf1c61d5963bc1677058931e}\label{namespaceparty__experiment_a2de34e8bcf1c61d5963bc1677058931e}} 
+\index{party\+\_\+experiment@{party\+\_\+experiment}!block@{block}}
+\index{block@{block}!party\+\_\+experiment@{party\+\_\+experiment}}
+\subsubsection{\texorpdfstring{block}{block}}
+{\footnotesize\ttfamily party\+\_\+experiment.\+block}
+
+\mbox{\Hypertarget{namespaceparty__experiment_a6867f51172751a35b28e2ff4dff9d1f5}\label{namespaceparty__experiment_a6867f51172751a35b28e2ff4dff9d1f5}} 
+\index{party\+\_\+experiment@{party\+\_\+experiment}!generator@{generator}}
+\index{generator@{generator}!party\+\_\+experiment@{party\+\_\+experiment}}
+\subsubsection{\texorpdfstring{generator}{generator}}
+{\footnotesize\ttfamily string party\+\_\+experiment.\+generator = \char`\"{}frodo2.\+benchmarks.\+party.\+Party\+Game\char`\"{}}
+
+\mbox{\Hypertarget{namespaceparty__experiment_a7b133c29cf6a6f324b2f41853c9bf62d}\label{namespaceparty__experiment_a7b133c29cf6a6f324b2f41853c9bf62d}} 
+\index{party\+\_\+experiment@{party\+\_\+experiment}!gen\+Params@{gen\+Params}}
+\index{gen\+Params@{gen\+Params}!party\+\_\+experiment@{party\+\_\+experiment}}
+\subsubsection{\texorpdfstring{gen\+Params}{genParams}}
+{\footnotesize\ttfamily list party\+\_\+experiment.\+gen\+Params}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+1 =  [
+2             \textcolor{stringliteral}{"-i"},                \textcolor{comment}{# use intensional constraints}
+3             0.0,                 \textcolor{comment}{# the margin of error of approximate equilibria}
+4             \textcolor{stringliteral}{"false"},             \textcolor{comment}{# true = mixed equilibria should be considered}
+5             \textcolor{stringliteral}{"acyclic"},           \textcolor{comment}{# the topology of the graph}
+6             list(range(2, 8)),   \textcolor{comment}{# the varying problem size}
+7             2,                   \textcolor{comment}{# for acyclic graphs, the branching factor}
+8             ]
+\end{DoxyCode}
+\mbox{\Hypertarget{namespaceparty__experiment_ab94a6102a8d9a5ba4fd35b155a06b727}\label{namespaceparty__experiment_ab94a6102a8d9a5ba4fd35b155a06b727}} 
+\index{party\+\_\+experiment@{party\+\_\+experiment}!java@{java}}
+\index{java@{java}!party\+\_\+experiment@{party\+\_\+experiment}}
+\subsubsection{\texorpdfstring{java}{java}}
+{\footnotesize\ttfamily string party\+\_\+experiment.\+java = \char`\"{}java\char`\"{}}
+
+\mbox{\Hypertarget{namespaceparty__experiment_a7f69216068bfee498c28ca4be6fda301}\label{namespaceparty__experiment_a7f69216068bfee498c28ca4be6fda301}} 
+\index{party\+\_\+experiment@{party\+\_\+experiment}!java\+Params@{java\+Params}}
+\index{java\+Params@{java\+Params}!party\+\_\+experiment@{party\+\_\+experiment}}
+\subsubsection{\texorpdfstring{java\+Params}{javaParams}}
+{\footnotesize\ttfamily list party\+\_\+experiment.\+java\+Params}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+1 =  [
+2             \textcolor{stringliteral}{"-Xmx2G"}, \textcolor{comment}{# sets the Java heap space to 2 GB}
+3             \textcolor{stringliteral}{"-classpath"}, \textcolor{stringliteral}{"../frodo2.jar"}, \textcolor{comment}{# sets the Java classpath to include FRODO}
+4             ]
+\end{DoxyCode}
+\mbox{\Hypertarget{namespaceparty__experiment_a489d5eedda75d9430bb1a5667b86c89f}\label{namespaceparty__experiment_a489d5eedda75d9430bb1a5667b86c89f}} 
+\index{party\+\_\+experiment@{party\+\_\+experiment}!nbr\+Problems@{nbr\+Problems}}
+\index{nbr\+Problems@{nbr\+Problems}!party\+\_\+experiment@{party\+\_\+experiment}}
+\subsubsection{\texorpdfstring{nbr\+Problems}{nbrProblems}}
+{\footnotesize\ttfamily int party\+\_\+experiment.\+nbr\+Problems = 101}
+
+\mbox{\Hypertarget{namespaceparty__experiment_ad72182b83d7e7b5dd7b567bce35bca26}\label{namespaceparty__experiment_ad72182b83d7e7b5dd7b567bce35bca26}} 
+\index{party\+\_\+experiment@{party\+\_\+experiment}!output@{output}}
+\index{output@{output}!party\+\_\+experiment@{party\+\_\+experiment}}
+\subsubsection{\texorpdfstring{output}{output}}
+{\footnotesize\ttfamily party\+\_\+experiment.\+output = \char`\"{}output\+Party.\+csv\char`\"{}}
+
+\mbox{\Hypertarget{namespaceparty__experiment_a213572fa0b4c4d2f05d22f438e19ee64}\label{namespaceparty__experiment_a213572fa0b4c4d2f05d22f438e19ee64}} 
+\index{party\+\_\+experiment@{party\+\_\+experiment}!problem\+File@{problem\+File}}
+\index{problem\+File@{problem\+File}!party\+\_\+experiment@{party\+\_\+experiment}}
+\subsubsection{\texorpdfstring{problem\+File}{problemFile}}
+{\footnotesize\ttfamily string party\+\_\+experiment.\+problem\+File = \char`\"{}party\+Leaute11.\+xml\char`\"{}}
+
+\mbox{\Hypertarget{namespaceparty__experiment_a5f3bf37977f10a87d5e6d99d319490b8}\label{namespaceparty__experiment_a5f3bf37977f10a87d5e6d99d319490b8}} 
+\index{party\+\_\+experiment@{party\+\_\+experiment}!problem\+File\+M\+PC@{problem\+File\+M\+PC}}
+\index{problem\+File\+M\+PC@{problem\+File\+M\+PC}!party\+\_\+experiment@{party\+\_\+experiment}}
+\subsubsection{\texorpdfstring{problem\+File\+M\+PC}{problemFileMPC}}
+{\footnotesize\ttfamily string party\+\_\+experiment.\+problem\+File\+M\+PC = \char`\"{}party\+Vickrey02.\+xml\char`\"{}}
+
+\mbox{\Hypertarget{namespaceparty__experiment_a0042bfc2443d967b3e0a70184688f8e7}\label{namespaceparty__experiment_a0042bfc2443d967b3e0a70184688f8e7}} 
+\index{party\+\_\+experiment@{party\+\_\+experiment}!timeout@{timeout}}
+\index{timeout@{timeout}!party\+\_\+experiment@{party\+\_\+experiment}}
+\subsubsection{\texorpdfstring{timeout}{timeout}}
+{\footnotesize\ttfamily int party\+\_\+experiment.\+timeout = 600}
+
+\mbox{\Hypertarget{namespaceparty__experiment_af23775e5ef50f9e8f66252122d3904ce}\label{namespaceparty__experiment_af23775e5ef50f9e8f66252122d3904ce}} 
+\index{party\+\_\+experiment@{party\+\_\+experiment}!x\+Col@{x\+Col}}
+\index{x\+Col@{x\+Col}!party\+\_\+experiment@{party\+\_\+experiment}}
+\subsubsection{\texorpdfstring{x\+Col}{xCol}}
+{\footnotesize\ttfamily party\+\_\+experiment.\+x\+Col}
+
+\mbox{\Hypertarget{namespaceparty__experiment_a8ed57d237b1836cae0e2ee9aa2ffceae}\label{namespaceparty__experiment_a8ed57d237b1836cae0e2ee9aa2ffceae}} 
+\index{party\+\_\+experiment@{party\+\_\+experiment}!y\+Col@{y\+Col}}
+\index{y\+Col@{y\+Col}!party\+\_\+experiment@{party\+\_\+experiment}}
+\subsubsection{\texorpdfstring{y\+Col}{yCol}}
+{\footnotesize\ttfamily party\+\_\+experiment.\+y\+Col}
+

@@ -1,0 +1,173 @@
+\hypertarget{namespaceMaxDisCSP__experiment}{}\section{Max\+Dis\+C\+S\+P\+\_\+experiment Namespace Reference}
+\label{namespaceMaxDisCSP__experiment}\index{Max\+Dis\+C\+S\+P\+\_\+experiment@{Max\+Dis\+C\+S\+P\+\_\+experiment}}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+string \hyperlink{namespaceMaxDisCSP__experiment_aa778f334e146efb81f06d91a127e852e}{java} = \char`\"{}java\char`\"{}
+\item 
+list \hyperlink{namespaceMaxDisCSP__experiment_a557bebaa7dae8d8275e25b76df4a7ad2}{java\+Params}
+\item 
+string \hyperlink{namespaceMaxDisCSP__experiment_aaba77ea389ee9c9f69d9d4c5979a17b1}{generator} = \char`\"{}frodo2.\+benchmarks.\+maxdiscsp.\+Max\+Dis\+C\+S\+P\+Problem\+Generator\char`\"{}
+\item 
+list \hyperlink{namespaceMaxDisCSP__experiment_a9bae2616b8b6f531f6b368e8b49e272c}{gen\+Params}
+\item 
+string \hyperlink{namespaceMaxDisCSP__experiment_a33b70bc81f4d5bb7fa331364dbd3911c}{problem\+File} = \char`\"{}random\+\_\+\+Max-\/Dis\+C\+S\+P.\+xml\char`\"{}
+\item 
+int \hyperlink{namespaceMaxDisCSP__experiment_ab85d28864ad0510b5a36351bc144c387}{nbr\+Problems} = 101
+\item 
+list \hyperlink{namespaceMaxDisCSP__experiment_ab252e0e7945c449f04928e25bfe7777b}{algos}
+\item 
+int \hyperlink{namespaceMaxDisCSP__experiment_aa09f7b9725386e9fdf9644567935a3b5}{timeout} = 120
+\item 
+string \hyperlink{namespaceMaxDisCSP__experiment_a180221711d5ce1688f14955f0f9a2f5e}{output} = \char`\"{}output\+Max\+Dis\+C\+S\+P.\+csv\char`\"{}
+\item 
+\hyperlink{namespaceMaxDisCSP__experiment_ac3613b02dbe8b81924595212800c41ae}{x\+Col}
+\item 
+\hyperlink{namespaceMaxDisCSP__experiment_a598c648ca43919f6d93e4858f5c92877}{y\+Col}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}FRODO: a FRamework for Open/Distributed Optimization
+Copyright (C) 2008-2018  Thomas Leaute, Brammert Ottens & Radoslaw Szymanek
+
+FRODO is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+FRODO is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+
+How to contact the authors: 
+<https://frodo-ai.tech>
+\end{DoxyVerb}
+ 
+
+\subsection{Variable Documentation}
+\mbox{\Hypertarget{namespaceMaxDisCSP__experiment_ab252e0e7945c449f04928e25bfe7777b}\label{namespaceMaxDisCSP__experiment_ab252e0e7945c449f04928e25bfe7777b}} 
+\index{Max\+Dis\+C\+S\+P\+\_\+experiment@{Max\+Dis\+C\+S\+P\+\_\+experiment}!algos@{algos}}
+\index{algos@{algos}!Max\+Dis\+C\+S\+P\+\_\+experiment@{Max\+Dis\+C\+S\+P\+\_\+experiment}}
+\subsubsection{\texorpdfstring{algos}{algos}}
+{\footnotesize\ttfamily list Max\+Dis\+C\+S\+P\+\_\+experiment.\+algos}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+1 =  [
+2         [\textcolor{stringliteral}{"ADOPT"}, \textcolor{stringliteral}{"frodo2.algorithms.adopt.ADOPTsolver"}, \textcolor{stringliteral}{"../agents/ADOPT/ADOPTagent.xml"}, problemFile], 
+3 
+4         [\textcolor{stringliteral}{"AFB"}, \textcolor{stringliteral}{"frodo2.algorithms.afb.AFBsolver"}, \textcolor{stringliteral}{"../agents/AFB/AFBagent.xml"}, problemFile], 
+5 
+6         [\textcolor{stringliteral}{"DPOP"}, \textcolor{stringliteral}{"frodo2.algorithms.dpop.DPOPsolver"}, \textcolor{stringliteral}{"../agents/DPOP/DPOPagent.xml"}, problemFile], 
+7 \textcolor{comment}{#         ["ASO-DPOP", "frodo2.algorithms.asodpop.ASODPOPsolver",
+       "../agents/DPOP/ASO-DPOP/ASO-DPOPagent.xml", problemFile], }
+8 \textcolor{comment}{#         ["MB-DPOP", "frodo2.algorithms.dpop.DPOPsolver", "../agents/DPOP/MB-DPOP/MB-DPOPagent.xml",
+       problemFile], }
+9 \textcolor{comment}{#          ["O-DPOP", "frodo2.algorithms.odpop.ODPOPsolver", "../agents/DPOP/O-DPOP/O-DPOPagent.xml",
+       problemFile], }
+10 \textcolor{comment}{#          ["P-DPOP", "frodo2.algorithms.dpop.privacy.P\_DPOPsolver",
+       "../agents/DPOP/P-DPOP/P-DPOPagent.xml", problemFile], }
+11 \textcolor{comment}{#          ["P3/2-DPOP", "frodo2.algorithms.dpop.privacy.P3halves\_DPOPsolver",
+       "../agents/DPOP/P-DPOP/P1.5-DPOPagent.xml", problemFile], }
+12 \textcolor{comment}{#         ["P2-DPOP", "frodo2.algorithms.dpop.privacy.P2\_DPOPsolver",
+       "../agents/DPOP/P-DPOP/P2-DPOPagent.xml", problemFile], }
+13 \textcolor{comment}{# }
+14 \textcolor{comment}{#       ["DUCT", "frodo2.algorithms.duct.DUCTsolver", "../agents/DUCT/DUCTagent.xml", problemFile], }
+15 \textcolor{comment}{#}
+16 \textcolor{comment}{#         ["DSA", "frodo2.algorithms.localSearch.dsa.DSAsolver", "../agents/DSA/DSAagent.xml",
+       problemFile], }
+17 \textcolor{comment}{# }
+18 \textcolor{comment}{#         ["MaxSum", "frodo2.algorithms.maxsum.MaxSumSolver", "../agents/MaxSum/MaxSumAgent.xml",
+       problemFile], }
+19 \textcolor{comment}{# }
+20 \textcolor{comment}{#         ["MGM", "frodo2.algorithms.localSearch.mgm.MGMsolver", "../agents/MGM/MGMagent.xml",
+       problemFile], }
+21 \textcolor{comment}{#         ["MGM2", "frodo2.algorithms.localSearch.mgm.mgm2.MGM2solver", "../agents/MGM/MGM2agent.xml",
+       problemFile], }
+22 
+23         [\textcolor{stringliteral}{"SynchBB"}, \textcolor{stringliteral}{"frodo2.algorithms.synchbb.SynchBBsolver"}, \textcolor{stringliteral}{"../agents/SynchBB/SynchBBagent.xml"}, 
+      problemFile], 
+24         ]
+\end{DoxyCode}
+\mbox{\Hypertarget{namespaceMaxDisCSP__experiment_aaba77ea389ee9c9f69d9d4c5979a17b1}\label{namespaceMaxDisCSP__experiment_aaba77ea389ee9c9f69d9d4c5979a17b1}} 
+\index{Max\+Dis\+C\+S\+P\+\_\+experiment@{Max\+Dis\+C\+S\+P\+\_\+experiment}!generator@{generator}}
+\index{generator@{generator}!Max\+Dis\+C\+S\+P\+\_\+experiment@{Max\+Dis\+C\+S\+P\+\_\+experiment}}
+\subsubsection{\texorpdfstring{generator}{generator}}
+{\footnotesize\ttfamily string Max\+Dis\+C\+S\+P\+\_\+experiment.\+generator = \char`\"{}frodo2.\+benchmarks.\+maxdiscsp.\+Max\+Dis\+C\+S\+P\+Problem\+Generator\char`\"{}}
+
+\mbox{\Hypertarget{namespaceMaxDisCSP__experiment_a9bae2616b8b6f531f6b368e8b49e272c}\label{namespaceMaxDisCSP__experiment_a9bae2616b8b6f531f6b368e8b49e272c}} 
+\index{Max\+Dis\+C\+S\+P\+\_\+experiment@{Max\+Dis\+C\+S\+P\+\_\+experiment}!gen\+Params@{gen\+Params}}
+\index{gen\+Params@{gen\+Params}!Max\+Dis\+C\+S\+P\+\_\+experiment@{Max\+Dis\+C\+S\+P\+\_\+experiment}}
+\subsubsection{\texorpdfstring{gen\+Params}{genParams}}
+{\footnotesize\ttfamily list Max\+Dis\+C\+S\+P\+\_\+experiment.\+gen\+Params}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+1 =  [
+2             10, \textcolor{comment}{# the number of variables}
+3             10, \textcolor{comment}{# the domain size}
+4             .4, \textcolor{comment}{# the target p1 value}
+5             [.4, .5, .6, .7, .8, .9, .99], \textcolor{comment}{# the varying target p2 values}
+6             ]
+\end{DoxyCode}
+\mbox{\Hypertarget{namespaceMaxDisCSP__experiment_aa778f334e146efb81f06d91a127e852e}\label{namespaceMaxDisCSP__experiment_aa778f334e146efb81f06d91a127e852e}} 
+\index{Max\+Dis\+C\+S\+P\+\_\+experiment@{Max\+Dis\+C\+S\+P\+\_\+experiment}!java@{java}}
+\index{java@{java}!Max\+Dis\+C\+S\+P\+\_\+experiment@{Max\+Dis\+C\+S\+P\+\_\+experiment}}
+\subsubsection{\texorpdfstring{java}{java}}
+{\footnotesize\ttfamily string Max\+Dis\+C\+S\+P\+\_\+experiment.\+java = \char`\"{}java\char`\"{}}
+
+\mbox{\Hypertarget{namespaceMaxDisCSP__experiment_a557bebaa7dae8d8275e25b76df4a7ad2}\label{namespaceMaxDisCSP__experiment_a557bebaa7dae8d8275e25b76df4a7ad2}} 
+\index{Max\+Dis\+C\+S\+P\+\_\+experiment@{Max\+Dis\+C\+S\+P\+\_\+experiment}!java\+Params@{java\+Params}}
+\index{java\+Params@{java\+Params}!Max\+Dis\+C\+S\+P\+\_\+experiment@{Max\+Dis\+C\+S\+P\+\_\+experiment}}
+\subsubsection{\texorpdfstring{java\+Params}{javaParams}}
+{\footnotesize\ttfamily list Max\+Dis\+C\+S\+P\+\_\+experiment.\+java\+Params}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+1 =  [
+2             \textcolor{stringliteral}{"-Xmx2G"}, \textcolor{comment}{# sets the Java heap space to 2 GB}
+3             \textcolor{stringliteral}{"-classpath"}, \textcolor{stringliteral}{"../frodo2.jar"}, \textcolor{comment}{# sets the Java classpath to include FRODO}
+4             ]
+\end{DoxyCode}
+\mbox{\Hypertarget{namespaceMaxDisCSP__experiment_ab85d28864ad0510b5a36351bc144c387}\label{namespaceMaxDisCSP__experiment_ab85d28864ad0510b5a36351bc144c387}} 
+\index{Max\+Dis\+C\+S\+P\+\_\+experiment@{Max\+Dis\+C\+S\+P\+\_\+experiment}!nbr\+Problems@{nbr\+Problems}}
+\index{nbr\+Problems@{nbr\+Problems}!Max\+Dis\+C\+S\+P\+\_\+experiment@{Max\+Dis\+C\+S\+P\+\_\+experiment}}
+\subsubsection{\texorpdfstring{nbr\+Problems}{nbrProblems}}
+{\footnotesize\ttfamily int Max\+Dis\+C\+S\+P\+\_\+experiment.\+nbr\+Problems = 101}
+
+\mbox{\Hypertarget{namespaceMaxDisCSP__experiment_a180221711d5ce1688f14955f0f9a2f5e}\label{namespaceMaxDisCSP__experiment_a180221711d5ce1688f14955f0f9a2f5e}} 
+\index{Max\+Dis\+C\+S\+P\+\_\+experiment@{Max\+Dis\+C\+S\+P\+\_\+experiment}!output@{output}}
+\index{output@{output}!Max\+Dis\+C\+S\+P\+\_\+experiment@{Max\+Dis\+C\+S\+P\+\_\+experiment}}
+\subsubsection{\texorpdfstring{output}{output}}
+{\footnotesize\ttfamily Max\+Dis\+C\+S\+P\+\_\+experiment.\+output = \char`\"{}output\+Max\+Dis\+C\+S\+P.\+csv\char`\"{}}
+
+\mbox{\Hypertarget{namespaceMaxDisCSP__experiment_a33b70bc81f4d5bb7fa331364dbd3911c}\label{namespaceMaxDisCSP__experiment_a33b70bc81f4d5bb7fa331364dbd3911c}} 
+\index{Max\+Dis\+C\+S\+P\+\_\+experiment@{Max\+Dis\+C\+S\+P\+\_\+experiment}!problem\+File@{problem\+File}}
+\index{problem\+File@{problem\+File}!Max\+Dis\+C\+S\+P\+\_\+experiment@{Max\+Dis\+C\+S\+P\+\_\+experiment}}
+\subsubsection{\texorpdfstring{problem\+File}{problemFile}}
+{\footnotesize\ttfamily string Max\+Dis\+C\+S\+P\+\_\+experiment.\+problem\+File = \char`\"{}random\+\_\+\+Max-\/Dis\+C\+S\+P.\+xml\char`\"{}}
+
+\mbox{\Hypertarget{namespaceMaxDisCSP__experiment_aa09f7b9725386e9fdf9644567935a3b5}\label{namespaceMaxDisCSP__experiment_aa09f7b9725386e9fdf9644567935a3b5}} 
+\index{Max\+Dis\+C\+S\+P\+\_\+experiment@{Max\+Dis\+C\+S\+P\+\_\+experiment}!timeout@{timeout}}
+\index{timeout@{timeout}!Max\+Dis\+C\+S\+P\+\_\+experiment@{Max\+Dis\+C\+S\+P\+\_\+experiment}}
+\subsubsection{\texorpdfstring{timeout}{timeout}}
+{\footnotesize\ttfamily int Max\+Dis\+C\+S\+P\+\_\+experiment.\+timeout = 120}
+
+\mbox{\Hypertarget{namespaceMaxDisCSP__experiment_ac3613b02dbe8b81924595212800c41ae}\label{namespaceMaxDisCSP__experiment_ac3613b02dbe8b81924595212800c41ae}} 
+\index{Max\+Dis\+C\+S\+P\+\_\+experiment@{Max\+Dis\+C\+S\+P\+\_\+experiment}!x\+Col@{x\+Col}}
+\index{x\+Col@{x\+Col}!Max\+Dis\+C\+S\+P\+\_\+experiment@{Max\+Dis\+C\+S\+P\+\_\+experiment}}
+\subsubsection{\texorpdfstring{x\+Col}{xCol}}
+{\footnotesize\ttfamily Max\+Dis\+C\+S\+P\+\_\+experiment.\+x\+Col}
+
+\mbox{\Hypertarget{namespaceMaxDisCSP__experiment_a598c648ca43919f6d93e4858f5c92877}\label{namespaceMaxDisCSP__experiment_a598c648ca43919f6d93e4858f5c92877}} 
+\index{Max\+Dis\+C\+S\+P\+\_\+experiment@{Max\+Dis\+C\+S\+P\+\_\+experiment}!y\+Col@{y\+Col}}
+\index{y\+Col@{y\+Col}!Max\+Dis\+C\+S\+P\+\_\+experiment@{Max\+Dis\+C\+S\+P\+\_\+experiment}}
+\subsubsection{\texorpdfstring{y\+Col}{yCol}}
+{\footnotesize\ttfamily Max\+Dis\+C\+S\+P\+\_\+experiment.\+y\+Col}
+

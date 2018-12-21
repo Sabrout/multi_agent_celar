@@ -1,0 +1,203 @@
+\hypertarget{namespacemeetings__experiment}{}\section{meetings\+\_\+experiment Namespace Reference}
+\label{namespacemeetings__experiment}\index{meetings\+\_\+experiment@{meetings\+\_\+experiment}}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+string \hyperlink{namespacemeetings__experiment_a8470b61efa2bb39406b0b1f11c223db8}{java} = \char`\"{}java\char`\"{}
+\item 
+list \hyperlink{namespacemeetings__experiment_a77e443fc7411b80fcd69dba9f6895216}{java\+Params}
+\item 
+string \hyperlink{namespacemeetings__experiment_a10f7f382d5248b7222e93235dbcb736b}{generator} = \char`\"{}frodo2.\+benchmarks.\+meetings.\+Meeting\+Scheduling\char`\"{}
+\item 
+list \hyperlink{namespacemeetings__experiment_add19e7c8e5aa8019584c230f3033b7e4}{gen\+Params}
+\item 
+string \hyperlink{namespacemeetings__experiment_a518e52133749fed6eba982832fadd6ed}{problem\+File\+E\+AV} = \char`\"{}meeting\+Scheduling\+\_\+\+E\+A\+V.\+xml\char`\"{}
+\item 
+string \hyperlink{namespacemeetings__experiment_a7a9dd9afb1e8a201ea8396b69aa979b0}{problem\+File\+P\+E\+AV} = \char`\"{}meeting\+Scheduling\+\_\+\+P\+E\+A\+V.\+xml\char`\"{}
+\item 
+int \hyperlink{namespacemeetings__experiment_aa9963d5b365b9cb5d32d58f1e64237aa}{nbr\+Problems} = 101
+\item 
+list \hyperlink{namespacemeetings__experiment_a074f5746ecf90968184c1678fb7dd144}{algos}
+\item 
+int \hyperlink{namespacemeetings__experiment_a76960f353ee09617f2d8040c5b1c487c}{timeout} = 600
+\item 
+string \hyperlink{namespacemeetings__experiment_aadbd7f54566eb18eb0ddf6f688ad5617}{output} = \char`\"{}output\+Meetings.\+csv\char`\"{}
+\item 
+\hyperlink{namespacemeetings__experiment_a87d1ca9fb344948672ec5f36d37325c6}{x\+Col}
+\item 
+\hyperlink{namespacemeetings__experiment_a2729bb00739523849d8133643b22d1ec}{y\+Col}
+\item 
+\hyperlink{namespacemeetings__experiment_a10f77404dac7de8583d987fbe5bec42c}{block}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}FRODO: a FRamework for Open/Distributed Optimization
+Copyright (C) 2008-2018  Thomas Leaute, Brammert Ottens & Radoslaw Szymanek
+
+FRODO is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+FRODO is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+
+How to contact the authors: 
+<https://frodo-ai.tech>
+\end{DoxyVerb}
+ 
+
+\subsection{Variable Documentation}
+\mbox{\Hypertarget{namespacemeetings__experiment_a074f5746ecf90968184c1678fb7dd144}\label{namespacemeetings__experiment_a074f5746ecf90968184c1678fb7dd144}} 
+\index{meetings\+\_\+experiment@{meetings\+\_\+experiment}!algos@{algos}}
+\index{algos@{algos}!meetings\+\_\+experiment@{meetings\+\_\+experiment}}
+\subsubsection{\texorpdfstring{algos}{algos}}
+{\footnotesize\ttfamily list meetings\+\_\+experiment.\+algos}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+1 =  [
+2 \textcolor{comment}{#        ["ADOPT", "frodo2.algorithms.adopt.ADOPTsolver", "../agents/ADOPT/ADOPTagentJaCoP.xml",
+       problemFilePEAV], }
+3 \textcolor{comment}{# }
+4 \textcolor{comment}{#        ["AFB", "frodo2.algorithms.afb.AFBsolver", "../agents/AFB/AFBagentJaCoP.xml", problemFilePEAV], }
+5 \textcolor{comment}{# }
+6         [\textcolor{stringliteral}{"DPOP"}, \textcolor{stringliteral}{"frodo2.algorithms.dpop.DPOPsolver"}, \textcolor{stringliteral}{"../agents/DPOP/DPOPagentJaCoP.xml"}, problemFilePEAV]
+      , 
+7 \textcolor{comment}{#        ["ASO-DPOP", "frodo2.algorithms.asodpop.ASODPOPsolver",
+       "../agents/DPOP/ASO-DPOP/ASO-DPOPagentJaCoP.xml", problemFilePEAV], }
+8 \textcolor{comment}{#        ["MB-DPOP", "frodo2.algorithms.dpop.DPOPsolver", "../agents/DPOP/MB-DPOP/MB-DPOPagentJaCoP.xml",
+       problemFilePEAV], }
+9 \textcolor{comment}{#         ["O-DPOP", "frodo2.algorithms.odpop.ODPOPsolver", "../agents/DPOP/O-DPOP/O-DPOPagentJaCoP.xml",
+       problemFilePEAV], }
+10         [\textcolor{stringliteral}{"P-DPOP"}, \textcolor{stringliteral}{"frodo2.algorithms.dpop.privacy.P\_DPOPsolver"}, \textcolor{stringliteral}{"
+      ../agents/DPOP/P-DPOP/P-DPOPagentJaCoP.xml"}, problemFilePEAV], 
+11 \textcolor{comment}{#         ["P3/2-DPOP", "frodo2.algorithms.dpop.privacy.P3halves\_DPOPsolver",
+       "../agents/DPOP/P-DPOP/P1.5-DPOPagentJaCoP.xml", problemFilePEAV], }
+12         [\textcolor{stringliteral}{"P2-DPOP"}, \textcolor{stringliteral}{"frodo2.algorithms.dpop.privacy.P2\_DPOPsolver"}, \textcolor{stringliteral}{"
+      ../agents/DPOP/P-DPOP/P2-DPOPagentJaCoP\_DisCSP.xml"}, problemFilePEAV], 
+13 \textcolor{comment}{#        ["P2-DPOP", "frodo2.algorithms.dpop.privacy.P2\_DPOPsolver",
+       "../agents/DPOP/P-DPOP/P2-DPOPagentJaCoP.xml", problemFilePEAV], # to be used with -maxCost}
+14 \textcolor{comment}{# }
+15 \textcolor{comment}{#        ["DSA", "frodo2.algorithms.localSearch.dsa.DSAsolver", "../agents/DSA/DSAagentJaCoP.xml",
+       problemFilePEAV], }
+16 \textcolor{comment}{# }
+17 \textcolor{comment}{#        ["MaxSum", "frodo2.algorithms.maxsum.MaxSumSolver",
+       "../agents/MaxSum/MaxSumAgentPerturbedJaCoP.xml", problemFilePEAV], }
+18 \textcolor{comment}{# }
+19 \textcolor{comment}{#        ["MGM", "frodo2.algorithms.localSearch.mgm.MGMsolver", "../agents/MGM/MGMagentJaCoP.xml",
+       problemFilePEAV], }
+20 \textcolor{comment}{#        ["MGM2", "frodo2.algorithms.localSearch.mgm.mgm2.MGM2solver", "../agents/MGM/MGM2agentJaCoP.xml",
+       problemFilePEAV], }
+21 \textcolor{comment}{# }
+22         [\textcolor{stringliteral}{"MPC-DisCSP4"}, \textcolor{stringliteral}{"frodo2.algorithms.mpc\_discsp.MPC\_DisWCSP4solver"}, \textcolor{stringliteral}{"
+      ../agents/MPC/MPC-DisCSP4\_JaCoP.xml"}, problemFileEAV], 
+23 \textcolor{comment}{#        ["MPC-DisWCSP4", "frodo2.algorithms.mpc\_discsp.MPC\_DisWCSP4solver",
+       "../agents/MPC/MPC-DisWCSP4\_JaCoP.xml", problemFileEAV], # to be used with -maxCost}
+24 \textcolor{comment}{# }
+25 \textcolor{comment}{#        ["SynchBB", "frodo2.algorithms.synchbb.SynchBBsolver", "../agents/SynchBB/SynchBBagentJaCoP.xml",
+       problemFilePEAV], }
+26         ]
+\end{DoxyCode}
+\mbox{\Hypertarget{namespacemeetings__experiment_a10f77404dac7de8583d987fbe5bec42c}\label{namespacemeetings__experiment_a10f77404dac7de8583d987fbe5bec42c}} 
+\index{meetings\+\_\+experiment@{meetings\+\_\+experiment}!block@{block}}
+\index{block@{block}!meetings\+\_\+experiment@{meetings\+\_\+experiment}}
+\subsubsection{\texorpdfstring{block}{block}}
+{\footnotesize\ttfamily meetings\+\_\+experiment.\+block}
+
+\mbox{\Hypertarget{namespacemeetings__experiment_a10f7f382d5248b7222e93235dbcb736b}\label{namespacemeetings__experiment_a10f7f382d5248b7222e93235dbcb736b}} 
+\index{meetings\+\_\+experiment@{meetings\+\_\+experiment}!generator@{generator}}
+\index{generator@{generator}!meetings\+\_\+experiment@{meetings\+\_\+experiment}}
+\subsubsection{\texorpdfstring{generator}{generator}}
+{\footnotesize\ttfamily string meetings\+\_\+experiment.\+generator = \char`\"{}frodo2.\+benchmarks.\+meetings.\+Meeting\+Scheduling\char`\"{}}
+
+\mbox{\Hypertarget{namespacemeetings__experiment_add19e7c8e5aa8019584c230f3033b7e4}\label{namespacemeetings__experiment_add19e7c8e5aa8019584c230f3033b7e4}} 
+\index{meetings\+\_\+experiment@{meetings\+\_\+experiment}!gen\+Params@{gen\+Params}}
+\index{gen\+Params@{gen\+Params}!meetings\+\_\+experiment@{meetings\+\_\+experiment}}
+\subsubsection{\texorpdfstring{gen\+Params}{genParams}}
+{\footnotesize\ttfamily list meetings\+\_\+experiment.\+gen\+Params}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+1 =  [
+2             \textcolor{stringliteral}{"-i"},                \textcolor{comment}{# use intensional constraints}
+3             \textcolor{stringliteral}{"-EAV"},          \textcolor{comment}{# use the "Events As Variables" formulation}
+4             \textcolor{stringliteral}{"-PEAV"},             \textcolor{comment}{# also use the "Private Events As Variables" formulation}
+5 \textcolor{comment}{#            "-infinity", 1,     # the cost incurred by violation one constraint (default = infinity)}
+6 \textcolor{comment}{#           "-tightness", .3,    # the probability for an agent to be unavailable at any given time slot}
+7 \textcolor{comment}{#            "-maxCost", 10,     # each agent has a random cost (<= maxCost) for attending a meeting at any
+       given time slot}
+8             3,                   \textcolor{comment}{# the number of agents}
+9             list(range(1, 7)),   \textcolor{comment}{# the varying number of meetings}
+10             2,                   \textcolor{comment}{# the number of agents per meeting}
+11             8,                   \textcolor{comment}{# the number of timeslots}
+12             ]
+\end{DoxyCode}
+\mbox{\Hypertarget{namespacemeetings__experiment_a8470b61efa2bb39406b0b1f11c223db8}\label{namespacemeetings__experiment_a8470b61efa2bb39406b0b1f11c223db8}} 
+\index{meetings\+\_\+experiment@{meetings\+\_\+experiment}!java@{java}}
+\index{java@{java}!meetings\+\_\+experiment@{meetings\+\_\+experiment}}
+\subsubsection{\texorpdfstring{java}{java}}
+{\footnotesize\ttfamily string meetings\+\_\+experiment.\+java = \char`\"{}java\char`\"{}}
+
+\mbox{\Hypertarget{namespacemeetings__experiment_a77e443fc7411b80fcd69dba9f6895216}\label{namespacemeetings__experiment_a77e443fc7411b80fcd69dba9f6895216}} 
+\index{meetings\+\_\+experiment@{meetings\+\_\+experiment}!java\+Params@{java\+Params}}
+\index{java\+Params@{java\+Params}!meetings\+\_\+experiment@{meetings\+\_\+experiment}}
+\subsubsection{\texorpdfstring{java\+Params}{javaParams}}
+{\footnotesize\ttfamily list meetings\+\_\+experiment.\+java\+Params}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+1 =  [
+2             \textcolor{stringliteral}{"-Xmx2G"}, \textcolor{comment}{# sets the Java heap space to 2 GB}
+3             \textcolor{stringliteral}{"-classpath"}, \textcolor{stringliteral}{"../frodo2.jar"}, \textcolor{comment}{# sets the Java classpath to include FRODO}
+4             ]
+\end{DoxyCode}
+\mbox{\Hypertarget{namespacemeetings__experiment_aa9963d5b365b9cb5d32d58f1e64237aa}\label{namespacemeetings__experiment_aa9963d5b365b9cb5d32d58f1e64237aa}} 
+\index{meetings\+\_\+experiment@{meetings\+\_\+experiment}!nbr\+Problems@{nbr\+Problems}}
+\index{nbr\+Problems@{nbr\+Problems}!meetings\+\_\+experiment@{meetings\+\_\+experiment}}
+\subsubsection{\texorpdfstring{nbr\+Problems}{nbrProblems}}
+{\footnotesize\ttfamily int meetings\+\_\+experiment.\+nbr\+Problems = 101}
+
+\mbox{\Hypertarget{namespacemeetings__experiment_aadbd7f54566eb18eb0ddf6f688ad5617}\label{namespacemeetings__experiment_aadbd7f54566eb18eb0ddf6f688ad5617}} 
+\index{meetings\+\_\+experiment@{meetings\+\_\+experiment}!output@{output}}
+\index{output@{output}!meetings\+\_\+experiment@{meetings\+\_\+experiment}}
+\subsubsection{\texorpdfstring{output}{output}}
+{\footnotesize\ttfamily meetings\+\_\+experiment.\+output = \char`\"{}output\+Meetings.\+csv\char`\"{}}
+
+\mbox{\Hypertarget{namespacemeetings__experiment_a518e52133749fed6eba982832fadd6ed}\label{namespacemeetings__experiment_a518e52133749fed6eba982832fadd6ed}} 
+\index{meetings\+\_\+experiment@{meetings\+\_\+experiment}!problem\+File\+E\+AV@{problem\+File\+E\+AV}}
+\index{problem\+File\+E\+AV@{problem\+File\+E\+AV}!meetings\+\_\+experiment@{meetings\+\_\+experiment}}
+\subsubsection{\texorpdfstring{problem\+File\+E\+AV}{problemFileEAV}}
+{\footnotesize\ttfamily string meetings\+\_\+experiment.\+problem\+File\+E\+AV = \char`\"{}meeting\+Scheduling\+\_\+\+E\+A\+V.\+xml\char`\"{}}
+
+\mbox{\Hypertarget{namespacemeetings__experiment_a7a9dd9afb1e8a201ea8396b69aa979b0}\label{namespacemeetings__experiment_a7a9dd9afb1e8a201ea8396b69aa979b0}} 
+\index{meetings\+\_\+experiment@{meetings\+\_\+experiment}!problem\+File\+P\+E\+AV@{problem\+File\+P\+E\+AV}}
+\index{problem\+File\+P\+E\+AV@{problem\+File\+P\+E\+AV}!meetings\+\_\+experiment@{meetings\+\_\+experiment}}
+\subsubsection{\texorpdfstring{problem\+File\+P\+E\+AV}{problemFilePEAV}}
+{\footnotesize\ttfamily string meetings\+\_\+experiment.\+problem\+File\+P\+E\+AV = \char`\"{}meeting\+Scheduling\+\_\+\+P\+E\+A\+V.\+xml\char`\"{}}
+
+\mbox{\Hypertarget{namespacemeetings__experiment_a76960f353ee09617f2d8040c5b1c487c}\label{namespacemeetings__experiment_a76960f353ee09617f2d8040c5b1c487c}} 
+\index{meetings\+\_\+experiment@{meetings\+\_\+experiment}!timeout@{timeout}}
+\index{timeout@{timeout}!meetings\+\_\+experiment@{meetings\+\_\+experiment}}
+\subsubsection{\texorpdfstring{timeout}{timeout}}
+{\footnotesize\ttfamily int meetings\+\_\+experiment.\+timeout = 600}
+
+\mbox{\Hypertarget{namespacemeetings__experiment_a87d1ca9fb344948672ec5f36d37325c6}\label{namespacemeetings__experiment_a87d1ca9fb344948672ec5f36d37325c6}} 
+\index{meetings\+\_\+experiment@{meetings\+\_\+experiment}!x\+Col@{x\+Col}}
+\index{x\+Col@{x\+Col}!meetings\+\_\+experiment@{meetings\+\_\+experiment}}
+\subsubsection{\texorpdfstring{x\+Col}{xCol}}
+{\footnotesize\ttfamily meetings\+\_\+experiment.\+x\+Col}
+
+\mbox{\Hypertarget{namespacemeetings__experiment_a2729bb00739523849d8133643b22d1ec}\label{namespacemeetings__experiment_a2729bb00739523849d8133643b22d1ec}} 
+\index{meetings\+\_\+experiment@{meetings\+\_\+experiment}!y\+Col@{y\+Col}}
+\index{y\+Col@{y\+Col}!meetings\+\_\+experiment@{meetings\+\_\+experiment}}
+\subsubsection{\texorpdfstring{y\+Col}{yCol}}
+{\footnotesize\ttfamily meetings\+\_\+experiment.\+y\+Col}
+

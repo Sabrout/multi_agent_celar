@@ -1,0 +1,193 @@
+\hypertarget{namespacegraph__coloring__experiment}{}\section{graph\+\_\+coloring\+\_\+experiment Namespace Reference}
+\label{namespacegraph__coloring__experiment}\index{graph\+\_\+coloring\+\_\+experiment@{graph\+\_\+coloring\+\_\+experiment}}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+string \hyperlink{namespacegraph__coloring__experiment_a7feb979c3a7d45682ec6a409932ff98c}{java} = \char`\"{}java\char`\"{}
+\item 
+list \hyperlink{namespacegraph__coloring__experiment_a233413ce8a774f77dfc77347c2a22422}{java\+Params}
+\item 
+string \hyperlink{namespacegraph__coloring__experiment_a05bfb49f88b113824998d2164cc01134}{generator} = \char`\"{}frodo2.\+benchmarks.\+graphcoloring.\+Graph\+Coloring\char`\"{}
+\item 
+list \hyperlink{namespacegraph__coloring__experiment_a78b6e5cdb7137c3c8def933a5cce521b}{gen\+Params}
+\item 
+string \hyperlink{namespacegraph__coloring__experiment_aedb6fa1c7df7c8e4c786b434ba0a7737}{problem\+File} = \char`\"{}graph\+Coloring.\+xml\char`\"{}
+\item 
+int \hyperlink{namespacegraph__coloring__experiment_a9860a2d0dc6e3b34b1b1fea39c27c6b4}{nbr\+Problems} = 101
+\item 
+list \hyperlink{namespacegraph__coloring__experiment_a4327af884d507aa7e22e2173532cad85}{algos}
+\item 
+int \hyperlink{namespacegraph__coloring__experiment_aee221115d74dd61ff9935ccde1508ac9}{timeout} = 600
+\item 
+string \hyperlink{namespacegraph__coloring__experiment_aafcf91207e607e97bd185832c205fa55}{output} = \char`\"{}output\+Graph\+Coloring.\+csv\char`\"{}
+\item 
+\hyperlink{namespacegraph__coloring__experiment_a8764a41a0223e612930b41d906b2c624}{x\+Col}
+\item 
+\hyperlink{namespacegraph__coloring__experiment_ac98b859dbb9d76de8f5b6fc483ded554}{y\+Col}
+\item 
+\hyperlink{namespacegraph__coloring__experiment_a9cf55c744b94824ce5762bf194da03ef}{block}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}FRODO: a FRamework for Open/Distributed Optimization
+Copyright (C) 2008-2018  Thomas Leaute, Brammert Ottens & Radoslaw Szymanek
+
+FRODO is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+FRODO is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+
+How to contact the authors: 
+<https://frodo-ai.tech>
+\end{DoxyVerb}
+ 
+
+\subsection{Variable Documentation}
+\mbox{\Hypertarget{namespacegraph__coloring__experiment_a4327af884d507aa7e22e2173532cad85}\label{namespacegraph__coloring__experiment_a4327af884d507aa7e22e2173532cad85}} 
+\index{graph\+\_\+coloring\+\_\+experiment@{graph\+\_\+coloring\+\_\+experiment}!algos@{algos}}
+\index{algos@{algos}!graph\+\_\+coloring\+\_\+experiment@{graph\+\_\+coloring\+\_\+experiment}}
+\subsubsection{\texorpdfstring{algos}{algos}}
+{\footnotesize\ttfamily list graph\+\_\+coloring\+\_\+experiment.\+algos}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+1 =  [
+2 \textcolor{comment}{#       ["ADOPT", "frodo2.algorithms.adopt.ADOPTsolver", "../agents/ADOPT/ADOPTagentJaCoP.xml",
+       problemFile], }
+3 \textcolor{comment}{# }
+4 \textcolor{comment}{#       ["AFB", "frodo2.algorithms.afb.AFBsolver", "../agents/AFB/AFBagentJaCoP.xml", problemFile], }
+5 \textcolor{comment}{# }
+6         [\textcolor{stringliteral}{"DPOP"}, \textcolor{stringliteral}{"frodo2.algorithms.dpop.DPOPsolver"}, \textcolor{stringliteral}{"../agents/DPOP/DPOPagentJaCoP.xml"}, problemFile], 
+7 \textcolor{comment}{#       ["ASO-DPOP", "frodo2.algorithms.asodpop.ASODPOPsolver",
+       "../agents/DPOP/ASO-DPOP/ASO-DPOPagentJaCoP.xml", problemFile], }
+8 \textcolor{comment}{#       ["MB-DPOP", "frodo2.algorithms.dpop.DPOPsolver", "../agents/DPOP/MB-DPOP/MB-DPOPagentJaCoP.xml",
+       problemFile], }
+9 \textcolor{comment}{#       ["O-DPOP", "frodo2.algorithms.odpop.ODPOPsolver", "../agents/DPOP/O-DPOP/O-DPOPagentJaCoP.xml",
+       problemFile], }
+10         [\textcolor{stringliteral}{"P-DPOP"}, \textcolor{stringliteral}{"frodo2.algorithms.dpop.privacy.P\_DPOPsolver"}, \textcolor{stringliteral}{"
+      ../agents/DPOP/P-DPOP/P-DPOPagentJaCoP.xml"}, problemFile], 
+11         [\textcolor{stringliteral}{"P3/2-DPOP"}, \textcolor{stringliteral}{"frodo2.algorithms.dpop.privacy.P3halves\_DPOPsolver"}, \textcolor{stringliteral}{"
+      ../agents/DPOP/P-DPOP/P1.5-DPOPagentJaCoP.xml"}, problemFile], 
+12         [\textcolor{stringliteral}{"P2-DPOP"}, \textcolor{stringliteral}{"frodo2.algorithms.dpop.privacy.P2\_DPOPsolver"}, \textcolor{stringliteral}{"
+      ../agents/DPOP/P-DPOP/P2-DPOPagentJaCoP\_DisCSP.xml"}, problemFile], 
+13 \textcolor{comment}{#       ["P2-DPOP", "frodo2.algorithms.dpop.privacy.P2\_DPOPsolver",
+       "../agents/DPOP/P-DPOP/P2-DPOPagentJaCoP.xml", problemFile], # to be used with -soft}
+14 \textcolor{comment}{# }
+15 \textcolor{comment}{#       ["DSA", "frodo2.algorithms.localSearch.dsa.DSAsolver", "../agents/DSA/DSAagentJaCoP.xml",
+       problemFile], }
+16 \textcolor{comment}{# }
+17 \textcolor{comment}{#       ["MaxSum", "frodo2.algorithms.maxsum.MaxSumSolver",
+       "../agents/MaxSum/MaxSumAgentPerturbedJaCoP.xml", problemFile], }
+18 \textcolor{comment}{# }
+19 \textcolor{comment}{#       ["MGM", "frodo2.algorithms.localSearch.mgm.MGMsolver", "../agents/MGM/MGMagentJaCoP.xml",
+       problemFile], }
+20 \textcolor{comment}{#       ["MGM2", "frodo2.algorithms.localSearch.mgm.mgm2.MGM2solver", "../agents/MGM/MGM2agentJaCoP.xml",
+       problemFile], }
+21 \textcolor{comment}{# }
+22         [\textcolor{stringliteral}{"MPC-DisCSP4"}, \textcolor{stringliteral}{"frodo2.algorithms.mpc\_discsp.MPC\_DisWCSP4solver"}, \textcolor{stringliteral}{"
+      ../agents/MPC/MPC-DisCSP4\_JaCoP.xml"}, problemFile], 
+23 \textcolor{comment}{#       ["MPC-DisWCSP4", "frodo2.algorithms.mpc\_discsp.MPC\_DisWCSP4solver",
+       "../agents/MPC/MPC-DisWCSP4\_JaCoP.xml", problemFile], # to be used with -soft}
+24 \textcolor{comment}{# }
+25 \textcolor{comment}{#       ["SynchBB", "frodo2.algorithms.synchbb.SynchBBsolver", "../agents/SynchBB/SynchBBagentJaCoP.xml",
+       problemFile], }
+26         ]
+\end{DoxyCode}
+\mbox{\Hypertarget{namespacegraph__coloring__experiment_a9cf55c744b94824ce5762bf194da03ef}\label{namespacegraph__coloring__experiment_a9cf55c744b94824ce5762bf194da03ef}} 
+\index{graph\+\_\+coloring\+\_\+experiment@{graph\+\_\+coloring\+\_\+experiment}!block@{block}}
+\index{block@{block}!graph\+\_\+coloring\+\_\+experiment@{graph\+\_\+coloring\+\_\+experiment}}
+\subsubsection{\texorpdfstring{block}{block}}
+{\footnotesize\ttfamily graph\+\_\+coloring\+\_\+experiment.\+block}
+
+\mbox{\Hypertarget{namespacegraph__coloring__experiment_a05bfb49f88b113824998d2164cc01134}\label{namespacegraph__coloring__experiment_a05bfb49f88b113824998d2164cc01134}} 
+\index{graph\+\_\+coloring\+\_\+experiment@{graph\+\_\+coloring\+\_\+experiment}!generator@{generator}}
+\index{generator@{generator}!graph\+\_\+coloring\+\_\+experiment@{graph\+\_\+coloring\+\_\+experiment}}
+\subsubsection{\texorpdfstring{generator}{generator}}
+{\footnotesize\ttfamily string graph\+\_\+coloring\+\_\+experiment.\+generator = \char`\"{}frodo2.\+benchmarks.\+graphcoloring.\+Graph\+Coloring\char`\"{}}
+
+\mbox{\Hypertarget{namespacegraph__coloring__experiment_a78b6e5cdb7137c3c8def933a5cce521b}\label{namespacegraph__coloring__experiment_a78b6e5cdb7137c3c8def933a5cce521b}} 
+\index{graph\+\_\+coloring\+\_\+experiment@{graph\+\_\+coloring\+\_\+experiment}!gen\+Params@{gen\+Params}}
+\index{gen\+Params@{gen\+Params}!graph\+\_\+coloring\+\_\+experiment@{graph\+\_\+coloring\+\_\+experiment}}
+\subsubsection{\texorpdfstring{gen\+Params}{genParams}}
+{\footnotesize\ttfamily list graph\+\_\+coloring\+\_\+experiment.\+gen\+Params}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+1 =  [
+2             \textcolor{stringliteral}{"-i"},               \textcolor{comment}{# use intensional constraints}
+3 \textcolor{comment}{#           "-soft",            # outputs a Max-DisCSP instead of a pure DisCSP}
+4 \textcolor{comment}{#           "-mpc",             # also outputs a (Max-)DisCSP formulation in which all constraints are
+       public}
+5             list(range(3, 11)), \textcolor{comment}{# the varying number of nodes}
+6             .4,                 \textcolor{comment}{# the density }
+7             0.0,                \textcolor{comment}{# the tightness}
+8             3,                  \textcolor{comment}{# the number of colors}
+9 \textcolor{comment}{#           .3,                 # the fraction of nodes whose colors are uncontrollable (produces a
+       StochDCOP)}
+10             ]
+\end{DoxyCode}
+\mbox{\Hypertarget{namespacegraph__coloring__experiment_a7feb979c3a7d45682ec6a409932ff98c}\label{namespacegraph__coloring__experiment_a7feb979c3a7d45682ec6a409932ff98c}} 
+\index{graph\+\_\+coloring\+\_\+experiment@{graph\+\_\+coloring\+\_\+experiment}!java@{java}}
+\index{java@{java}!graph\+\_\+coloring\+\_\+experiment@{graph\+\_\+coloring\+\_\+experiment}}
+\subsubsection{\texorpdfstring{java}{java}}
+{\footnotesize\ttfamily string graph\+\_\+coloring\+\_\+experiment.\+java = \char`\"{}java\char`\"{}}
+
+\mbox{\Hypertarget{namespacegraph__coloring__experiment_a233413ce8a774f77dfc77347c2a22422}\label{namespacegraph__coloring__experiment_a233413ce8a774f77dfc77347c2a22422}} 
+\index{graph\+\_\+coloring\+\_\+experiment@{graph\+\_\+coloring\+\_\+experiment}!java\+Params@{java\+Params}}
+\index{java\+Params@{java\+Params}!graph\+\_\+coloring\+\_\+experiment@{graph\+\_\+coloring\+\_\+experiment}}
+\subsubsection{\texorpdfstring{java\+Params}{javaParams}}
+{\footnotesize\ttfamily list graph\+\_\+coloring\+\_\+experiment.\+java\+Params}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+1 =  [
+2             \textcolor{stringliteral}{"-Xmx2G"}, \textcolor{comment}{# sets the Java heap space to 2 GB}
+3             \textcolor{stringliteral}{"-classpath"}, \textcolor{stringliteral}{"../frodo2.jar"}, \textcolor{comment}{# sets the Java classpath to include FRODO}
+4             ]
+\end{DoxyCode}
+\mbox{\Hypertarget{namespacegraph__coloring__experiment_a9860a2d0dc6e3b34b1b1fea39c27c6b4}\label{namespacegraph__coloring__experiment_a9860a2d0dc6e3b34b1b1fea39c27c6b4}} 
+\index{graph\+\_\+coloring\+\_\+experiment@{graph\+\_\+coloring\+\_\+experiment}!nbr\+Problems@{nbr\+Problems}}
+\index{nbr\+Problems@{nbr\+Problems}!graph\+\_\+coloring\+\_\+experiment@{graph\+\_\+coloring\+\_\+experiment}}
+\subsubsection{\texorpdfstring{nbr\+Problems}{nbrProblems}}
+{\footnotesize\ttfamily int graph\+\_\+coloring\+\_\+experiment.\+nbr\+Problems = 101}
+
+\mbox{\Hypertarget{namespacegraph__coloring__experiment_aafcf91207e607e97bd185832c205fa55}\label{namespacegraph__coloring__experiment_aafcf91207e607e97bd185832c205fa55}} 
+\index{graph\+\_\+coloring\+\_\+experiment@{graph\+\_\+coloring\+\_\+experiment}!output@{output}}
+\index{output@{output}!graph\+\_\+coloring\+\_\+experiment@{graph\+\_\+coloring\+\_\+experiment}}
+\subsubsection{\texorpdfstring{output}{output}}
+{\footnotesize\ttfamily graph\+\_\+coloring\+\_\+experiment.\+output = \char`\"{}output\+Graph\+Coloring.\+csv\char`\"{}}
+
+\mbox{\Hypertarget{namespacegraph__coloring__experiment_aedb6fa1c7df7c8e4c786b434ba0a7737}\label{namespacegraph__coloring__experiment_aedb6fa1c7df7c8e4c786b434ba0a7737}} 
+\index{graph\+\_\+coloring\+\_\+experiment@{graph\+\_\+coloring\+\_\+experiment}!problem\+File@{problem\+File}}
+\index{problem\+File@{problem\+File}!graph\+\_\+coloring\+\_\+experiment@{graph\+\_\+coloring\+\_\+experiment}}
+\subsubsection{\texorpdfstring{problem\+File}{problemFile}}
+{\footnotesize\ttfamily string graph\+\_\+coloring\+\_\+experiment.\+problem\+File = \char`\"{}graph\+Coloring.\+xml\char`\"{}}
+
+\mbox{\Hypertarget{namespacegraph__coloring__experiment_aee221115d74dd61ff9935ccde1508ac9}\label{namespacegraph__coloring__experiment_aee221115d74dd61ff9935ccde1508ac9}} 
+\index{graph\+\_\+coloring\+\_\+experiment@{graph\+\_\+coloring\+\_\+experiment}!timeout@{timeout}}
+\index{timeout@{timeout}!graph\+\_\+coloring\+\_\+experiment@{graph\+\_\+coloring\+\_\+experiment}}
+\subsubsection{\texorpdfstring{timeout}{timeout}}
+{\footnotesize\ttfamily int graph\+\_\+coloring\+\_\+experiment.\+timeout = 600}
+
+\mbox{\Hypertarget{namespacegraph__coloring__experiment_a8764a41a0223e612930b41d906b2c624}\label{namespacegraph__coloring__experiment_a8764a41a0223e612930b41d906b2c624}} 
+\index{graph\+\_\+coloring\+\_\+experiment@{graph\+\_\+coloring\+\_\+experiment}!x\+Col@{x\+Col}}
+\index{x\+Col@{x\+Col}!graph\+\_\+coloring\+\_\+experiment@{graph\+\_\+coloring\+\_\+experiment}}
+\subsubsection{\texorpdfstring{x\+Col}{xCol}}
+{\footnotesize\ttfamily graph\+\_\+coloring\+\_\+experiment.\+x\+Col}
+
+\mbox{\Hypertarget{namespacegraph__coloring__experiment_ac98b859dbb9d76de8f5b6fc483ded554}\label{namespacegraph__coloring__experiment_ac98b859dbb9d76de8f5b6fc483ded554}} 
+\index{graph\+\_\+coloring\+\_\+experiment@{graph\+\_\+coloring\+\_\+experiment}!y\+Col@{y\+Col}}
+\index{y\+Col@{y\+Col}!graph\+\_\+coloring\+\_\+experiment@{graph\+\_\+coloring\+\_\+experiment}}
+\subsubsection{\texorpdfstring{y\+Col}{yCol}}
+{\footnotesize\ttfamily graph\+\_\+coloring\+\_\+experiment.\+y\+Col}
+
