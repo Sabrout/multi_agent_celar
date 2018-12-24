@@ -4,7 +4,7 @@ from lxml import etree
 
 class Parser():
 
-    def __init__(self, nbScen=1, nbAgents=None):
+    def __init__(self, nbScen=1, nbAgents=None, cst='a'):
 
         # Problem Name
         nbScen = 'scen{0:02}'.format(nbScen)
@@ -47,6 +47,18 @@ class Parser():
                 raise Exception('CONSTRAINT FILE ERROR')
 
         const_file.close()
+        # Cost
+        cost_file = open('bin/'+nbScen+'/cst.txt', 'r')
+        cost = []
+        for i in cost_file:
+            if not '=' in i:
+                continue
+            line = list(filter(lambda a: a != '', i[:-1].split(' ')))
+            if line[0][0] == cst:
+                cost.append(line[2])
+        cost_file.close()
+        cost = cost[::-1]
+        cost = [str(int(cost[-1])*100000)] + cost
 
         # ------------ #
         # Writing XMLs
@@ -124,8 +136,9 @@ class Parser():
 
 
 def main():
-    for i in range(1, 12):
-        parser = Parser(nbScen=i)
+    parser = Parser(nbScen=10)
+    # for i in range(1, 12):
+    #     parser = Parser(nbScen=i)
 
 
 if __name__ == "__main__":
