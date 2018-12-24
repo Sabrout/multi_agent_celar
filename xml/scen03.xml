@@ -824,7 +824,7 @@
     <predicate name="eq">
       <parameters> int X1 int X2 int K int C</parameters>
       <expression>
-        <functional>mul(add(sub(abs(sub(X1, X2)), K), 1), C)</functional>
+        <functional>mul(add(abs(sub(abs(sub(X1, X2)), K)), 1), C)</functional>
       </expression>
     </predicate>
   </predicates>

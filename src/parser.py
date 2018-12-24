@@ -109,7 +109,7 @@ class Parser():
             parameters.text = ' int X1 int X2 int K int C'
             expression = etree.SubElement(predicate, "expression")
             functional = etree.SubElement(expression, "functional")
-            functional.text = 'mul(add(sub(abs(sub(X1, X2)), K), 1), C)'
+            functional.text = 'mul(add(abs(sub(abs(sub(X1, X2)), K)), 1), C)'
         # Relations
         # Constraints
         constraints = etree.SubElement(root, "constraints", nbConstraints=str(len(const)))
