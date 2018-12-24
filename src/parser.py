@@ -55,7 +55,7 @@ class Parser():
         cost_file.close()
         if len(cost) > 0:
             cost = cost[::-1]
-            cost = [str(int(cost[-1])*100000)] + cost
+            cost = [str(int(cost[-1])*1000)] + cost
         else:
             cost = ['0', '0', '0', '0', '0']
 
