@@ -26,23 +26,19 @@ class Parser():
         var_file.close()
         # Constraints
         const_file = open('bin/'+nbScen+'/CTR.TXT', 'r')
-        const_hard = []
-        const_soft = []
+        const = []
         operation_gt, operation_eq = False, False
         for i in const_file:
             line = list(filter(lambda a: a != '', i[:-1].split(' ')))
             del line[2]
-            if line[-2] == '>':
+            if line[2] == '>':
                 operation_gt = True
-            if line[-2] == '=':
+            if line[2] == '=':
                 operation_eq = True
             if len(line) == 4:
-                const_hard.append(line)
+                const.append(line+['0'])
             elif len(line) == 5:
-                if line[-1] == '0':
-                    const_hard.append(line[:-1])
-                else:
-                    const_soft.append(line)
+                const.append(line)
             else:
                 raise Exception('CONSTRAINT FILE ERROR')
 
@@ -57,8 +53,11 @@ class Parser():
             if line[0][0] == cst:
                 cost.append(line[2])
         cost_file.close()
-        cost = cost[::-1]
-        cost = [str(int(cost[-1])*100000)] + cost
+        if len(cost) > 0:
+            cost = cost[::-1]
+            cost = [str(int(cost[-1])*100000)] + cost
+        else:
+            cost = ['0', '0', '0', '0', '0']
 
         # ------------ #
         # Writing XMLs
@@ -100,31 +99,31 @@ class Parser():
         if operation_gt:
             predicate = etree.SubElement(predicates, "predicate", name="gt")
             parameters = etree.SubElement(predicate, "parameters")
-            parameters.text = ' int X1 int X2 int C '
+            parameters.text = ' int X1 int X2 int K int C'
             expression = etree.SubElement(predicate, "expression")
             functional = etree.SubElement(expression, "functional")
-            functional.text = 'gt(abs(sub(X1, X2)), C)'
+            functional.text = 'mul(sub(abs(sub(X1, X2)), K), C)'
         if operation_eq:
             predicate = etree.SubElement(predicates, "predicate", name="eq")
             parameters = etree.SubElement(predicate, "parameters")
-            parameters.text = ' int X1 int X2 int C '
+            parameters.text = ' int X1 int X2 int K int C'
             expression = etree.SubElement(predicate, "expression")
             functional = etree.SubElement(expression, "functional")
-            functional.text = 'eq(abs(sub(X1, X2)), C)'
+            functional.text = 'mul(add(sub(abs(sub(X1, X2)), K), 1), C)'
         # Relations
         # Constraints
-        constraints = etree.SubElement(root, "constraints", nbConstraints=str(len(const_hard)+len(const_soft)))
-        for i in const_hard:
+        constraints = etree.SubElement(root, "constraints", nbConstraints=str(len(const)))
+        for i in const:
             sign = ''
-            if i[-2] == '>':
+            if i[-3] == '>':
                 sign = 'gt'
-            if i[-2] == '=':
+            if i[-3] == '=':
                 sign = 'eq'
-            name = 'var'+i[0]+'_'+'var'+i[1]+'_'+sign+'_'+i[-1]
+            name = 'var'+i[0]+'_'+'var'+i[1]+'_'+sign+'_'+i[-2]
             constraint = etree.SubElement(constraints, "constraint", name=name,
                                           arity="2", scope='var'+i[0]+" var"+i[1], reference=sign)
             parameters = etree.SubElement(constraint, "parameters")
-            parameters.text = ' var'+i[0]+' var'+i[1]+' '+i[-1]+' '
+            parameters.text = ' var'+i[0]+' var'+i[1]+' '+i[-2]+' '+cost[int(i[-1])]
 
         # Print Output
         # print(etree.tostring(root, pretty_print=True).decode("utf-8"))
@@ -136,9 +135,8 @@ class Parser():
 
 
 def main():
-    parser = Parser(nbScen=10)
-    # for i in range(1, 12):
-    #     parser = Parser(nbScen=i)
+    for i in range(1, 12):
+        parser = Parser(nbScen=i)
 
 
 if __name__ == "__main__":
