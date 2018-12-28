@@ -9,4 +9,4 @@ ssh -X compute@31.36.160.158
 $/|/@quatre2
 
 
-java -cp frodo2/frodo2.jar frodo2.algorithms.AgentFactory xml/scen01.xml frodo2/agents/MGM/MGMagentJaCiP.xml > output/scen01/output_scen01_MGM.csv
+java -cp frodo2/frodo2.jar frodo2.algorithms.AgentFactory xml/scen06.xml frodo2/agents/MGM/MGMagentJaCoP.xml > output/scen06/output_scen06_MGM.csv

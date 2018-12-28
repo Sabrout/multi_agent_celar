@@ -1,0 +1,106 @@
+\documentclass{article}
+
+% ----------------------------------- %
+%               Packages              %
+% ----------------------------------- %
+
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{booktabs}
+\usepackage[ruled,vlined,linesnumbered]{algorithm2e}
+\usepackage[square,numbers]{natbib}
+\usepackage[]{algorithm2e}
+\usepackage{fancyvrb}
+\bibliographystyle{abbrvnat}
+
+% ----------------------------------- %
+%               Commands              %
+% ----------------------------------- %
+
+\DeclareMathOperator*{\argmax}{argmax}
+\DeclareMathOperator*{\argmin}{argmin}
+
+% Bandit Algorithm
+
+\def\numberArm{k}
+\def\numberStep{T}
+\def\step{t}
+
+\def\reward{r}
+\def\rewardNumber{N}
+\def\rewardRandom{R}
+\def\rewardMean{\mu}
+\def\rewardPredMean{\hat{\rewardMean}}
+\def\rewardStd{\sigma}
+
+\def\regret{\textbf{r}}
+
+\def\UCB{\text{UCB}}
+\def\C{\text{UCB}}
+\def\confidenceUCB#1#2{\sqrt{\frac{2\log(#1)}{\rewardNumber_{#2}}}}
+
+% Reinforcement Learning
+
+\def\action{a}
+\def\actionSet{\boldsymbol{\mathcal{A}}}
+\def\actionEl{\mathcal{A}}
+\def\state{s}
+
+\def\rewardSeq{\boldsymbol{R}}
+\def\discount{\gamma}
+
+\def\QFun{Q}
+\def\QTable{\boldsymbol{\QFun}}
+\def\QOptiFun{Q^*}
+\def\QNetFun{Q_{\theta}}
+\def\QNetFunDash{Q_{\theta'}}
+
+\def\policy{\pi}
+
+\def\gridNumber{N}
+
+\def\upAction{\texttt{UP}}
+\def\downAction{\texttt{DOWN}}
+\def\leftAction{\texttt{LEFT}}
+\def\rightAction{\texttt{RIGHT}}
+
+\def\nothingBlock{\texttt{.}}
+\def\agentBlock{\texttt{A}}
+\def\wardrobeBlock{\texttt{W}}
+\def\poisonBlock{\texttt{P}}
+\def\treasureBlock{\texttt{T}}
+
+% ----------------------------------- %
+%                 Title               %
+% ----------------------------------- %
+
+\title{The CELAR Radio Link Frequency Assignment Problems}
+\author{Paul Viallard\\
+  \texttt{\href{mailto:paul.viallard@etu.univ-st-etienne.fr}{paul.viallard@etu.univ-st-etienne.fr}} 
+\\\\ Omar Elsabrout\\
+\texttt{\href{mailto:omar.elsabrout@etu.univ-st-etienne.fr}{omar.elsabrout@etu.univ-st-etienne.fr}}}
+\date{27 December 2018}
+
+% ----------------------------------- %
+%               Document              %
+% ----------------------------------- %
+
+\begin{document}
+  \maketitle
+
+	\begin{abstract}
+	
+	\end{abstract}
+	
+	\section{Introduction}
+
+	\section{Conclusion and Perspectives}
+	\newpage
+	\bibliography{bib.bib}
+
+\end{document} 
