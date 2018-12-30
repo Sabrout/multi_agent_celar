@@ -3,7 +3,7 @@ This program comes with ABSOLUTELY NO WARRANTY.
 This is free software, and you are welcome to redistribute it
 under certain conditions. Use the option -license to display the license.
 
-Parsing the input problem file xml/scen01.xml
+Parsing the input problem file xml/scen08.xml
 Parsing the input agent configuration file frodo2/agents/MGM/MGMagentJaCoP.xml
 Setting up the agents...
 Constraint graph:
@@ -3712,6 +3712,7 @@ graph {
 	var296 -- var151;
 	var296 -- var183;
 	var284 -- var283;
+	var284 -- var282;
 	var284 -- var281;
 	var284 -- var146;
 	var284 -- var278;
@@ -3720,6 +3721,7 @@ graph {
 	var284 -- var144;
 	var284 -- var143;
 	var283 -- var282;
+	var283 -- var281;
 	var283 -- var146;
 	var283 -- var278;
 	var283 -- var145;
@@ -3744,15 +3746,20 @@ graph {
 	var286 -- var238;
 	var286 -- var237;
 	var286 -- var285;
+	var285 -- var237;
 	var285 -- var238;
-	var273 -- var272;
-	var273 -- var270;
+	var273 -- var269;
 	var273 -- var146;
 	var273 -- var145;
 	var273 -- var144;
 	var273 -- var143;
-	var272 -- var271;
+	var273 -- var272;
+	var273 -- var271;
+	var273 -- var270;
 	var272 -- var269;
+	var272 -- var271;
+	var272 -- var270;
+	var271 -- var269;
 	var271 -- var270;
 	var270 -- var269;
 	var278 -- var269;
@@ -3761,16 +3768,24 @@ graph {
 	var278 -- var144;
 	var278 -- var143;
 	var278 -- var273;
+	var278 -- var272;
 	var278 -- var271;
+	var278 -- var270;
 	var278 -- var277;
+	var278 -- var276;
 	var278 -- var275;
+	var278 -- var274;
+	var277 -- var269;
 	var277 -- var146;
 	var277 -- var145;
 	var277 -- var144;
 	var277 -- var143;
+	var277 -- var273;
 	var277 -- var272;
+	var277 -- var271;
 	var277 -- var270;
 	var277 -- var276;
+	var277 -- var275;
 	var277 -- var274;
 	var276 -- var269;
 	var276 -- var146;
@@ -3778,14 +3793,20 @@ graph {
 	var276 -- var144;
 	var276 -- var143;
 	var276 -- var273;
+	var276 -- var272;
 	var276 -- var271;
+	var276 -- var270;
 	var276 -- var275;
-	var275 -- var272;
-	var275 -- var270;
+	var276 -- var274;
+	var275 -- var269;
 	var275 -- var146;
 	var275 -- var145;
 	var275 -- var144;
 	var275 -- var143;
+	var275 -- var273;
+	var275 -- var272;
+	var275 -- var271;
+	var275 -- var270;
 	var275 -- var274;
 	var274 -- var269;
 	var274 -- var146;
@@ -3793,7 +3814,9 @@ graph {
 	var274 -- var144;
 	var274 -- var143;
 	var274 -- var273;
+	var274 -- var272;
 	var274 -- var271;
+	var274 -- var270;
 	var28 -- var27;
 	var29 -- var204;
 	var29 -- var203;
@@ -3830,28 +3853,32 @@ graph {
 	var702 -- var701;
 	var700 -- var699;
 	var709 -- var240;
-	var709 -- var19;
 	var709 -- var45;
 	var709 -- var46;
 	var709 -- var47;
 	var709 -- var48;
 	var709 -- var20;
-	var709 -- var676;
 	var709 -- var43;
 	var709 -- var169;
-	var709 -- var532;
 	var709 -- var44;
+	var709 -- var19;
+	var709 -- var170;
+	var709 -- var676;
+	var709 -- var532;
 	var709 -- var674;
 	var709 -- var134;
 	var709 -- var111;
 	var709 -- var131;
+	var709 -- var239;
 	var709 -- var513;
 	var708 -- var707;
 	var708 -- var424;
 	var708 -- var422;
 	var16 -- var13;
+	var16 -- var14;
 	var16 -- var15;
 	var17 -- var126;
+	var17 -- var102;
 	var17 -- var101;
 	var17 -- var100;
 	var17 -- var142;
@@ -3859,6 +3886,7 @@ graph {
 	var18 -- var116;
 	var18 -- var125;
 	var18 -- var102;
+	var18 -- var101;
 	var18 -- var100;
 	var19 -- var126;
 	var19 -- var125;
@@ -3867,6 +3895,7 @@ graph {
 	var19 -- var170;
 	var12 -- var11;
 	var14 -- var13;
+	var15 -- var13;
 	var15 -- var14;
 	var49 -- var106;
 	var49 -- var105;
@@ -3932,6 +3961,7 @@ graph {
 	var48 -- var170;
 	var48 -- var116;
 	var48 -- var239;
+	var41 -- var39;
 	var41 -- var150;
 	var41 -- var34;
 	var41 -- var35;
@@ -3980,6 +4010,7 @@ graph {
 	var40 -- var35;
 	var40 -- var36;
 	var40 -- var33;
+	var38 -- var29;
 	var38 -- var34;
 	var38 -- var35;
 	var38 -- var36;
@@ -4069,6 +4100,7 @@ graph {
 	var916 -- var335;
 	var915 -- var712;
 	var915 -- var711;
+	var915 -- var336;
 	var915 -- var335;
 	var914 -- var913;
 	var914 -- var414;
@@ -4125,6 +4157,7 @@ graph {
 	var910 -- var35;
 	var910 -- var36;
 	var910 -- var41;
+	var910 -- var512;
 	var910 -- var42;
 	var910 -- var258;
 	var910 -- var500;
@@ -4132,7 +4165,9 @@ graph {
 	var910 -- var257;
 	var910 -- var499;
 	var910 -- var33;
+	var910 -- var254;
 	var910 -- var40;
+	var910 -- var504;
 	var910 -- var503;
 	var910 -- var909;
 	var905 -- var859;
@@ -4143,6 +4178,7 @@ graph {
 	var904 -- var879;
 	var904 -- var876;
 	var904 -- var875;
+	var904 -- var880;
 	var903 -- var879;
 	var903 -- var876;
 	var903 -- var875;
@@ -4177,10 +4213,12 @@ graph {
 	var909 -- var512;
 	var909 -- var42;
 	var909 -- var500;
+	var909 -- var511;
 	var909 -- var499;
 	var909 -- var33;
 	var909 -- var40;
 	var909 -- var504;
+	var909 -- var503;
 	var908 -- var17;
 	var908 -- var18;
 	var908 -- var56;
@@ -4267,11 +4305,13 @@ graph {
 	var420 -- var417;
 	var420 -- var416;
 	var420 -- var415;
+	var662 -- var646;
 	var662 -- var645;
 	var662 -- var661;
 	var661 -- var646;
 	var661 -- var645;
 	var660 -- var19;
+	var660 -- var56;
 	var660 -- var501;
 	var660 -- var20;
 	var660 -- var126;
@@ -4279,7 +4319,9 @@ graph {
 	var660 -- var202;
 	var660 -- var55;
 	var660 -- var201;
+	var660 -- var498;
 	var660 -- var497;
+	var660 -- var100;
 	var660 -- var506;
 	var660 -- var505;
 	var660 -- var659;
@@ -4304,6 +4346,7 @@ graph {
 	var426 -- var231;
 	var668 -- var184;
 	var668 -- var183;
+	var668 -- var402;
 	var668 -- var644;
 	var668 -- var401;
 	var668 -- var643;
@@ -4327,6 +4370,7 @@ graph {
 	var668 -- var299;
 	var668 -- var154;
 	var668 -- var153;
+	var668 -- var619;
 	var668 -- var119;
 	var668 -- var118;
 	var668 -- var217;
@@ -4338,7 +4382,9 @@ graph {
 	var667 -- var402;
 	var667 -- var644;
 	var667 -- var302;
+	var667 -- var401;
 	var667 -- var643;
+	var667 -- var620;
 	var667 -- var642;
 	var667 -- var300;
 	var667 -- var564;
@@ -4380,6 +4426,7 @@ graph {
 	var655 -- var126;
 	var655 -- var102;
 	var655 -- var201;
+	var655 -- var101;
 	var655 -- var189;
 	var655 -- var100;
 	var655 -- var208;
@@ -4387,12 +4434,14 @@ graph {
 	var655 -- var4;
 	var655 -- var3;
 	var655 -- var17;
+	var655 -- var18;
 	var655 -- var55;
 	var655 -- var113;
 	var897 -- var886;
 	var897 -- var885;
 	var897 -- var872;
 	var897 -- var464;
+	var897 -- var871;
 	var897 -- var463;
 	var897 -- var888;
 	var897 -- var887;
@@ -4427,6 +4476,7 @@ graph {
 	var653 -- var377;
 	var653 -- var285;
 	var653 -- var309;
+	var653 -- var218;
 	var653 -- var217;
 	var895 -- var838;
 	var895 -- var837;
@@ -4647,6 +4697,7 @@ graph {
 	var642 -- var575;
 	var642 -- var641;
 	var642 -- var154;
+	var642 -- var153;
 	var642 -- var296;
 	var884 -- var490;
 	var884 -- var864;
@@ -4695,16 +4746,16 @@ graph {
 	var881 -- var53;
 	var881 -- var54;
 	var881 -- var51;
-	var880 -- var80;
-	var880 -- var836;
 	var880 -- var67;
-	var880 -- var835;
-	var880 -- var879;
 	var880 -- var68;
 	var880 -- var69;
-	var880 -- var876;
 	var880 -- var875;
 	var880 -- var70;
+	var880 -- var80;
+	var880 -- var836;
+	var880 -- var835;
+	var880 -- var879;
+	var880 -- var876;
 	var408 -- var407;
 	var406 -- var184;
 	var406 -- var183;
@@ -4899,6 +4950,7 @@ graph {
 	var622 -- var562;
 	var622 -- var561;
 	var622 -- var349;
+	var622 -- var579;
 	var864 -- var196;
 	var864 -- var195;
 	var864 -- var490;
@@ -4920,17 +4972,18 @@ graph {
 	var863 -- var195;
 	var863 -- var490;
 	var863 -- var489;
-	var620 -- var152;
-	var620 -- var151;
 	var620 -- var184;
 	var620 -- var183;
 	var620 -- var127;
 	var620 -- var402;
-	var620 -- var212;
+	var620 -- var401;
 	var620 -- var564;
 	var620 -- var563;
-	var620 -- var210;
 	var620 -- var120;
+	var620 -- var152;
+	var620 -- var151;
+	var620 -- var212;
+	var620 -- var210;
 	var620 -- var153;
 	var620 -- var619;
 	var620 -- var616;
@@ -4994,6 +5047,7 @@ graph {
 	var868 -- var49;
 	var868 -- var23;
 	var868 -- var24;
+	var868 -- var52;
 	var868 -- var105;
 	var868 -- var50;
 	var868 -- var51;
@@ -5020,6 +5074,7 @@ graph {
 	var866 -- var677;
 	var866 -- var486;
 	var866 -- var860;
+	var866 -- var485;
 	var866 -- var859;
 	var866 -- var824;
 	var866 -- var823;
@@ -5027,6 +5082,7 @@ graph {
 	var866 -- var678;
 	var866 -- var865;
 	var623 -- var581;
+	var623 -- var582;
 	var865 -- var470;
 	var865 -- var677;
 	var865 -- var486;
@@ -5084,16 +5140,17 @@ graph {
 	var850 -- var845;
 	var850 -- var844;
 	var850 -- var843;
-	var619 -- var152;
-	var619 -- var151;
 	var619 -- var183;
 	var619 -- var181;
 	var619 -- var180;
+	var619 -- var402;
 	var619 -- var401;
 	var619 -- var564;
 	var619 -- var563;
-	var619 -- var154;
 	var619 -- var120;
+	var619 -- var152;
+	var619 -- var151;
+	var619 -- var154;
 	var619 -- var153;
 	var619 -- var616;
 	var619 -- var615;
@@ -5101,6 +5158,7 @@ graph {
 	var619 -- var118;
 	var619 -- var117;
 	var618 -- var130;
+	var618 -- var590;
 	var618 -- var127;
 	var618 -- var303;
 	var618 -- var589;
@@ -5326,16 +5384,19 @@ graph {
 	var830 -- var152;
 	var830 -- var183;
 	var830 -- var180;
+	var830 -- var402;
 	var830 -- var401;
 	var830 -- var620;
 	var830 -- var564;
 	var830 -- var563;
 	var830 -- var154;
 	var830 -- var120;
+	var830 -- var619;
 	var830 -- var826;
 	var830 -- var825;
 	var830 -- var119;
 	var830 -- var118;
+	var830 -- var668;
 	var830 -- var117;
 	var830 -- var667;
 	var830 -- var829;
@@ -5416,6 +5477,7 @@ graph {
 	var493 -- var22;
 	var250 -- var150;
 	var250 -- var149;
+	var250 -- var248;
 	var250 -- var148;
 	var250 -- var247;
 	var250 -- var147;
@@ -5458,6 +5520,7 @@ graph {
 	var498 -- var202;
 	var498 -- var201;
 	var498 -- var189;
+	var498 -- var100;
 	var498 -- var142;
 	var498 -- var208;
 	var498 -- var4;
@@ -5475,12 +5538,14 @@ graph {
 	var497 -- var100;
 	var497 -- var4;
 	var497 -- var3;
+	var254 -- var204;
 	var254 -- var203;
 	var254 -- var253;
 	var496 -- var104;
 	var496 -- var103;
 	var496 -- var495;
 	var253 -- var204;
+	var253 -- var203;
 	var495 -- var104;
 	var495 -- var103;
 	var252 -- var141;
@@ -5505,6 +5570,7 @@ graph {
 	var240 -- var19;
 	var240 -- var170;
 	var240 -- var20;
+	var240 -- var169;
 	var240 -- var112;
 	var240 -- var111;
 	var240 -- var133;
@@ -5546,14 +5612,18 @@ graph {
 	var248 -- var246;
 	var248 -- var245;
 	var248 -- var244;
+	var248 -- var243;
 	var248 -- var242;
+	var248 -- var241;
 	var247 -- var150;
 	var247 -- var149;
 	var247 -- var148;
 	var247 -- var147;
 	var247 -- var246;
 	var247 -- var245;
+	var247 -- var244;
 	var247 -- var243;
+	var247 -- var242;
 	var247 -- var241;
 	var489 -- var196;
 	var489 -- var195;
@@ -5594,6 +5664,7 @@ graph {
 	var244 -- var148;
 	var244 -- var147;
 	var244 -- var243;
+	var244 -- var242;
 	var244 -- var241;
 	var486 -- var485;
 	var243 -- var150;
@@ -5601,6 +5672,7 @@ graph {
 	var243 -- var148;
 	var243 -- var147;
 	var243 -- var242;
+	var243 -- var241;
 	var242 -- var150;
 	var242 -- var149;
 	var242 -- var148;
@@ -5616,6 +5688,7 @@ graph {
 	var249 -- var149;
 	var249 -- var248;
 	var249 -- var148;
+	var249 -- var247;
 	var249 -- var147;
 	var249 -- var246;
 	var249 -- var245;
@@ -5711,6 +5784,7 @@ graph {
 	var472 -- var471;
 	var472 -- var287;
 	var239 -- var19;
+	var239 -- var170;
 	var239 -- var20;
 	var239 -- var169;
 	var239 -- var134;
@@ -5758,6 +5832,7 @@ graph {
 	var461 -- var459;
 	var461 -- var458;
 	var461 -- var457;
+	var229 -- var188;
 	var229 -- var186;
 	var228 -- var227;
 	var228 -- var226;
@@ -5786,6 +5861,7 @@ graph {
 	var214 -- var154;
 	var214 -- var209;
 	var214 -- var129;
+	var214 -- var206;
 	var214 -- var128;
 	var214 -- var205;
 	var456 -- var380;
@@ -5809,6 +5885,7 @@ graph {
 	var213 -- var209;
 	var213 -- var206;
 	var213 -- var128;
+	var213 -- var205;
 	var455 -- var380;
 	var455 -- var379;
 	var455 -- var354;
@@ -5825,6 +5902,7 @@ graph {
 	var212 -- var183;
 	var212 -- var180;
 	var212 -- var211;
+	var212 -- var210;
 	var212 -- var154;
 	var212 -- var153;
 	var212 -- var209;
@@ -5838,6 +5916,7 @@ graph {
 	var211 -- var183;
 	var211 -- var181;
 	var211 -- var180;
+	var211 -- var209;
 	var211 -- var206;
 	var211 -- var205;
 	var211 -- var152;
@@ -5872,6 +5951,7 @@ graph {
 	var451 -- var442;
 	var451 -- var441;
 	var693 -- var691;
+	var693 -- var229;
 	var693 -- var230;
 	var693 -- var692;
 	var450 -- var151;
@@ -5942,6 +6022,7 @@ graph {
 	var202 -- var141;
 	var202 -- var20;
 	var202 -- var126;
+	var202 -- var125;
 	var202 -- var201;
 	var202 -- var100;
 	var202 -- var19;
@@ -5951,21 +6032,23 @@ graph {
 	var686 -- var685;
 	var686 -- var684;
 	var686 -- var683;
-	var201 -- var19;
 	var201 -- var20;
+	var201 -- var126;
 	var201 -- var125;
 	var201 -- var100;
 	var201 -- var142;
+	var201 -- var19;
 	var443 -- var372;
 	var443 -- var371;
 	var685 -- var684;
 	var685 -- var683;
 	var200 -- var172;
 	var200 -- var171;
-	var200 -- var1;
 	var200 -- var199;
 	var200 -- var198;
 	var200 -- var197;
+	var200 -- var2;
+	var200 -- var1;
 	var442 -- var441;
 	var684 -- var683;
 	var684 -- var682;
@@ -6077,6 +6160,7 @@ graph {
 	var676 -- var46;
 	var676 -- var246;
 	var676 -- var675;
+	var676 -- var44;
 	var676 -- var245;
 	var676 -- var674;
 	var676 -- var134;
@@ -6090,6 +6174,7 @@ graph {
 	var433 -- var422;
 	var433 -- var421;
 	var433 -- var178;
+	var433 -- var177;
 	var433 -- var176;
 	var433 -- var175;
 	var675 -- var45;
@@ -6193,6 +6278,7 @@ graph {
 	var194 -- var192;
 	var194 -- var191;
 	var193 -- var192;
+	var193 -- var191;
 	var192 -- var191;
 	var190 -- var17;
 	var190 -- var116;
@@ -6306,14 +6392,18 @@ graph {
 	var168 -- var138;
 	var168 -- var137;
 	var168 -- var136;
+	var168 -- var135;
 	var168 -- var167;
 	var167 -- var140;
 	var167 -- var139;
 	var167 -- var138;
 	var167 -- var137;
+	var167 -- var136;
 	var167 -- var135;
 	var166 -- var163;
 	var166 -- var165;
+	var166 -- var164;
+	var165 -- var163;
 	var165 -- var164;
 	var164 -- var163;
 	var152 -- var120;
@@ -6331,6 +6421,7 @@ graph {
 	var392 -- var381;
 	var392 -- var391;
 	var392 -- var256;
+	var392 -- var338;
 	var392 -- var337;
 	var391 -- var382;
 	var391 -- var381;
@@ -6484,6 +6575,8 @@ graph {
 	var829 -- var183;
 	var829 -- var127;
 	var829 -- var402;
+	var829 -- var401;
+	var829 -- var620;
 	var829 -- var564;
 	var829 -- var563;
 	var829 -- var120;
@@ -6495,6 +6588,7 @@ graph {
 	var829 -- var118;
 	var829 -- var668;
 	var829 -- var117;
+	var829 -- var667;
 	var817 -- var372;
 	var817 -- var184;
 	var817 -- var371;
@@ -6534,6 +6628,7 @@ graph {
 	var811 -- var807;
 	var810 -- var809;
 	var810 -- var808;
+	var810 -- var807;
 	var819 -- var628;
 	var819 -- var627;
 	var819 -- var704;
@@ -6707,10 +6802,6 @@ graph {
 	var544 -- var400;
 	var544 -- var543;
 	var544 -- var399;
-	var786 -- var558;
-	var786 -- var613;
-	var786 -- var767;
-	var786 -- var557;
 	var786 -- var666;
 	var786 -- var665;
 	var786 -- var598;
@@ -6718,17 +6809,24 @@ graph {
 	var786 -- var597;
 	var786 -- var594;
 	var786 -- var593;
-	var301 -- var152;
+	var786 -- var614;
+	var786 -- var558;
+	var786 -- var613;
+	var786 -- var767;
+	var786 -- var557;
 	var301 -- var180;
 	var301 -- var127;
+	var301 -- var300;
+	var301 -- var209;
+	var301 -- var206;
+	var301 -- var205;
+	var301 -- var152;
+	var301 -- var214;
 	var301 -- var213;
 	var301 -- var212;
-	var301 -- var300;
 	var301 -- var211;
 	var301 -- var299;
 	var301 -- var210;
-	var301 -- var209;
-	var301 -- var205;
 	var543 -- var380;
 	var543 -- var516;
 	var543 -- var515;
@@ -6744,6 +6842,7 @@ graph {
 	var785 -- var614;
 	var785 -- var768;
 	var785 -- var558;
+	var785 -- var613;
 	var785 -- var767;
 	var785 -- var557;
 	var300 -- var151;
@@ -6804,6 +6903,7 @@ graph {
 	var540 -- var403;
 	var540 -- var414;
 	var540 -- var413;
+	var782 -- var240;
 	var782 -- var162;
 	var782 -- var161;
 	var782 -- var160;
@@ -6815,18 +6915,21 @@ graph {
 	var782 -- var20;
 	var782 -- var148;
 	var782 -- var43;
+	var782 -- var169;
 	var782 -- var44;
 	var782 -- var245;
 	var782 -- var243;
 	var782 -- var781;
 	var782 -- var142;
 	var782 -- var241;
+	var782 -- var780;
 	var782 -- var709;
 	var782 -- var251;
 	var782 -- var250;
 	var782 -- var150;
 	var782 -- var19;
 	var782 -- var170;
+	var782 -- var710;
 	var782 -- var159;
 	var782 -- var112;
 	var782 -- var111;
@@ -6852,11 +6955,16 @@ graph {
 	var781 -- var244;
 	var781 -- var242;
 	var781 -- var780;
+	var781 -- var709;
 	var781 -- var19;
+	var781 -- var170;
 	var781 -- var710;
 	var781 -- var159;
 	var781 -- var112;
 	var781 -- var111;
+	var781 -- var779;
+	var781 -- var239;
+	var780 -- var240;
 	var780 -- var162;
 	var780 -- var161;
 	var780 -- var160;
@@ -6868,6 +6976,7 @@ graph {
 	var780 -- var20;
 	var780 -- var148;
 	var780 -- var43;
+	var780 -- var169;
 	var780 -- var44;
 	var780 -- var245;
 	var780 -- var243;
@@ -6879,6 +6988,7 @@ graph {
 	var780 -- var150;
 	var780 -- var19;
 	var780 -- var170;
+	var780 -- var710;
 	var780 -- var159;
 	var780 -- var112;
 	var780 -- var111;
@@ -6908,6 +7018,7 @@ graph {
 	var306 -- var237;
 	var306 -- var303;
 	var306 -- var302;
+	var306 -- var301;
 	var306 -- var300;
 	var306 -- var299;
 	var306 -- var286;
@@ -6922,6 +7033,7 @@ graph {
 	var548 -- var388;
 	var548 -- var387;
 	var548 -- var384;
+	var305 -- var194;
 	var305 -- var192;
 	var305 -- var237;
 	var305 -- var303;
@@ -6979,6 +7091,7 @@ graph {
 	var534 -- var215;
 	var534 -- var368;
 	var534 -- var533;
+	var534 -- var367;
 	var534 -- var264;
 	var534 -- var263;
 	var776 -- var419;
@@ -7059,7 +7172,9 @@ graph {
 	var99 -- var19;
 	var99 -- var56;
 	var99 -- var655;
+	var99 -- var55;
 	var99 -- var498;
+	var99 -- var497;
 	var99 -- var659;
 	var99 -- var778;
 	var99 -- var656;
@@ -7153,11 +7268,14 @@ graph {
 	var779 -- var44;
 	var779 -- var244;
 	var779 -- var242;
+	var779 -- var709;
 	var779 -- var19;
+	var779 -- var170;
 	var779 -- var710;
 	var779 -- var159;
 	var779 -- var112;
 	var779 -- var111;
+	var779 -- var239;
 	var536 -- var535;
 	var536 -- var534;
 	var536 -- var533;
@@ -7299,6 +7417,7 @@ graph {
 	var768 -- var597;
 	var768 -- var630;
 	var768 -- var594;
+	var768 -- var593;
 	var768 -- var614;
 	var768 -- var558;
 	var768 -- var613;
@@ -7353,6 +7472,7 @@ graph {
 	var512 -- var511;
 	var512 -- var33;
 	var512 -- var40;
+	var512 -- var504;
 	var512 -- var503;
 	var754 -- var294;
 	var754 -- var753;
@@ -7367,6 +7487,7 @@ graph {
 	var511 -- var33;
 	var511 -- var40;
 	var511 -- var504;
+	var511 -- var503;
 	var753 -- var752;
 	var753 -- var751;
 	var510 -- var112;
@@ -7502,18 +7623,20 @@ graph {
 	var63 -- var121;
 	var63 -- var142;
 	var63 -- var207;
-	var501 -- var19;
-	var501 -- var116;
 	var501 -- var20;
+	var501 -- var126;
 	var501 -- var125;
 	var501 -- var202;
-	var501 -- var498;
+	var501 -- var201;
 	var501 -- var189;
-	var501 -- var497;
 	var501 -- var100;
 	var501 -- var208;
 	var501 -- var4;
 	var501 -- var3;
+	var501 -- var19;
+	var501 -- var116;
+	var501 -- var498;
+	var501 -- var497;
 	var743 -- var325;
 	var743 -- var664;
 	var743 -- var663;
@@ -7538,11 +7661,13 @@ graph {
 	var500 -- var258;
 	var500 -- var257;
 	var500 -- var499;
+	var742 -- var184;
 	var742 -- var183;
 	var742 -- var370;
 	var742 -- var182;
 	var742 -- var181;
 	var742 -- var369;
+	var742 -- var478;
 	var742 -- var378;
 	var742 -- var477;
 	var742 -- var741;
@@ -7559,12 +7684,15 @@ graph {
 	var65 -- var142;
 	var65 -- var207;
 	var741 -- var184;
+	var741 -- var183;
 	var741 -- var370;
 	var741 -- var182;
 	var741 -- var181;
 	var741 -- var369;
 	var741 -- var478;
 	var741 -- var301;
+	var741 -- var378;
+	var741 -- var477;
 	var741 -- var377;
 	var741 -- var299;
 	var741 -- var406;
@@ -7683,6 +7811,7 @@ graph {
 	var504 -- var35;
 	var504 -- var36;
 	var504 -- var41;
+	var504 -- var204;
 	var504 -- var42;
 	var504 -- var258;
 	var504 -- var500;
@@ -7723,6 +7852,8 @@ graph {
 	var502 -- var501;
 	var502 -- var20;
 	var502 -- var126;
+	var502 -- var125;
+	var502 -- var202;
 	var502 -- var201;
 	var502 -- var498;
 	var502 -- var497;
@@ -7732,19 +7863,19 @@ graph {
 	var744 -- var325;
 	var744 -- var743;
 	var744 -- var664;
+	var744 -- var663;
 	var744 -- var264;
 	var744 -- var263;
 	var744 -- var328;
 	var744 -- var327;
 	var744 -- var326;
-	var56 -- var19;
 	var56 -- var501;
 	var56 -- var20;
 	var56 -- var126;
+	var56 -- var125;
 	var56 -- var202;
-	var56 -- var55;
 	var56 -- var201;
-	var56 -- var497;
+	var56 -- var100;
 	var56 -- var506;
 	var56 -- var208;
 	var56 -- var505;
@@ -7752,6 +7883,10 @@ graph {
 	var56 -- var502;
 	var56 -- var4;
 	var56 -- var3;
+	var56 -- var19;
+	var56 -- var55;
+	var56 -- var498;
+	var56 -- var497;
 	var57 -- var12;
 	var57 -- var11;
 	var58 -- var12;
@@ -7767,12 +7902,14 @@ graph {
 	var52 -- var50;
 	var52 -- var51;
 	var732 -- var480;
+	var732 -- var380;
 	var732 -- var479;
 	var732 -- var379;
 	var732 -- var456;
 	var732 -- var731;
 	var732 -- var455;
 	var732 -- var730;
+	var732 -- var354;
 	var732 -- var353;
 	var732 -- var386;
 	var732 -- var385;
@@ -7786,12 +7923,14 @@ graph {
 	var731 -- var480;
 	var731 -- var380;
 	var731 -- var479;
+	var731 -- var379;
 	var731 -- var456;
 	var731 -- var455;
 	var731 -- var730;
 	var731 -- var333;
 	var731 -- var354;
 	var731 -- var331;
+	var731 -- var353;
 	var731 -- var386;
 	var731 -- var385;
 	var731 -- var396;
@@ -7818,10 +7957,12 @@ graph {
 	var55 -- var19;
 	var55 -- var501;
 	var55 -- var20;
+	var55 -- var126;
 	var55 -- var125;
 	var55 -- var202;
 	var55 -- var201;
 	var55 -- var498;
+	var55 -- var497;
 	var55 -- var100;
 	var55 -- var506;
 	var55 -- var505;
@@ -7896,9 +8037,11 @@ graph {
 	var721 -- var720;
 	var721 -- var146;
 	var721 -- var344;
+	var721 -- var145;
 	var721 -- var343;
 	var721 -- var144;
 	var721 -- var342;
+	var721 -- var143;
 	var721 -- var341;
 	var721 -- var273;
 	var721 -- var278;
@@ -7928,6 +8071,7 @@ graph {
 	var720 -- var584;
 	var720 -- var143;
 	var720 -- var583;
+	var720 -- var608;
 	var720 -- var607;
 	var720 -- var273;
 	var720 -- var272;
@@ -8001,9 +8145,6 @@ graph {
 	var729 -- var385;
 	var729 -- var396;
 	var729 -- var395;
-	var728 -- var727;
-	var728 -- var725;
-	var728 -- var348;
 	var728 -- var347;
 	var728 -- var346;
 	var728 -- var158;
@@ -8012,6 +8153,11 @@ graph {
 	var728 -- var156;
 	var728 -- var155;
 	var728 -- var340;
+	var728 -- var727;
+	var728 -- var726;
+	var728 -- var725;
+	var728 -- var339;
+	var728 -- var348;
 	var90 -- var89;
 	var90 -- var47;
 	var90 -- var48;
@@ -8024,9 +8170,6 @@ graph {
 	var90 -- var777;
 	var90 -- var4;
 	var90 -- var3;
-	var727 -- var726;
-	var727 -- var339;
-	var727 -- var348;
 	var727 -- var347;
 	var727 -- var346;
 	var727 -- var158;
@@ -8034,13 +8177,16 @@ graph {
 	var727 -- var157;
 	var727 -- var156;
 	var727 -- var155;
+	var727 -- var340;
+	var727 -- var726;
+	var727 -- var725;
+	var727 -- var339;
+	var727 -- var348;
 	var91 -- var465;
 	var91 -- var905;
 	var91 -- var108;
 	var91 -- var107;
 	var91 -- var906;
-	var726 -- var725;
-	var726 -- var348;
 	var726 -- var347;
 	var726 -- var346;
 	var726 -- var158;
@@ -8049,8 +8195,9 @@ graph {
 	var726 -- var156;
 	var726 -- var155;
 	var726 -- var340;
-	var725 -- var339;
-	var725 -- var348;
+	var726 -- var725;
+	var726 -- var339;
+	var726 -- var348;
 	var725 -- var347;
 	var725 -- var346;
 	var725 -- var158;
@@ -8058,6 +8205,9 @@ graph {
 	var725 -- var157;
 	var725 -- var156;
 	var725 -- var155;
+	var725 -- var340;
+	var725 -- var339;
+	var725 -- var348;
 	var724 -- var284;
 	var724 -- var283;
 	var724 -- var282;
@@ -8117,9 +8267,11 @@ graph {
 	var722 -- var281;
 	var722 -- var721;
 	var722 -- var720;
+	var722 -- var146;
 	var722 -- var344;
 	var722 -- var145;
 	var722 -- var343;
+	var722 -- var144;
 	var722 -- var342;
 	var722 -- var143;
 	var722 -- var341;
@@ -8146,10 +8298,8 @@ graph {
 	var74 -- var134;
 	var74 -- var73;
 	var74 -- var131;
-	var710 -- var251;
-	var710 -- var19;
+	var710 -- var240;
 	var710 -- var45;
-	var710 -- var170;
 	var710 -- var46;
 	var710 -- var47;
 	var710 -- var48;
@@ -8157,16 +8307,20 @@ graph {
 	var710 -- var20;
 	var710 -- var43;
 	var710 -- var147;
-	var710 -- var675;
+	var710 -- var169;
 	var710 -- var44;
+	var710 -- var142;
+	var710 -- var709;
+	var710 -- var251;
+	var710 -- var19;
+	var710 -- var170;
+	var710 -- var675;
 	var710 -- var112;
 	var710 -- var673;
 	var710 -- var111;
 	var710 -- var133;
 	var710 -- var132;
-	var710 -- var142;
 	var710 -- var239;
-	var710 -- var709;
 	var75 -- var74;
 	var75 -- var258;
 	var75 -- var522;
@@ -8215,7 +8369,9 @@ graph {
 	var718 -- var555;
 	var718 -- var278;
 	var718 -- var277;
+	var718 -- var276;
 	var718 -- var275;
+	var718 -- var274;
 	var718 -- var717;
 	var718 -- var714;
 	var718 -- var713;
@@ -8227,6 +8383,7 @@ graph {
 	var717 -- var143;
 	var717 -- var583;
 	var717 -- var607;
+	var717 -- var273;
 	var717 -- var272;
 	var717 -- var271;
 	var717 -- var270;
@@ -8235,6 +8392,7 @@ graph {
 	var717 -- var278;
 	var717 -- var277;
 	var717 -- var276;
+	var717 -- var275;
 	var717 -- var274;
 	var717 -- var714;
 	var717 -- var713;
@@ -8247,11 +8405,13 @@ graph {
 	var716 -- var643;
 	var716 -- var642;
 	var716 -- var641;
+	var716 -- var296;
 	var80 -- var790;
 	var80 -- var79;
 	var80 -- var53;
 	var80 -- var651;
 	var715 -- var152;
+	var715 -- var295;
 	var715 -- var151;
 	var715 -- var217;
 	var715 -- var644;
@@ -8276,16 +8436,22 @@ graph {
 	var714 -- var583;
 	var714 -- var607;
 	var714 -- var273;
+	var714 -- var272;
 	var714 -- var271;
+	var714 -- var270;
 	var714 -- var556;
 	var714 -- var555;
+	var714 -- var278;
 	var714 -- var277;
+	var714 -- var276;
 	var714 -- var275;
+	var714 -- var274;
 	var714 -- var713;
 	var713 -- var284;
 	var713 -- var283;
 	var713 -- var282;
 	var713 -- var281;
+	var713 -- var269;
 	var713 -- var146;
 	var713 -- var344;
 	var713 -- var145;
@@ -8296,12 +8462,16 @@ graph {
 	var713 -- var143;
 	var713 -- var341;
 	var713 -- var583;
+	var713 -- var273;
 	var713 -- var272;
+	var713 -- var271;
 	var713 -- var270;
 	var713 -- var556;
 	var713 -- var555;
 	var713 -- var278;
+	var713 -- var277;
 	var713 -- var276;
+	var713 -- var275;
 	var713 -- var274;
 	var712 -- var711;
 	var712 -- var336;
@@ -8352,6 +8522,7 @@ graph {
 	var381 -- var373;
 	var380 -- var379;
 	var380 -- var333;
+	var380 -- var354;
 	var380 -- var331;
 	var380 -- var353;
 	var149 -- var148;
@@ -8362,12 +8533,14 @@ graph {
 	var389 -- var293;
 	var389 -- var384;
 	var146 -- var145;
+	var146 -- var144;
 	var146 -- var143;
 	var388 -- var383;
 	var388 -- var294;
 	var388 -- var387;
 	var388 -- var384;
 	var145 -- var144;
+	var145 -- var143;
 	var387 -- var383;
 	var387 -- var384;
 	var144 -- var143;
@@ -8421,6 +8594,7 @@ graph {
 	var137 -- var135;
 	var379 -- var294;
 	var379 -- var354;
+	var379 -- var353;
 	var136 -- var135;
 	var378 -- var184;
 	var378 -- var183;
@@ -8572,6 +8746,7 @@ graph {
 	var129 -- var128;
 	var129 -- var127;
 	var128 -- var127;
+	var128 -- var118;
 	var350 -- var237;
 	var350 -- var234;
 	var350 -- var233;
@@ -8583,6 +8758,7 @@ graph {
 	var592 -- var577;
 	var592 -- var234;
 	var592 -- var233;
+	var592 -- var562;
 	var592 -- var330;
 	var592 -- var352;
 	var592 -- var561;
@@ -8597,6 +8773,7 @@ graph {
 	var591 -- var562;
 	var591 -- var330;
 	var591 -- var352;
+	var591 -- var561;
 	var591 -- var351;
 	var591 -- var329;
 	var591 -- var349;
@@ -8639,25 +8816,25 @@ graph {
 	var597 -- var557;
 	var112 -- var111;
 	var354 -- var163;
+	var354 -- var166;
+	var354 -- var165;
+	var354 -- var164;
 	var354 -- var334;
 	var354 -- var333;
 	var354 -- var332;
-	var354 -- var166;
 	var354 -- var331;
 	var354 -- var353;
-	var354 -- var165;
-	var354 -- var164;
 	var596 -- var590;
 	var596 -- var589;
 	var596 -- var595;
 	var353 -- var163;
+	var353 -- var166;
+	var353 -- var165;
+	var353 -- var164;
 	var353 -- var334;
 	var353 -- var333;
 	var353 -- var332;
-	var353 -- var166;
 	var353 -- var331;
-	var353 -- var165;
-	var353 -- var164;
 	var595 -- var590;
 	var595 -- var589;
 	var110 -- var109;
@@ -8734,11 +8911,14 @@ graph {
 	var102 -- var101;
 	var102 -- var100;
 	var344 -- var284;
+	var344 -- var283;
 	var344 -- var282;
+	var344 -- var281;
 	var344 -- var146;
 	var344 -- var145;
 	var344 -- var343;
 	var344 -- var144;
+	var344 -- var342;
 	var344 -- var143;
 	var344 -- var341;
 	var344 -- var158;
@@ -8753,13 +8933,16 @@ graph {
 	var586 -- var266;
 	var586 -- var585;
 	var101 -- var100;
+	var343 -- var284;
 	var343 -- var283;
+	var343 -- var282;
 	var343 -- var281;
 	var343 -- var146;
 	var343 -- var145;
 	var343 -- var144;
 	var343 -- var342;
 	var343 -- var143;
+	var343 -- var341;
 	var343 -- var158;
 	var343 -- var157;
 	var343 -- var278;
@@ -8823,11 +9006,11 @@ graph {
 	var583 -- var276;
 	var583 -- var275;
 	var583 -- var274;
-	var340 -- var339;
 	var340 -- var158;
 	var340 -- var157;
 	var340 -- var156;
 	var340 -- var155;
+	var340 -- var339;
 	var582 -- var581;
 	var108 -- var107;
 	var349 -- var237;
@@ -8945,20 +9128,28 @@ graph {
 	var325 -- var264;
 	var325 -- var263;
 	var325 -- var216;
+	var324 -- var16;
 	var324 -- var13;
+	var324 -- var14;
 	var324 -- var15;
 	var324 -- var323;
+	var324 -- var322;
 	var324 -- var321;
 	var566 -- var565;
 	var566 -- var330;
 	var566 -- var560;
 	var566 -- var559;
 	var323 -- var16;
+	var323 -- var13;
 	var323 -- var14;
+	var323 -- var15;
 	var323 -- var322;
+	var323 -- var321;
 	var565 -- var560;
 	var565 -- var559;
+	var322 -- var16;
 	var322 -- var13;
+	var322 -- var14;
 	var322 -- var15;
 	var322 -- var321;
 	var564 -- var183;
@@ -8967,11 +9158,14 @@ graph {
 	var564 -- var563;
 	var564 -- var154;
 	var564 -- var120;
+	var564 -- var119;
 	var564 -- var218;
 	var564 -- var118;
 	var564 -- var117;
 	var321 -- var16;
+	var321 -- var13;
 	var321 -- var14;
+	var321 -- var15;
 	var563 -- var184;
 	var563 -- var183;
 	var563 -- var402;
@@ -9034,6 +9228,7 @@ graph {
 	var314 -- var182;
 	var314 -- var181;
 	var314 -- var313;
+	var314 -- var312;
 	var314 -- var311;
 	var314 -- var310;
 	var314 -- var154;
@@ -9061,6 +9256,7 @@ graph {
 	var313 -- var182;
 	var313 -- var181;
 	var313 -- var312;
+	var313 -- var311;
 	var313 -- var310;
 	var313 -- var154;
 	var313 -- var153;
@@ -9225,3 +9421,4602 @@ graph {
 	var799 -- var797;
 }
 
+Starting the algorithm...
+var `var702' = 268
+var `var701' = 30
+var `var453' = 736
+var `var454' = 498
+var `var700' = 428
+var `var699' = 666
+var `var649' = 366
+var `var650' = 128
+var `var407' = 540
+var `var408' = 778
+var `var174' = 30
+var `var430' = 338
+var `var698' = 324
+var `var697' = 86
+var `var173' = 268
+var `var429' = 100
+var `var669' = 366
+var `var696' = 352
+var `var695' = 114
+var `var670' = 128
+var `var488' = 394
+var `var487' = 156
+var `var225' = 58
+var `var226' = 296
+var `var12' = 44
+var `var57' = 30
+var `var58' = 268
+var `var59' = 352
+var `var11' = 282
+var `var61' = 16
+var `var62' = 254
+var `var60' = 114
+var `var228' = 142
+var `var227' = 380
+var `var874' = 366
+var `var873' = 128
+var `var223' = 30
+var `var222' = 30
+var `var221' = 268
+var `var224' = 268
+var `var426' = 428
+var `var425' = 666
+var `var708' = 156
+var `var707' = 394
+var `var424' = 456
+var `var423' = 694
+var `var422' = 470
+var `var421' = 708
+var `var431' = 352
+var `var232' = 282
+var `var428' = 380
+var `var434' = 156
+var `var433' = 394
+var `var432' = 114
+var `var178' = 694
+var `var177' = 456
+var `var176' = 366
+var `var231' = 44
+var `var427' = 142
+var `var175' = 128
+var `var315' = 338
+var `var31' = 324
+var `var32' = 86
+var `var316' = 100
+var `var499' = 414
+var `var909' = 554
+var `var448' = 128
+var `var447' = 366
+var `var73' = 86
+var `var446' = 352
+var `var445' = 114
+var `var531' = 16
+var `var42' = 414
+var `var40' = 736
+var `var648' = 414
+var `var647' = 652
+var `var39' = 498
+var `var503' = 526
+var `var29' = 680
+var `var204' = 526
+var `var203' = 764
+var `var500' = 652
+var `var522' = 338
+var `var504' = 764
+var `var38' = 792
+var `var34' = 498
+var `var78' = 366
+var `var35' = 414
+var `var36' = 652
+var `var37' = 554
+var `var30' = 442
+var `var831' = 128
+var `var75' = 324
+var `var257' = 680
+var `var33' = 736
+var `var77' = 128
+var `var254' = 764
+var `var253' = 526
+var `var910' = 792
+var `var832' = 366
+var `var521' = 100
+var `var258' = 442
+var `var512' = 764
+var `var511' = 526
+var `var5' = 324
+var `var6' = 86
+var `var138' = 428
+var `var140' = 72
+var `var137' = 666
+var `var136' = 498
+var `var135' = 254
+var `var168' = 352
+var `var167' = 114
+var `var438' = 16
+var `var437' = 254
+var `var139' = 310
+var `var852' = 380
+var `var124' = 324
+var `var123' = 86
+var `var110' = 296
+var `var121' = 30
+var `var109' = 58
+var `var122' = 268
+var `var74' = 324
+var `var851' = 142
+var `var41' = 652
+var `var76' = 86
+var `var484' = 310
+var `var483' = 554
+var `var509' = 540
+var `var508' = 366
+var `var507' = 128
+var `var510' = 296
+var `var514' = 540
+var `var247' = 442
+var `var249' = 708
+var `var858' = 58
+var `var857' = 296
+var `var89' = 72
+var `var90' = 310
+var `var113' = 680
+var `var532' = 254
+var `var189' = 498
+var `var116' = 310
+var `var854' = 58
+var `var63' = 58
+var `var65' = 296
+var `var115' = 72
+var `var114' = 442
+var `var658' = 394
+var `var856' = 114
+var `var777' = 254
+var `var676' = 680
+var `var674' = 254
+var `var134' = 526
+var `var131' = 296
+var `var513' = 296
+var `var64' = 296
+var `var66' = 58
+var `var853' = 296
+var `var657' = 156
+var `var855' = 352
+var `var675' = 442
+var `var673' = 498
+var `var778' = 498
+var `var149' = 722
+var `var147' = 428
+var `var246' = 512
+var `var244' = 694
+var `var242' = 750
+var `var141' = 170
+var `var501' = 296
+var `var126' = 498
+var `var125' = 254
+var `var202' = 128
+var `var102' = 254
+var `var201' = 366
+var `var101' = 16
+var `var660' = 666
+var `var506' = 296
+var `var208' = 394
+var `var505' = 540
+var `var207' = 156
+var `var502' = 540
+var `var4' = 114
+var `var3' = 352
+var `var908' = 310
+var `var907' = 72
+var `var17' = 30
+var `var18' = 268
+var `var56' = 254
+var `var190' = 254
+var `var655' = 366
+var `var99' = 498
+var `var55' = 498
+var `var498' = 254
+var `var497' = 498
+var `var252' = 6
+var `var659' = 428
+var `var656' = 128
+var `var100' = 254
+var `var240' = 652
+var `var162' = 352
+var `var161' = 114
+var `var160' = 442
+var `var45' = 554
+var `var46' = 324
+var `var47' = 652
+var `var48' = 414
+var `var248' = 680
+var `var20' = 680
+var `var148' = 666
+var `var43' = 554
+var `var169' = 736
+var `var44' = 324
+var `var245' = 750
+var `var781' = 708
+var `var243' = 456
+var `var142' = 408
+var `var241' = 512
+var `var780' = 666
+var `var709' = 310
+var `var251' = 240
+var `var150' = 484
+var `var250' = 470
+var `var19' = 442
+var `var170' = 498
+var `var710' = 554
+var `var112' = 540
+var `var159' = 680
+var `var111' = 296
+var `var133' = 764
+var `var132' = 540
+var `var779' = 428
+var `var239' = 414
+var `var782' = 470
+var `var185' = 142
+var `var187' = 16
+var `var229' = 414
+var `var188' = 254
+var `var186' = 380
+var `var230' = 652
+var `var694' = 708
+var `var693' = 470
+var `var691' = 114
+var `var692' = 352
+var `var690' = 694
+var `var689' = 456
+var `var688' = 352
+var `var687' = 114
+var `var686' = 324
+var `var685' = 86
+var `var684' = 764
+var `var683' = 526
+var `var460' = 708
+var `var459' = 470
+var `var462' = 540
+var `var461' = 778
+var `var886' = 142
+var `var885' = 380
+var `var464' = 526
+var `var463' = 764
+var `var888' = 428
+var `var887' = 666
+var `var8' = 778
+var `var898' = 128
+var `var897' = 366
+var `var10' = 470
+var `var9' = 708
+var `var7' = 540
+var `var172' = 414
+var `var171' = 652
+var `var872' = 44
+var `var871' = 282
+var `var2' = 324
+var `var1' = 86
+var `var458' = 484
+var `var457' = 722
+var `var682' = 764
+var `var681' = 526
+var `var680' = 352
+var `var679' = 114
+var `var466' = 778
+var `var26' = 498
+var `var465' = 540
+var `var906' = 512
+var `var91' = 428
+var `var25' = 736
+var `var107' = 498
+var `var96' = 484
+var `var97' = 470
+var `var98' = 708
+var `var92' = 666
+var `var95' = 722
+var `var94' = 778
+var `var899' = 338
+var `var900' = 100
+var `var862' = 352
+var `var861' = 114
+var `var200' = 442
+var `var199' = 680
+var `var902' = 100
+var `var901' = 338
+var `var197' = 310
+var `var198' = 72
+var `var905' = 750
+var `var108' = 736
+var `var93' = 540
+var `var468' = 708
+var `var467' = 470
+var `var677' = 324
+var `var87' = 156
+var `var88' = 394
+var `var486' = 338
+var `var485' = 100
+var `var678' = 86
+var `var470' = 428
+var `var859' = 708
+var `var866' = 114
+var `var469' = 666
+var `var865' = 352
+var `var860' = 470
+var `var529' = 526
+var `var530' = 764
+var `var412' = 750
+var `var411' = 512
+var `var842' = 310
+var `var841' = 72
+var `var749' = 30
+var `var442' = 114
+var `var750' = 268
+var `var452' = 394
+var `var451' = 156
+var `var840' = 58
+var `var850' = 268
+var `var839' = 296
+var `var870' = 352
+var `var849' = 30
+var `var848' = 44
+var `var847' = 282
+var `var869' = 114
+var `var845' = 72
+var `var844' = 156
+var `var843' = 394
+var `var846' = 310
+var `var196' = 100
+var `var195' = 338
+var `var864' = 44
+var `var863' = 282
+var `var884' = 58
+var `var883' = 296
+var `var490' = 268
+var `var489' = 30
+var `var824' = 282
+var `var823' = 44
+var `var822' = 366
+var `var821' = 128
+var `var409' = 764
+var `var410' = 526
+var `var705' = 156
+var `var706' = 394
+var `var441' = 352
+var `var319' = 86
+var `var280' = 44
+var `var318' = 16
+var `var317' = 254
+var `var320' = 324
+var `var415' = 484
+var `var416' = 722
+var `var762' = 456
+var `var761' = 694
+var `var298' = 282
+var `var27' = 394
+var `var28' = 156
+var `var896' = 142
+var `var895' = 380
+var `var21' = 282
+var `var22' = 44
+var `var493' = 428
+var `var492' = 296
+var `var491' = 58
+var `var494' = 666
+var `var889' = 282
+var `var892' = 44
+var `var891' = 282
+var `var890' = 44
+var `var734' = 366
+var `var733' = 128
+var `var383' = 282
+var `var390' = 16
+var `var358' = 680
+var `var357' = 442
+var `var544' = 128
+var `var543' = 366
+var `var549' = 324
+var `var399' = 338
+var `var515' = 16
+var `var834' = 680
+var `var833' = 442
+var `var528' = 86
+var `var527' = 324
+var `var387' = 86
+var `var398' = 456
+var `var772' = 72
+var `var397' = 694
+var `var771' = 310
+var `var611' = 86
+var `var820' = 30
+var `var610' = 72
+var `var704' = 100
+var `var703' = 338
+var `var612' = 324
+var `var819' = 268
+var `var628' = 86
+var `var627' = 324
+var `var524' = 456
+var `var523' = 694
+var `var609' = 310
+var `var293' = 142
+var `var389' = 254
+var `var400' = 100
+var `var388' = 324
+var `var297' = 44
+var `var550' = 86
+var `var384' = 44
+var `var738' = 142
+var `var737' = 380
+var `var516' = 254
+var `var736' = 428
+var `var548' = 254
+var `var735' = 666
+var `var547' = 16
+var `var419' = 778
+var `var418' = 708
+var `var417' = 470
+var `var279' = 282
+var `var420' = 540
+var `var482' = 456
+var `var481' = 694
+var `var784' = 58
+var `var783' = 296
+var `var916' = 114
+var `var915' = 352
+var `var712' = 750
+var `var711' = 512
+var `var336' = 666
+var `var878' = 268
+var `var877' = 30
+var `var776' = 708
+var `var775' = 470
+var `var838' = 58
+var `var837' = 296
+var `var875' = 708
+var `var904' = 764
+var `var903' = 526
+var `var876' = 470
+var `var879' = 694
+var `var106' = 352
+var `var105' = 114
+var `var754' = 456
+var `var753' = 694
+var `var294' = 380
+var `var480' = 666
+var `var380' = 296
+var `var732' = 750
+var `var379' = 540
+var `var456' = 554
+var `var731' = 512
+var `var455' = 792
+var `var730' = 484
+var `var396' = 428
+var `var395' = 666
+var `var729' = 722
+var `var479' = 428
+var `var163' = 736
+var `var334' = 526
+var `var333' = 764
+var `var553' = 414
+var `var332' = 792
+var `var354' = 764
+var `var166' = 694
+var `var331' = 554
+var `var353' = 526
+var `var386' = 442
+var `var165' = 456
+var `var385' = 680
+var `var164' = 498
+var `var554' = 652
+var `var67' = 470
+var `var68' = 708
+var `var69' = 666
+var `var104' = 324
+var `var103' = 86
+var `var652' = 268
+var `var70' = 428
+var `var496' = 86
+var `var495' = 324
+var `var836' = 114
+var `var835' = 352
+var `var49' = 30
+var `var23' = 282
+var `var24' = 44
+var `var54' = 100
+var `var894' = 282
+var `var882' = 352
+var `var893' = 44
+var `var881' = 114
+var `var50' = 268
+var `var51' = 44
+var `var868' = 128
+var `var867' = 366
+var `var52' = 282
+var `var361' = 694
+var `var362' = 456
+var `var476' = 142
+var `var475' = 380
+var `var536' = 680
+var `var638' = 554
+var `var637' = 792
+var `var526' = 296
+var `var525' = 58
+var `var365' = 296
+var `var360' = 114
+var `var215' = 666
+var `var534' = 498
+var `var368' = 296
+var `var533' = 736
+var `var356' = 268
+var `var367' = 540
+var `var355' = 512
+var `var366' = 540
+var `var364' = 268
+var `var363' = 512
+var `var359' = 352
+var `var535' = 442
+var `var216' = 428
+var `var581' = 128
+var `var639' = 338
+var `var640' = 100
+var `var582' = 366
+var `var340' = 526
+var `var728' = 428
+var `var727' = 666
+var `var726' = 540
+var `var725' = 778
+var `var339' = 764
+var `var804' = 428
+var `var803' = 666
+var `var261' = 58
+var `var435' = 114
+var `var436' = 352
+var `var260' = 394
+var `var259' = 156
+var `var335' = 428
+var `var806' = 456
+var `var805' = 694
+var `var347' = 554
+var `var346' = 778
+var `var345' = 540
+var `var348' = 792
+var `var158' = 498
+var `var157' = 736
+var `var156' = 526
+var `var155' = 764
+var `var662' = 708
+var `var661' = 470
+var `var255' = 394
+var `var914' = 44
+var `var913' = 282
+var `var739' = 380
+var `var740' = 142
+var `var71' = 100
+var `var72' = 338
+var `var756' = 666
+var `var755' = 428
+var `var752' = 526
+var `var751' = 764
+var `var374' = 456
+var `var373' = 694
+var `var262' = 296
+var `var796' = 30
+var `var79' = 470
+var `var53' = 338
+var `var81' = 414
+var `var651' = 512
+var `var82' = 652
+var `var880' = 456
+var `var80' = 708
+var `var382' = 708
+var `var381' = 470
+var `var545' = 722
+var `var256' = 156
+var `var546' = 484
+var `var413' = 324
+var `var540' = 666
+var `var539' = 428
+var `var538' = 764
+var `var537' = 526
+var `var338' = 394
+var `var337' = 156
+var `var414' = 86
+var `var289' = 428
+var `var325' = 736
+var `var764' = 680
+var `var763' = 442
+var `var264' = 708
+var `var263' = 470
+var `var328' = 310
+var `var327' = 554
+var `var326' = 498
+var `var646' = 142
+var `var743' = 470
+var `var664' = 512
+var `var663' = 750
+var `var744' = 708
+var `var520' = 666
+var `var519' = 428
+var `var607' = 694
+var `var85' = 394
+var `var86' = 156
+var `var83' = 380
+var `var84' = 142
+var `var748' = 282
+var `var766' = 338
+var `var288' = 156
+var `var471' = 268
+var `var287' = 394
+var `var472' = 30
+var `var787' = 526
+var `var269' = 540
+var `var584' = 778
+var `var583' = 540
+var `var608' = 456
+var `var272' = 764
+var `var270' = 778
+var `var291' = 470
+var `var292' = 708
+var `var556' = 512
+var `var555' = 750
+var `var271' = 526
+var `var624' = 296
+var `var623' = 58
+var `var797' = 86
+var `var284' = 764
+var `var282' = 498
+var `var283' = 526
+var `var281' = 736
+var `var721' = 442
+var `var720' = 540
+var `var146' = 694
+var `var344' = 708
+var `var145' = 456
+var `var343' = 470
+var `var144' = 540
+var `var342' = 428
+var `var143' = 778
+var `var341' = 666
+var `var724' = 778
+var `var722' = 680
+var `var273' = 554
+var `var278' = 666
+var `var277' = 428
+var `var276' = 512
+var `var275' = 750
+var `var274' = 792
+var `var718' = 778
+var `var717' = 540
+var `var714' = 652
+var `var713' = 414
+var `var719' = 778
+var `var723' = 540
+var `var236' = 100
+var `var235' = 338
+var `var606' = 338
+var `var605' = 100
+var `var580' = 58
+var `var626' = 142
+var `var625' = 380
+var `var579' = 296
+var `var809' = 86
+var `var810' = 324
+var `var808' = 296
+var `var807' = 58
+var `var268' = 694
+var `var267' = 456
+var `var266' = 708
+var `var265' = 470
+var `var604' = 708
+var `var603' = 470
+var `var329' = 142
+var `var352' = 30
+var `var351' = 268
+var `var568' = 442
+var `var567' = 680
+var `var394' = 282
+var `var393' = 44
+var `var645' = 380
+var `var588' = 72
+var `var585' = 16
+var `var219' = 352
+var `var812' = 142
+var `var811' = 380
+var `var220' = 114
+var `var629' = 666
+var `var789' = 498
+var `var788' = 764
+var `var798' = 324
+var `var598' = 694
+var `var630' = 428
+var `var613' = 442
+var `var570' = 142
+var `var569' = 380
+var `var572' = 114
+var `var571' = 352
+var `var392' = 540
+var `var391' = 778
+var `var404' = 526
+var `var403' = 764
+var `var542' = 414
+var `var552' = 694
+var `var474' = 282
+var `var551' = 456
+var `var473' = 526
+var `var541' = 652
+var `var559' = 722
+var `var635' = 338
+var `var566' = 268
+var `var560' = 484
+var `var330' = 380
+var `var600' = 470
+var `var666' = 722
+var `var765' = 100
+var `var324' = 750
+var `var665' = 484
+var `var786' = 694
+var `var323' = 512
+var `var565' = 30
+var `var587' = 310
+var `var785' = 456
+var `var322' = 666
+var `var586' = 254
+var `var321' = 428
+var `var747' = 526
+var `var746' = 100
+var `var768' = 680
+var `var745' = 338
+var `var800' = 338
+var `var16' = 540
+var `var790' = 736
+var `var13' = 512
+var `var290' = 666
+var `var14' = 750
+var `var15' = 778
+var `var633' = 142
+var `var599' = 708
+var `var632' = 778
+var `var631' = 540
+var `var597' = 456
+var `var795' = 268
+var `var794' = 324
+var `var793' = 86
+var `var594' = 380
+var `var792' = 310
+var `var593' = 142
+var `var791' = 72
+var `var614' = 680
+var `var636' = 100
+var `var558' = 540
+var `var557' = 778
+var `var634' = 380
+var `var799' = 100
+var `var767' = 442
+var `var350' = 268
+var `var592' = 352
+var `var591' = 114
+var `var578' = 338
+var `var622' = 72
+var `var577' = 100
+var `var621' = 310
+var `var234' = 366
+var `var233' = 128
+var `var562' = 44
+var `var561' = 282
+var `var802' = 380
+var `var801' = 142
+var `var349' = 30
+var `var814' = 142
+var `var813' = 380
+var `var601' = 366
+var `var602' = 128
+var `var758' = 100
+var `var574' = 100
+var `var573' = 338
+var `var816' = 778
+var `var815' = 540
+var `var444' = 498
+var `var443' = 736
+var `var590' = 128
+var `var589' = 366
+var `var596' = 296
+var `var595' = 58
+var `var757' = 338
+var `var760' = 128
+var `var759' = 366
+var `var372' = 694
+var `var371' = 456
+var `var818' = 456
+var `var617' = 352
+var `var193' = 694
+var `var191' = 484
+var `var376' = 694
+var `var375' = 456
+var `var194' = 456
+var `var192' = 722
+var `var237' = 666
+var `var286' = 540
+var `var285' = 296
+var `var518' = 540
+var `var517' = 296
+var `var238' = 428
+var `var654' = 680
+var `var774' = 666
+var `var303' = 254
+var `var672' = 338
+var `var671' = 100
+var `var306' = 86
+var `var305' = 324
+var `var304' = 498
+var `var310' = 268
+var `var309' = 512
+var `var308' = 268
+var `var307' = 30
+var `var129' = 366
+var `var301' = 86
+var `var295' = 128
+var `var299' = 16
+var `var770' = 100
+var `var715' = 324
+var `var827' = 394
+var `var817' = 694
+var `var127' = 114
+var `var769' = 338
+var `var643' = 352
+var `var641' = 128
+var `var206' = 114
+var `var205' = 352
+var `var130' = 128
+var `var213' = 324
+var `var576' = 58
+var `var575' = 296
+var `var773' = 428
+var `var618' = 114
+var `var616' = 352
+var `var184' = 44
+var `var182' = 380
+var `var181' = 142
+var `var180' = 310
+var `var302' = 324
+var `var742' = 456
+var `var620' = 100
+var `var741' = 694
+var `var300' = 254
+var `var828' = 156
+var `var826' = 296
+var `var825' = 58
+var `var668' = 100
+var `var667' = 338
+var `var829' = 72
+var `var370' = 380
+var `var214' = 86
+var `var378' = 282
+var `var653' = 442
+var `var179' = 72
+var `var212' = 114
+var `var377' = 526
+var `var211' = 352
+var `var210' = 352
+var `var296' = 366
+var `var450' = 30
+var `var619' = 338
+var `var615' = 114
+var `var218' = 114
+var `var217' = 352
+var `var369' = 142
+var `var402' = 268
+var `var401' = 30
+var `var644' = 114
+var `var642' = 366
+var `var564' = 86
+var `var563' = 324
+var `var440' = 282
+var `var120' = 72
+var `var209' = 114
+var `var406' = 694
+var `var449' = 268
+var `var405' = 456
+var `var128' = 352
+var `var152' = 44
+var `var151' = 282
+var `var314' = 44
+var `var313' = 282
+var `var478' = 268
+var `var830' = 310
+var `var312' = 366
+var `var477' = 512
+var `var311' = 128
+var `var154' = 366
+var `var153' = 128
+var `var716' = 86
+var `var439' = 44
+var `var912' = 282
+var `var119' = 310
+var `var911' = 44
+var `var117' = 30
+var `var118' = 268
+var `var183' = 282
+Total optimal cost: -204798
+Algorithm finished in 37,464 ms (simulated time)
+Number of messages sent (by type): 
+	improve:	2,297,600
+	ok:	2,297,600
+	- Total:	4,595,200
+Number of messages sent (by agent): 
+	agent001:	4,400
+	agent002:	4,400
+	agent003:	13,600
+	agent004:	14,400
+	agent005:	2,000
+	agent006:	2,400
+	agent007:	2,400
+	agent008:	2,000
+	agent009:	2,400
+	agent010:	2,800
+	agent011:	2,800
+	agent012:	2,800
+	agent013:	6,000
+	agent014:	6,000
+	agent015:	6,000
+	agent016:	6,000
+	agent017:	6,800
+	agent018:	8,400
+	agent019:	14,000
+	agent020:	14,800
+	agent021:	4,400
+	agent022:	4,400
+	agent023:	3,600
+	agent024:	3,600
+	agent025:	2,000
+	agent026:	2,000
+	agent027:	1,200
+	agent028:	1,600
+	agent029:	6,000
+	agent030:	6,000
+	agent031:	2,000
+	agent032:	2,000
+	agent033:	9,200
+	agent034:	9,200
+	agent035:	9,200
+	agent036:	9,200
+	agent037:	6,000
+	agent038:	6,000
+	agent039:	7,600
+	agent040:	7,600
+	agent041:	8,400
+	agent042:	7,600
+	agent043:	11,200
+	agent044:	12,000
+	agent045:	12,400
+	agent046:	10,800
+	agent047:	11,600
+	agent048:	12,000
+	agent049:	3,600
+	agent050:	3,600
+	agent051:	5,200
+	agent052:	5,200
+	agent053:	3,600
+	agent054:	2,800
+	agent055:	8,800
+	agent056:	10,000
+	agent057:	2,800
+	agent058:	2,800
+	agent059:	2,800
+	agent060:	2,800
+	agent061:	2,800
+	agent062:	2,800
+	agent063:	6,000
+	agent064:	7,200
+	agent065:	6,400
+	agent066:	6,000
+	agent067:	3,600
+	agent068:	3,600
+	agent069:	3,600
+	agent070:	3,600
+	agent071:	2,000
+	agent072:	2,000
+	agent073:	1,200
+	agent074:	2,000
+	agent075:	4,400
+	agent076:	5,200
+	agent077:	3,600
+	agent078:	4,000
+	agent079:	1,600
+	agent080:	2,800
+	agent081:	1,600
+	agent082:	1,600
+	agent083:	3,600
+	agent084:	4,000
+	agent085:	3,600
+	agent086:	4,000
+	agent087:	4,400
+	agent088:	4,400
+	agent089:	6,000
+	agent090:	4,800
+	agent091:	4,800
+	agent092:	4,400
+	agent093:	4,400
+	agent094:	4,000
+	agent095:	4,400
+	agent096:	4,400
+	agent097:	5,600
+	agent098:	5,600
+	agent099:	12,000
+	agent100:	12,800
+	agent101:	8,400
+	agent102:	7,200
+	agent103:	2,800
+	agent104:	2,800
+	agent105:	2,800
+	agent106:	2,800
+	agent107:	4,400
+	agent108:	5,200
+	agent109:	3,600
+	agent110:	3,600
+	agent111:	6,400
+	agent112:	6,000
+	agent113:	3,200
+	agent114:	4,400
+	agent115:	2,000
+	agent116:	4,800
+	agent117:	12,000
+	agent118:	12,000
+	agent119:	11,600
+	agent120:	11,600
+	agent121:	5,200
+	agent122:	6,000
+	agent123:	4,000
+	agent124:	5,200
+	agent125:	12,000
+	agent126:	11,600
+	agent127:	6,400
+	agent128:	6,000
+	agent129:	2,800
+	agent130:	5,600
+	agent131:	6,000
+	agent132:	6,400
+	agent133:	6,400
+	agent134:	6,000
+	agent135:	4,800
+	agent136:	4,400
+	agent137:	5,600
+	agent138:	5,200
+	agent139:	5,600
+	agent140:	5,200
+	agent141:	8,000
+	agent142:	15,600
+	agent143:	11,200
+	agent144:	10,800
+	agent145:	11,200
+	agent146:	10,800
+	agent147:	6,800
+	agent148:	7,600
+	agent149:	6,800
+	agent150:	7,600
+	agent151:	15,600
+	agent152:	16,800
+	agent153:	15,200
+	agent154:	15,200
+	agent155:	6,800
+	agent156:	6,800
+	agent157:	6,800
+	agent158:	6,800
+	agent159:	2,800
+	agent160:	2,800
+	agent161:	2,800
+	agent162:	2,800
+	agent163:	4,800
+	agent164:	4,800
+	agent165:	4,800
+	agent166:	4,800
+	agent167:	4,400
+	agent168:	4,400
+	agent169:	8,400
+	agent170:	7,600
+	agent171:	4,400
+	agent172:	4,400
+	agent173:	1,600
+	agent174:	1,200
+	agent175:	3,600
+	agent176:	3,600
+	agent177:	3,600
+	agent178:	3,600
+	agent179:	10,800
+	agent180:	17,200
+	agent181:	14,400
+	agent182:	9,200
+	agent183:	24,800
+	agent184:	22,000
+	agent185:	1,200
+	agent186:	2,000
+	agent187:	1,200
+	agent188:	2,000
+	agent189:	8,000
+	agent190:	8,000
+	agent191:	3,600
+	agent192:	4,400
+	agent193:	3,600
+	agent194:	4,400
+	agent195:	2,800
+	agent196:	2,800
+	agent197:	2,800
+	agent198:	2,800
+	agent199:	4,400
+	agent200:	4,800
+	agent201:	9,600
+	agent202:	10,400
+	agent203:	5,600
+	agent204:	6,000
+	agent205:	7,600
+	agent206:	8,000
+	agent207:	11,600
+	agent208:	10,000
+	agent209:	10,000
+	agent210:	8,400
+	agent211:	10,000
+	agent212:	8,400
+	agent213:	7,200
+	agent214:	8,000
+	agent215:	6,400
+	agent216:	8,000
+	agent217:	12,400
+	agent218:	8,400
+	agent219:	2,000
+	agent220:	2,000
+	agent221:	2,000
+	agent222:	2,000
+	agent223:	2,800
+	agent224:	2,800
+	agent225:	1,200
+	agent226:	1,200
+	agent227:	2,800
+	agent228:	2,800
+	agent229:	2,000
+	agent230:	1,200
+	agent231:	2,800
+	agent232:	2,800
+	agent233:	6,000
+	agent234:	6,000
+	agent235:	2,000
+	agent236:	2,000
+	agent237:	5,200
+	agent238:	5,200
+	agent239:	9,200
+	agent240:	8,400
+	agent241:	6,000
+	agent242:	6,000
+	agent243:	6,000
+	agent244:	6,000
+	agent245:	9,200
+	agent246:	9,200
+	agent247:	5,200
+	agent248:	6,000
+	agent249:	5,200
+	agent250:	6,000
+	agent251:	15,600
+	agent252:	8,000
+	agent253:	5,600
+	agent254:	5,600
+	agent255:	1,200
+	agent256:	2,000
+	agent257:	10,000
+	agent258:	10,000
+	agent259:	1,600
+	agent260:	2,000
+	agent261:	1,200
+	agent262:	1,600
+	agent263:	5,600
+	agent264:	5,200
+	agent265:	3,600
+	agent266:	4,000
+	agent267:	3,600
+	agent268:	4,000
+	agent269:	10,000
+	agent270:	9,600
+	agent271:	10,000
+	agent272:	9,600
+	agent273:	11,200
+	agent274:	12,000
+	agent275:	11,200
+	agent276:	12,000
+	agent277:	14,000
+	agent278:	14,400
+	agent279:	2,400
+	agent280:	2,000
+	agent281:	7,600
+	agent282:	7,600
+	agent283:	7,600
+	agent284:	8,000
+	agent285:	4,800
+	agent286:	4,400
+	agent287:	1,200
+	agent288:	1,200
+	agent289:	2,000
+	agent290:	2,400
+	agent291:	3,600
+	agent292:	3,600
+	agent293:	4,800
+	agent294:	7,200
+	agent295:	4,000
+	agent296:	4,000
+	agent297:	1,200
+	agent298:	400
+	agent299:	9,600
+	agent300:	8,800
+	agent301:	9,600
+	agent302:	8,800
+	agent303:	8,000
+	agent304:	6,800
+	agent305:	8,000
+	agent306:	6,800
+	agent307:	2,800
+	agent308:	2,800
+	agent309:	7,200
+	agent310:	6,800
+	agent311:	8,800
+	agent312:	8,400
+	agent313:	8,400
+	agent314:	8,400
+	agent315:	400
+	agent316:	800
+	agent317:	2,000
+	agent318:	2,000
+	agent319:	2,000
+	agent320:	2,000
+	agent321:	6,800
+	agent322:	6,000
+	agent323:	6,800
+	agent324:	6,000
+	agent325:	6,000
+	agent326:	6,000
+	agent327:	6,000
+	agent328:	6,000
+	agent329:	2,800
+	agent330:	4,000
+	agent331:	5,600
+	agent332:	4,800
+	agent333:	5,600
+	agent334:	4,800
+	agent335:	3,600
+	agent336:	2,800
+	agent337:	2,400
+	agent338:	2,400
+	agent339:	5,200
+	agent340:	5,200
+	agent341:	10,800
+	agent342:	10,800
+	agent343:	10,800
+	agent344:	10,800
+	agent345:	6,800
+	agent346:	6,800
+	agent347:	6,800
+	agent348:	6,800
+	agent349:	6,800
+	agent350:	6,800
+	agent351:	3,600
+	agent352:	3,600
+	agent353:	10,000
+	agent354:	10,000
+	agent355:	5,200
+	agent356:	5,200
+	agent357:	1,200
+	agent358:	1,200
+	agent359:	5,600
+	agent360:	6,000
+	agent361:	2,000
+	agent362:	2,000
+	agent363:	6,000
+	agent364:	5,600
+	agent365:	4,400
+	agent366:	5,600
+	agent367:	6,800
+	agent368:	5,600
+	agent369:	7,600
+	agent370:	7,600
+	agent371:	3,600
+	agent372:	3,600
+	agent373:	4,800
+	agent374:	4,400
+	agent375:	5,200
+	agent376:	5,600
+	agent377:	6,800
+	agent378:	6,800
+	agent379:	9,600
+	agent380:	10,000
+	agent381:	4,400
+	agent382:	4,400
+	agent383:	4,800
+	agent384:	5,200
+	agent385:	7,600
+	agent386:	7,600
+	agent387:	6,000
+	agent388:	6,400
+	agent389:	2,800
+	agent390:	2,000
+	agent391:	6,000
+	agent392:	6,400
+	agent393:	3,600
+	agent394:	3,600
+	agent395:	7,600
+	agent396:	7,600
+	agent397:	3,600
+	agent398:	3,600
+	agent399:	3,600
+	agent400:	4,000
+	agent401:	8,400
+	agent402:	8,800
+	agent403:	6,400
+	agent404:	6,800
+	agent405:	6,800
+	agent406:	6,400
+	agent407:	400
+	agent408:	400
+	agent409:	2,000
+	agent410:	2,000
+	agent411:	2,000
+	agent412:	2,000
+	agent413:	3,600
+	agent414:	3,600
+	agent415:	2,800
+	agent416:	2,800
+	agent417:	2,000
+	agent418:	2,000
+	agent419:	3,600
+	agent420:	3,600
+	agent421:	3,200
+	agent422:	3,200
+	agent423:	1,600
+	agent424:	1,600
+	agent425:	2,000
+	agent426:	2,000
+	agent427:	3,600
+	agent428:	3,600
+	agent429:	1,600
+	agent430:	1,200
+	agent431:	2,800
+	agent432:	2,800
+	agent433:	3,600
+	agent434:	3,600
+	agent435:	3,600
+	agent436:	3,600
+	agent437:	3,600
+	agent438:	3,600
+	agent439:	6,000
+	agent440:	6,400
+	agent441:	4,000
+	agent442:	2,000
+	agent443:	1,200
+	agent444:	1,200
+	agent445:	3,600
+	agent446:	3,600
+	agent447:	2,400
+	agent448:	2,000
+	agent449:	8,000
+	agent450:	6,400
+	agent451:	2,000
+	agent452:	2,000
+	agent453:	400
+	agent454:	400
+	agent455:	6,000
+	agent456:	6,000
+	agent457:	2,800
+	agent458:	2,800
+	agent459:	2,800
+	agent460:	2,800
+	agent461:	2,800
+	agent462:	2,800
+	agent463:	4,400
+	agent464:	4,800
+	agent465:	2,800
+	agent466:	2,400
+	agent467:	3,600
+	agent468:	3,200
+	agent469:	4,400
+	agent470:	4,400
+	agent471:	1,600
+	agent472:	1,600
+	agent473:	5,200
+	agent474:	5,200
+	agent475:	3,600
+	agent476:	3,600
+	agent477:	7,600
+	agent478:	8,400
+	agent479:	7,600
+	agent480:	6,000
+	agent481:	5,200
+	agent482:	5,200
+	agent483:	3,600
+	agent484:	4,000
+	agent485:	2,800
+	agent486:	2,800
+	agent487:	1,200
+	agent488:	1,200
+	agent489:	3,600
+	agent490:	3,600
+	agent491:	2,800
+	agent492:	2,800
+	agent493:	2,800
+	agent494:	2,800
+	agent495:	2,000
+	agent496:	2,000
+	agent497:	8,000
+	agent498:	10,800
+	agent499:	2,800
+	agent500:	3,200
+	agent501:	9,600
+	agent502:	8,000
+	agent503:	6,400
+	agent504:	7,200
+	agent505:	10,800
+	agent506:	12,800
+	agent507:	3,600
+	agent508:	4,000
+	agent509:	4,400
+	agent510:	4,800
+	agent511:	6,000
+	agent512:	6,400
+	agent513:	6,800
+	agent514:	4,800
+	agent515:	3,600
+	agent516:	4,000
+	agent517:	5,200
+	agent518:	5,200
+	agent519:	1,200
+	agent520:	1,200
+	agent521:	3,600
+	agent522:	3,600
+	agent523:	3,600
+	agent524:	3,600
+	agent525:	3,600
+	agent526:	3,600
+	agent527:	3,600
+	agent528:	3,600
+	agent529:	1,200
+	agent530:	1,200
+	agent531:	2,000
+	agent532:	4,000
+	agent533:	3,600
+	agent534:	4,400
+	agent535:	1,600
+	agent536:	1,200
+	agent537:	2,800
+	agent538:	2,800
+	agent539:	2,800
+	agent540:	2,800
+	agent541:	4,000
+	agent542:	3,600
+	agent543:	3,600
+	agent544:	3,600
+	agent545:	2,000
+	agent546:	2,400
+	agent547:	3,600
+	agent548:	3,600
+	agent549:	3,600
+	agent550:	4,000
+	agent551:	3,600
+	agent552:	3,600
+	agent553:	6,000
+	agent554:	6,000
+	agent555:	9,200
+	agent556:	9,200
+	agent557:	9,200
+	agent558:	9,200
+	agent559:	5,200
+	agent560:	5,200
+	agent561:	6,000
+	agent562:	6,000
+	agent563:	9,600
+	agent564:	8,000
+	agent565:	6,000
+	agent566:	6,000
+	agent567:	2,000
+	agent568:	2,000
+	agent569:	2,800
+	agent570:	2,800
+	agent571:	3,600
+	agent572:	3,600
+	agent573:	2,800
+	agent574:	3,200
+	agent575:	6,000
+	agent576:	6,000
+	agent577:	5,200
+	agent578:	5,200
+	agent579:	2,400
+	agent580:	2,000
+	agent581:	2,000
+	agent582:	2,000
+	agent583:	8,400
+	agent584:	8,800
+	agent585:	2,800
+	agent586:	4,400
+	agent587:	3,200
+	agent588:	2,800
+	agent589:	2,000
+	agent590:	2,000
+	agent591:	8,000
+	agent592:	7,600
+	agent593:	6,000
+	agent594:	6,800
+	agent595:	2,800
+	agent596:	2,800
+	agent597:	6,000
+	agent598:	5,600
+	agent599:	6,800
+	agent600:	6,800
+	agent601:	4,000
+	agent602:	3,600
+	agent603:	2,800
+	agent604:	3,200
+	agent605:	2,400
+	agent606:	2,400
+	agent607:	6,800
+	agent608:	6,000
+	agent609:	2,800
+	agent610:	2,400
+	agent611:	4,400
+	agent612:	4,400
+	agent613:	8,000
+	agent614:	8,400
+	agent615:	8,000
+	agent616:	7,600
+	agent617:	2,800
+	agent618:	5,200
+	agent619:	9,600
+	agent620:	10,000
+	agent621:	6,800
+	agent622:	6,800
+	agent623:	2,800
+	agent624:	2,800
+	agent625:	2,800
+	agent626:	2,800
+	agent627:	4,800
+	agent628:	4,800
+	agent629:	4,000
+	agent630:	4,000
+	agent631:	3,600
+	agent632:	2,400
+	agent633:	4,000
+	agent634:	4,000
+	agent635:	4,000
+	agent636:	4,000
+	agent637:	2,800
+	agent638:	2,800
+	agent639:	3,600
+	agent640:	3,600
+	agent641:	7,600
+	agent642:	8,000
+	agent643:	7,600
+	agent644:	8,000
+	agent645:	3,200
+	agent646:	2,800
+	agent647:	3,600
+	agent648:	3,600
+	agent649:	400
+	agent650:	400
+	agent651:	4,800
+	agent652:	4,400
+	agent653:	5,200
+	agent654:	4,800
+	agent655:	11,600
+	agent656:	11,200
+	agent657:	10,000
+	agent658:	9,200
+	agent659:	8,400
+	agent660:	7,600
+	agent661:	1,200
+	agent662:	1,200
+	agent663:	2,000
+	agent664:	2,000
+	agent665:	9,200
+	agent666:	9,200
+	agent667:	18,800
+	agent668:	14,000
+	agent669:	1,200
+	agent670:	2,000
+	agent671:	3,600
+	agent672:	3,600
+	agent673:	4,800
+	agent674:	5,200
+	agent675:	4,800
+	agent676:	5,200
+	agent677:	3,600
+	agent678:	3,600
+	agent679:	2,000
+	agent680:	2,000
+	agent681:	2,000
+	agent682:	2,000
+	agent683:	2,000
+	agent684:	2,000
+	agent685:	2,000
+	agent686:	2,000
+	agent687:	2,000
+	agent688:	2,000
+	agent689:	2,000
+	agent690:	2,000
+	agent691:	2,000
+	agent692:	2,000
+	agent693:	2,000
+	agent694:	2,800
+	agent695:	2,000
+	agent696:	2,000
+	agent697:	1,200
+	agent698:	1,200
+	agent699:	400
+	agent700:	400
+	agent701:	400
+	agent702:	400
+	agent703:	3,600
+	agent704:	3,600
+	agent705:	1,200
+	agent706:	1,200
+	agent707:	1,200
+	agent708:	1,200
+	agent709:	9,600
+	agent710:	10,800
+	agent711:	2,000
+	agent712:	2,000
+	agent713:	14,000
+	agent714:	14,400
+	agent715:	4,000
+	agent716:	4,000
+	agent717:	11,200
+	agent718:	12,000
+	agent719:	11,200
+	agent720:	12,000
+	agent721:	11,200
+	agent722:	10,800
+	agent723:	11,200
+	agent724:	10,800
+	agent725:	5,200
+	agent726:	5,200
+	agent727:	5,200
+	agent728:	5,200
+	agent729:	6,800
+	agent730:	6,000
+	agent731:	6,800
+	agent732:	6,000
+	agent733:	2,800
+	agent734:	3,200
+	agent735:	1,600
+	agent736:	2,000
+	agent737:	1,600
+	agent738:	2,000
+	agent739:	2,800
+	agent740:	3,200
+	agent741:	7,200
+	agent742:	6,000
+	agent743:	5,200
+	agent744:	5,200
+	agent745:	4,000
+	agent746:	4,400
+	agent747:	6,000
+	agent748:	5,200
+	agent749:	2,000
+	agent750:	2,000
+	agent751:	3,600
+	agent752:	4,800
+	agent753:	1,200
+	agent754:	1,600
+	agent755:	4,000
+	agent756:	3,600
+	agent757:	2,400
+	agent758:	2,000
+	agent759:	2,000
+	agent760:	2,400
+	agent761:	2,000
+	agent762:	2,000
+	agent763:	5,600
+	agent764:	5,600
+	agent765:	4,000
+	agent766:	3,600
+	agent767:	17,600
+	agent768:	15,600
+	agent769:	4,800
+	agent770:	2,800
+	agent771:	3,600
+	agent772:	3,600
+	agent773:	2,800
+	agent774:	2,000
+	agent775:	3,200
+	agent776:	2,800
+	agent777:	6,000
+	agent778:	10,800
+	agent779:	11,200
+	agent780:	13,600
+	agent781:	11,200
+	agent782:	13,600
+	agent783:	5,200
+	agent784:	5,200
+	agent785:	6,000
+	agent786:	4,800
+	agent787:	5,200
+	agent788:	4,800
+	agent789:	2,400
+	agent790:	3,600
+	agent791:	2,400
+	agent792:	2,800
+	agent793:	2,800
+	agent794:	2,400
+	agent795:	2,400
+	agent796:	2,000
+	agent797:	2,000
+	agent798:	2,400
+	agent799:	2,800
+	agent800:	3,200
+	agent801:	6,000
+	agent802:	6,800
+	agent803:	2,800
+	agent804:	3,200
+	agent805:	2,000
+	agent806:	2,000
+	agent807:	2,800
+	agent808:	2,800
+	agent809:	2,000
+	agent810:	2,000
+	agent811:	3,600
+	agent812:	3,600
+	agent813:	2,800
+	agent814:	2,800
+	agent815:	2,000
+	agent816:	2,000
+	agent817:	4,400
+	agent818:	4,000
+	agent819:	3,600
+	agent820:	3,600
+	agent821:	2,000
+	agent822:	2,000
+	agent823:	3,600
+	agent824:	3,600
+	agent825:	8,400
+	agent826:	8,800
+	agent827:	8,800
+	agent828:	7,200
+	agent829:	7,600
+	agent830:	7,600
+	agent831:	3,600
+	agent832:	3,600
+	agent833:	1,200
+	agent834:	1,200
+	agent835:	4,400
+	agent836:	4,400
+	agent837:	2,800
+	agent838:	2,800
+	agent839:	3,200
+	agent840:	3,600
+	agent841:	2,800
+	agent842:	2,800
+	agent843:	4,400
+	agent844:	4,800
+	agent845:	4,400
+	agent846:	4,800
+	agent847:	3,600
+	agent848:	3,600
+	agent849:	3,600
+	agent850:	3,600
+	agent851:	4,000
+	agent852:	5,200
+	agent853:	8,400
+	agent854:	4,000
+	agent855:	5,200
+	agent856:	4,800
+	agent857:	2,800
+	agent858:	3,600
+	agent859:	4,400
+	agent860:	3,200
+	agent861:	4,400
+	agent862:	4,000
+	agent863:	2,800
+	agent864:	2,800
+	agent865:	5,200
+	agent866:	5,200
+	agent867:	6,000
+	agent868:	6,000
+	agent869:	5,200
+	agent870:	5,200
+	agent871:	4,400
+	agent872:	4,400
+	agent873:	2,000
+	agent874:	2,000
+	agent875:	2,800
+	agent876:	2,800
+	agent877:	2,800
+	agent878:	2,800
+	agent879:	4,400
+	agent880:	4,800
+	agent881:	3,600
+	agent882:	3,600
+	agent883:	2,800
+	agent884:	2,800
+	agent885:	2,800
+	agent886:	2,800
+	agent887:	2,800
+	agent888:	2,800
+	agent889:	2,800
+	agent890:	2,800
+	agent891:	2,800
+	agent892:	2,800
+	agent893:	3,600
+	agent894:	3,600
+	agent895:	1,600
+	agent896:	1,200
+	agent897:	5,200
+	agent898:	5,200
+	agent899:	4,800
+	agent900:	4,400
+	agent901:	2,800
+	agent902:	2,800
+	agent903:	2,000
+	agent904:	2,000
+	agent905:	4,400
+	agent906:	4,000
+	agent907:	5,200
+	agent908:	7,600
+	agent909:	6,000
+	agent910:	7,200
+	agent911:	7,200
+	agent912:	9,600
+	agent913:	2,000
+	agent914:	2,000
+	agent915:	2,000
+	agent916:	2,000
+Number of messages received (by agent): 
+	agent001:	4,400
+	agent002:	4,400
+	agent003:	13,600
+	agent004:	14,400
+	agent005:	2,000
+	agent006:	2,400
+	agent007:	2,400
+	agent008:	2,000
+	agent009:	2,400
+	agent010:	2,800
+	agent011:	2,800
+	agent012:	2,800
+	agent013:	6,000
+	agent014:	6,000
+	agent015:	6,000
+	agent016:	6,000
+	agent017:	6,800
+	agent018:	8,400
+	agent019:	14,000
+	agent020:	14,800
+	agent021:	4,400
+	agent022:	4,400
+	agent023:	3,600
+	agent024:	3,600
+	agent025:	2,000
+	agent026:	2,000
+	agent027:	1,200
+	agent028:	1,600
+	agent029:	6,000
+	agent030:	6,000
+	agent031:	2,000
+	agent032:	2,000
+	agent033:	9,200
+	agent034:	9,200
+	agent035:	9,200
+	agent036:	9,200
+	agent037:	6,000
+	agent038:	6,000
+	agent039:	7,600
+	agent040:	7,600
+	agent041:	8,400
+	agent042:	7,600
+	agent043:	11,200
+	agent044:	12,000
+	agent045:	12,400
+	agent046:	10,800
+	agent047:	11,600
+	agent048:	12,000
+	agent049:	3,600
+	agent050:	3,600
+	agent051:	5,200
+	agent052:	5,200
+	agent053:	3,600
+	agent054:	2,800
+	agent055:	8,800
+	agent056:	10,000
+	agent057:	2,800
+	agent058:	2,800
+	agent059:	2,800
+	agent060:	2,800
+	agent061:	2,800
+	agent062:	2,800
+	agent063:	6,000
+	agent064:	7,200
+	agent065:	6,400
+	agent066:	6,000
+	agent067:	3,600
+	agent068:	3,600
+	agent069:	3,600
+	agent070:	3,600
+	agent071:	2,000
+	agent072:	2,000
+	agent073:	1,200
+	agent074:	2,000
+	agent075:	4,400
+	agent076:	5,200
+	agent077:	3,600
+	agent078:	4,000
+	agent079:	1,600
+	agent080:	2,800
+	agent081:	1,600
+	agent082:	1,600
+	agent083:	3,600
+	agent084:	4,000
+	agent085:	3,600
+	agent086:	4,000
+	agent087:	4,400
+	agent088:	4,400
+	agent089:	6,000
+	agent090:	4,800
+	agent091:	4,800
+	agent092:	4,400
+	agent093:	4,400
+	agent094:	4,000
+	agent095:	4,400
+	agent096:	4,400
+	agent097:	5,600
+	agent098:	5,600
+	agent099:	12,000
+	agent100:	12,800
+	agent101:	8,400
+	agent102:	7,200
+	agent103:	2,800
+	agent104:	2,800
+	agent105:	2,800
+	agent106:	2,800
+	agent107:	4,400
+	agent108:	5,200
+	agent109:	3,600
+	agent110:	3,600
+	agent111:	6,400
+	agent112:	6,000
+	agent113:	3,200
+	agent114:	4,400
+	agent115:	2,000
+	agent116:	4,800
+	agent117:	12,000
+	agent118:	12,000
+	agent119:	11,600
+	agent120:	11,600
+	agent121:	5,200
+	agent122:	6,000
+	agent123:	4,000
+	agent124:	5,200
+	agent125:	12,000
+	agent126:	11,600
+	agent127:	6,400
+	agent128:	6,000
+	agent129:	2,800
+	agent130:	5,600
+	agent131:	6,000
+	agent132:	6,400
+	agent133:	6,400
+	agent134:	6,000
+	agent135:	4,800
+	agent136:	4,400
+	agent137:	5,600
+	agent138:	5,200
+	agent139:	5,600
+	agent140:	5,200
+	agent141:	8,000
+	agent142:	15,600
+	agent143:	11,200
+	agent144:	10,800
+	agent145:	11,200
+	agent146:	10,800
+	agent147:	6,800
+	agent148:	7,600
+	agent149:	6,800
+	agent150:	7,600
+	agent151:	15,600
+	agent152:	16,800
+	agent153:	15,200
+	agent154:	15,200
+	agent155:	6,800
+	agent156:	6,800
+	agent157:	6,800
+	agent158:	6,800
+	agent159:	2,800
+	agent160:	2,800
+	agent161:	2,800
+	agent162:	2,800
+	agent163:	4,800
+	agent164:	4,800
+	agent165:	4,800
+	agent166:	4,800
+	agent167:	4,400
+	agent168:	4,400
+	agent169:	8,400
+	agent170:	7,600
+	agent171:	4,400
+	agent172:	4,400
+	agent173:	1,600
+	agent174:	1,200
+	agent175:	3,600
+	agent176:	3,600
+	agent177:	3,600
+	agent178:	3,600
+	agent179:	10,800
+	agent180:	17,200
+	agent181:	14,400
+	agent182:	9,200
+	agent183:	24,800
+	agent184:	22,000
+	agent185:	1,200
+	agent186:	2,000
+	agent187:	1,200
+	agent188:	2,000
+	agent189:	8,000
+	agent190:	8,000
+	agent191:	3,600
+	agent192:	4,400
+	agent193:	3,600
+	agent194:	4,400
+	agent195:	2,800
+	agent196:	2,800
+	agent197:	2,800
+	agent198:	2,800
+	agent199:	4,400
+	agent200:	4,800
+	agent201:	9,600
+	agent202:	10,400
+	agent203:	5,600
+	agent204:	6,000
+	agent205:	7,600
+	agent206:	8,000
+	agent207:	11,600
+	agent208:	10,000
+	agent209:	10,000
+	agent210:	8,400
+	agent211:	10,000
+	agent212:	8,400
+	agent213:	7,200
+	agent214:	8,000
+	agent215:	6,400
+	agent216:	8,000
+	agent217:	12,400
+	agent218:	8,400
+	agent219:	2,000
+	agent220:	2,000
+	agent221:	2,000
+	agent222:	2,000
+	agent223:	2,800
+	agent224:	2,800
+	agent225:	1,200
+	agent226:	1,200
+	agent227:	2,800
+	agent228:	2,800
+	agent229:	2,000
+	agent230:	1,200
+	agent231:	2,800
+	agent232:	2,800
+	agent233:	6,000
+	agent234:	6,000
+	agent235:	2,000
+	agent236:	2,000
+	agent237:	5,200
+	agent238:	5,200
+	agent239:	9,200
+	agent240:	8,400
+	agent241:	6,000
+	agent242:	6,000
+	agent243:	6,000
+	agent244:	6,000
+	agent245:	9,200
+	agent246:	9,200
+	agent247:	5,200
+	agent248:	6,000
+	agent249:	5,200
+	agent250:	6,000
+	agent251:	15,600
+	agent252:	8,000
+	agent253:	5,600
+	agent254:	5,600
+	agent255:	1,200
+	agent256:	2,000
+	agent257:	10,000
+	agent258:	10,000
+	agent259:	1,600
+	agent260:	2,000
+	agent261:	1,200
+	agent262:	1,600
+	agent263:	5,600
+	agent264:	5,200
+	agent265:	3,600
+	agent266:	4,000
+	agent267:	3,600
+	agent268:	4,000
+	agent269:	10,000
+	agent270:	9,600
+	agent271:	10,000
+	agent272:	9,600
+	agent273:	11,200
+	agent274:	12,000
+	agent275:	11,200
+	agent276:	12,000
+	agent277:	14,000
+	agent278:	14,400
+	agent279:	2,400
+	agent280:	2,000
+	agent281:	7,600
+	agent282:	7,600
+	agent283:	7,600
+	agent284:	8,000
+	agent285:	4,800
+	agent286:	4,400
+	agent287:	1,200
+	agent288:	1,200
+	agent289:	2,000
+	agent290:	2,400
+	agent291:	3,600
+	agent292:	3,600
+	agent293:	4,800
+	agent294:	7,200
+	agent295:	4,000
+	agent296:	4,000
+	agent297:	1,200
+	agent298:	400
+	agent299:	9,600
+	agent300:	8,800
+	agent301:	9,600
+	agent302:	8,800
+	agent303:	8,000
+	agent304:	6,800
+	agent305:	8,000
+	agent306:	6,800
+	agent307:	2,800
+	agent308:	2,800
+	agent309:	7,200
+	agent310:	6,800
+	agent311:	8,800
+	agent312:	8,400
+	agent313:	8,400
+	agent314:	8,400
+	agent315:	400
+	agent316:	800
+	agent317:	2,000
+	agent318:	2,000
+	agent319:	2,000
+	agent320:	2,000
+	agent321:	6,800
+	agent322:	6,000
+	agent323:	6,800
+	agent324:	6,000
+	agent325:	6,000
+	agent326:	6,000
+	agent327:	6,000
+	agent328:	6,000
+	agent329:	2,800
+	agent330:	4,000
+	agent331:	5,600
+	agent332:	4,800
+	agent333:	5,600
+	agent334:	4,800
+	agent335:	3,600
+	agent336:	2,800
+	agent337:	2,400
+	agent338:	2,400
+	agent339:	5,200
+	agent340:	5,200
+	agent341:	10,800
+	agent342:	10,800
+	agent343:	10,800
+	agent344:	10,800
+	agent345:	6,800
+	agent346:	6,800
+	agent347:	6,800
+	agent348:	6,800
+	agent349:	6,800
+	agent350:	6,800
+	agent351:	3,600
+	agent352:	3,600
+	agent353:	10,000
+	agent354:	10,000
+	agent355:	5,200
+	agent356:	5,200
+	agent357:	1,200
+	agent358:	1,200
+	agent359:	5,600
+	agent360:	6,000
+	agent361:	2,000
+	agent362:	2,000
+	agent363:	6,000
+	agent364:	5,600
+	agent365:	4,400
+	agent366:	5,600
+	agent367:	6,800
+	agent368:	5,600
+	agent369:	7,600
+	agent370:	7,600
+	agent371:	3,600
+	agent372:	3,600
+	agent373:	4,800
+	agent374:	4,400
+	agent375:	5,200
+	agent376:	5,600
+	agent377:	6,800
+	agent378:	6,800
+	agent379:	9,600
+	agent380:	10,000
+	agent381:	4,400
+	agent382:	4,400
+	agent383:	4,800
+	agent384:	5,200
+	agent385:	7,600
+	agent386:	7,600
+	agent387:	6,000
+	agent388:	6,400
+	agent389:	2,800
+	agent390:	2,000
+	agent391:	6,000
+	agent392:	6,400
+	agent393:	3,600
+	agent394:	3,600
+	agent395:	7,600
+	agent396:	7,600
+	agent397:	3,600
+	agent398:	3,600
+	agent399:	3,600
+	agent400:	4,000
+	agent401:	8,400
+	agent402:	8,800
+	agent403:	6,400
+	agent404:	6,800
+	agent405:	6,800
+	agent406:	6,400
+	agent407:	400
+	agent408:	400
+	agent409:	2,000
+	agent410:	2,000
+	agent411:	2,000
+	agent412:	2,000
+	agent413:	3,600
+	agent414:	3,600
+	agent415:	2,800
+	agent416:	2,800
+	agent417:	2,000
+	agent418:	2,000
+	agent419:	3,600
+	agent420:	3,600
+	agent421:	3,200
+	agent422:	3,200
+	agent423:	1,600
+	agent424:	1,600
+	agent425:	2,000
+	agent426:	2,000
+	agent427:	3,600
+	agent428:	3,600
+	agent429:	1,600
+	agent430:	1,200
+	agent431:	2,800
+	agent432:	2,800
+	agent433:	3,600
+	agent434:	3,600
+	agent435:	3,600
+	agent436:	3,600
+	agent437:	3,600
+	agent438:	3,600
+	agent439:	6,000
+	agent440:	6,400
+	agent441:	4,000
+	agent442:	2,000
+	agent443:	1,200
+	agent444:	1,200
+	agent445:	3,600
+	agent446:	3,600
+	agent447:	2,400
+	agent448:	2,000
+	agent449:	8,000
+	agent450:	6,400
+	agent451:	2,000
+	agent452:	2,000
+	agent453:	400
+	agent454:	400
+	agent455:	6,000
+	agent456:	6,000
+	agent457:	2,800
+	agent458:	2,800
+	agent459:	2,800
+	agent460:	2,800
+	agent461:	2,800
+	agent462:	2,800
+	agent463:	4,400
+	agent464:	4,800
+	agent465:	2,800
+	agent466:	2,400
+	agent467:	3,600
+	agent468:	3,200
+	agent469:	4,400
+	agent470:	4,400
+	agent471:	1,600
+	agent472:	1,600
+	agent473:	5,200
+	agent474:	5,200
+	agent475:	3,600
+	agent476:	3,600
+	agent477:	7,600
+	agent478:	8,400
+	agent479:	7,600
+	agent480:	6,000
+	agent481:	5,200
+	agent482:	5,200
+	agent483:	3,600
+	agent484:	4,000
+	agent485:	2,800
+	agent486:	2,800
+	agent487:	1,200
+	agent488:	1,200
+	agent489:	3,600
+	agent490:	3,600
+	agent491:	2,800
+	agent492:	2,800
+	agent493:	2,800
+	agent494:	2,800
+	agent495:	2,000
+	agent496:	2,000
+	agent497:	8,000
+	agent498:	10,800
+	agent499:	2,800
+	agent500:	3,200
+	agent501:	9,600
+	agent502:	8,000
+	agent503:	6,400
+	agent504:	7,200
+	agent505:	10,800
+	agent506:	12,800
+	agent507:	3,600
+	agent508:	4,000
+	agent509:	4,400
+	agent510:	4,800
+	agent511:	6,000
+	agent512:	6,400
+	agent513:	6,800
+	agent514:	4,800
+	agent515:	3,600
+	agent516:	4,000
+	agent517:	5,200
+	agent518:	5,200
+	agent519:	1,200
+	agent520:	1,200
+	agent521:	3,600
+	agent522:	3,600
+	agent523:	3,600
+	agent524:	3,600
+	agent525:	3,600
+	agent526:	3,600
+	agent527:	3,600
+	agent528:	3,600
+	agent529:	1,200
+	agent530:	1,200
+	agent531:	2,000
+	agent532:	4,000
+	agent533:	3,600
+	agent534:	4,400
+	agent535:	1,600
+	agent536:	1,200
+	agent537:	2,800
+	agent538:	2,800
+	agent539:	2,800
+	agent540:	2,800
+	agent541:	4,000
+	agent542:	3,600
+	agent543:	3,600
+	agent544:	3,600
+	agent545:	2,000
+	agent546:	2,400
+	agent547:	3,600
+	agent548:	3,600
+	agent549:	3,600
+	agent550:	4,000
+	agent551:	3,600
+	agent552:	3,600
+	agent553:	6,000
+	agent554:	6,000
+	agent555:	9,200
+	agent556:	9,200
+	agent557:	9,200
+	agent558:	9,200
+	agent559:	5,200
+	agent560:	5,200
+	agent561:	6,000
+	agent562:	6,000
+	agent563:	9,600
+	agent564:	8,000
+	agent565:	6,000
+	agent566:	6,000
+	agent567:	2,000
+	agent568:	2,000
+	agent569:	2,800
+	agent570:	2,800
+	agent571:	3,600
+	agent572:	3,600
+	agent573:	2,800
+	agent574:	3,200
+	agent575:	6,000
+	agent576:	6,000
+	agent577:	5,200
+	agent578:	5,200
+	agent579:	2,400
+	agent580:	2,000
+	agent581:	2,000
+	agent582:	2,000
+	agent583:	8,400
+	agent584:	8,800
+	agent585:	2,800
+	agent586:	4,400
+	agent587:	3,200
+	agent588:	2,800
+	agent589:	2,000
+	agent590:	2,000
+	agent591:	8,000
+	agent592:	7,600
+	agent593:	6,000
+	agent594:	6,800
+	agent595:	2,800
+	agent596:	2,800
+	agent597:	6,000
+	agent598:	5,600
+	agent599:	6,800
+	agent600:	6,800
+	agent601:	4,000
+	agent602:	3,600
+	agent603:	2,800
+	agent604:	3,200
+	agent605:	2,400
+	agent606:	2,400
+	agent607:	6,800
+	agent608:	6,000
+	agent609:	2,800
+	agent610:	2,400
+	agent611:	4,400
+	agent612:	4,400
+	agent613:	8,000
+	agent614:	8,400
+	agent615:	8,000
+	agent616:	7,600
+	agent617:	2,800
+	agent618:	5,200
+	agent619:	9,600
+	agent620:	10,000
+	agent621:	6,800
+	agent622:	6,800
+	agent623:	2,800
+	agent624:	2,800
+	agent625:	2,800
+	agent626:	2,800
+	agent627:	4,800
+	agent628:	4,800
+	agent629:	4,000
+	agent630:	4,000
+	agent631:	3,600
+	agent632:	2,400
+	agent633:	4,000
+	agent634:	4,000
+	agent635:	4,000
+	agent636:	4,000
+	agent637:	2,800
+	agent638:	2,800
+	agent639:	3,600
+	agent640:	3,600
+	agent641:	7,600
+	agent642:	8,000
+	agent643:	7,600
+	agent644:	8,000
+	agent645:	3,200
+	agent646:	2,800
+	agent647:	3,600
+	agent648:	3,600
+	agent649:	400
+	agent650:	400
+	agent651:	4,800
+	agent652:	4,400
+	agent653:	5,200
+	agent654:	4,800
+	agent655:	11,600
+	agent656:	11,200
+	agent657:	10,000
+	agent658:	9,200
+	agent659:	8,400
+	agent660:	7,600
+	agent661:	1,200
+	agent662:	1,200
+	agent663:	2,000
+	agent664:	2,000
+	agent665:	9,200
+	agent666:	9,200
+	agent667:	18,800
+	agent668:	14,000
+	agent669:	1,200
+	agent670:	2,000
+	agent671:	3,600
+	agent672:	3,600
+	agent673:	4,800
+	agent674:	5,200
+	agent675:	4,800
+	agent676:	5,200
+	agent677:	3,600
+	agent678:	3,600
+	agent679:	2,000
+	agent680:	2,000
+	agent681:	2,000
+	agent682:	2,000
+	agent683:	2,000
+	agent684:	2,000
+	agent685:	2,000
+	agent686:	2,000
+	agent687:	2,000
+	agent688:	2,000
+	agent689:	2,000
+	agent690:	2,000
+	agent691:	2,000
+	agent692:	2,000
+	agent693:	2,000
+	agent694:	2,800
+	agent695:	2,000
+	agent696:	2,000
+	agent697:	1,200
+	agent698:	1,200
+	agent699:	400
+	agent700:	400
+	agent701:	400
+	agent702:	400
+	agent703:	3,600
+	agent704:	3,600
+	agent705:	1,200
+	agent706:	1,200
+	agent707:	1,200
+	agent708:	1,200
+	agent709:	9,600
+	agent710:	10,800
+	agent711:	2,000
+	agent712:	2,000
+	agent713:	14,000
+	agent714:	14,400
+	agent715:	4,000
+	agent716:	4,000
+	agent717:	11,200
+	agent718:	12,000
+	agent719:	11,200
+	agent720:	12,000
+	agent721:	11,200
+	agent722:	10,800
+	agent723:	11,200
+	agent724:	10,800
+	agent725:	5,200
+	agent726:	5,200
+	agent727:	5,200
+	agent728:	5,200
+	agent729:	6,800
+	agent730:	6,000
+	agent731:	6,800
+	agent732:	6,000
+	agent733:	2,800
+	agent734:	3,200
+	agent735:	1,600
+	agent736:	2,000
+	agent737:	1,600
+	agent738:	2,000
+	agent739:	2,800
+	agent740:	3,200
+	agent741:	7,200
+	agent742:	6,000
+	agent743:	5,200
+	agent744:	5,200
+	agent745:	4,000
+	agent746:	4,400
+	agent747:	6,000
+	agent748:	5,200
+	agent749:	2,000
+	agent750:	2,000
+	agent751:	3,600
+	agent752:	4,800
+	agent753:	1,200
+	agent754:	1,600
+	agent755:	4,000
+	agent756:	3,600
+	agent757:	2,400
+	agent758:	2,000
+	agent759:	2,000
+	agent760:	2,400
+	agent761:	2,000
+	agent762:	2,000
+	agent763:	5,600
+	agent764:	5,600
+	agent765:	4,000
+	agent766:	3,600
+	agent767:	17,600
+	agent768:	15,600
+	agent769:	4,800
+	agent770:	2,800
+	agent771:	3,600
+	agent772:	3,600
+	agent773:	2,800
+	agent774:	2,000
+	agent775:	3,200
+	agent776:	2,800
+	agent777:	6,000
+	agent778:	10,800
+	agent779:	11,200
+	agent780:	13,600
+	agent781:	11,200
+	agent782:	13,600
+	agent783:	5,200
+	agent784:	5,200
+	agent785:	6,000
+	agent786:	4,800
+	agent787:	5,200
+	agent788:	4,800
+	agent789:	2,400
+	agent790:	3,600
+	agent791:	2,400
+	agent792:	2,800
+	agent793:	2,800
+	agent794:	2,400
+	agent795:	2,400
+	agent796:	2,000
+	agent797:	2,000
+	agent798:	2,400
+	agent799:	2,800
+	agent800:	3,200
+	agent801:	6,000
+	agent802:	6,800
+	agent803:	2,800
+	agent804:	3,200
+	agent805:	2,000
+	agent806:	2,000
+	agent807:	2,800
+	agent808:	2,800
+	agent809:	2,000
+	agent810:	2,000
+	agent811:	3,600
+	agent812:	3,600
+	agent813:	2,800
+	agent814:	2,800
+	agent815:	2,000
+	agent816:	2,000
+	agent817:	4,400
+	agent818:	4,000
+	agent819:	3,600
+	agent820:	3,600
+	agent821:	2,000
+	agent822:	2,000
+	agent823:	3,600
+	agent824:	3,600
+	agent825:	8,400
+	agent826:	8,800
+	agent827:	8,800
+	agent828:	7,200
+	agent829:	7,600
+	agent830:	7,600
+	agent831:	3,600
+	agent832:	3,600
+	agent833:	1,200
+	agent834:	1,200
+	agent835:	4,400
+	agent836:	4,400
+	agent837:	2,800
+	agent838:	2,800
+	agent839:	3,200
+	agent840:	3,600
+	agent841:	2,800
+	agent842:	2,800
+	agent843:	4,400
+	agent844:	4,800
+	agent845:	4,400
+	agent846:	4,800
+	agent847:	3,600
+	agent848:	3,600
+	agent849:	3,600
+	agent850:	3,600
+	agent851:	4,000
+	agent852:	5,200
+	agent853:	8,400
+	agent854:	4,000
+	agent855:	5,200
+	agent856:	4,800
+	agent857:	2,800
+	agent858:	3,600
+	agent859:	4,400
+	agent860:	3,200
+	agent861:	4,400
+	agent862:	4,000
+	agent863:	2,800
+	agent864:	2,800
+	agent865:	5,200
+	agent866:	5,200
+	agent867:	6,000
+	agent868:	6,000
+	agent869:	5,200
+	agent870:	5,200
+	agent871:	4,400
+	agent872:	4,400
+	agent873:	2,000
+	agent874:	2,000
+	agent875:	2,800
+	agent876:	2,800
+	agent877:	2,800
+	agent878:	2,800
+	agent879:	4,400
+	agent880:	4,800
+	agent881:	3,600
+	agent882:	3,600
+	agent883:	2,800
+	agent884:	2,800
+	agent885:	2,800
+	agent886:	2,800
+	agent887:	2,800
+	agent888:	2,800
+	agent889:	2,800
+	agent890:	2,800
+	agent891:	2,800
+	agent892:	2,800
+	agent893:	3,600
+	agent894:	3,600
+	agent895:	1,600
+	agent896:	1,200
+	agent897:	5,200
+	agent898:	5,200
+	agent899:	4,800
+	agent900:	4,400
+	agent901:	2,800
+	agent902:	2,800
+	agent903:	2,000
+	agent904:	2,000
+	agent905:	4,400
+	agent906:	4,000
+	agent907:	5,200
+	agent908:	7,600
+	agent909:	6,000
+	agent910:	7,200
+	agent911:	7,200
+	agent912:	9,600
+	agent913:	2,000
+	agent914:	2,000
+	agent915:	2,000
+	agent916:	2,000
+Amount of information sent (by type, in bytes): 
+	improve:	95,419,328
+	ok:	48,420,682
+	- Total:	143,840,010
+Amount of information sent (by agent, in bytes): 
+	agent001:	137,740
+	agent002:	137,652
+	agent003:	425,736
+	agent004:	450,492
+	agent005:	62,568
+	agent006:	75,130
+	agent007:	75,127
+	agent008:	62,565
+	agent009:	75,079
+	agent010:	87,655
+	agent011:	87,598
+	agent012:	87,654
+	agent013:	187,722
+	agent014:	187,842
+	agent015:	187,722
+	agent016:	187,842
+	agent017:	213,024
+	agent018:	262,807
+	agent019:	438,291
+	agent020:	463,041
+	agent021:	137,752
+	agent022:	137,752
+	agent023:	112,632
+	agent024:	112,776
+	agent025:	62,571
+	agent026:	62,611
+	agent027:	37,568
+	agent028:	50,059
+	agent029:	187,716
+	agent030:	187,836
+	agent031:	62,570
+	agent032:	62,610
+	agent033:	287,834
+	agent034:	288,018
+	agent035:	288,018
+	agent036:	287,834
+	agent037:	187,836
+	agent038:	187,836
+	agent039:	237,926
+	agent040:	237,774
+	agent041:	262,972
+	agent042:	237,774
+	agent043:	350,409
+	agent044:	375,439
+	agent045:	388,202
+	agent046:	337,894
+	agent047:	363,154
+	agent048:	375,437
+	agent049:	112,702
+	agent050:	112,630
+	agent051:	162,792
+	agent052:	162,688
+	agent053:	112,628
+	agent054:	87,656
+	agent055:	275,322
+	agent056:	313,067
+	agent057:	87,654
+	agent058:	87,598
+	agent059:	87,598
+	agent060:	87,598
+	agent061:	87,654
+	agent062:	87,598
+	agent063:	187,961
+	agent064:	225,410
+	agent065:	200,365
+	agent066:	187,841
+	agent067:	112,632
+	agent068:	112,704
+	agent069:	112,632
+	agent070:	112,704
+	agent071:	62,574
+	agent072:	62,614
+	agent073:	37,566
+	agent074:	62,572
+	agent075:	137,748
+	agent076:	162,690
+	agent077:	112,632
+	agent078:	125,227
+	agent079:	50,088
+	agent080:	87,601
+	agent081:	50,089
+	agent082:	50,057
+	agent083:	112,704
+	agent084:	125,147
+	agent085:	112,632
+	agent086:	125,227
+	agent087:	137,752
+	agent088:	137,664
+	agent089:	187,718
+	agent090:	150,269
+	agent091:	150,269
+	agent092:	137,658
+	agent093:	137,657
+	agent094:	125,222
+	agent095:	137,746
+	agent096:	137,658
+	agent097:	175,201
+	agent098:	175,313
+	agent099:	375,680
+	agent100:	400,757
+	agent101:	262,995
+	agent102:	225,427
+	agent103:	87,612
+	agent104:	87,668
+	agent105:	87,610
+	agent106:	87,666
+	agent107:	137,668
+	agent108:	162,804
+	agent109:	112,784
+	agent110:	112,640
+	agent111:	200,255
+	agent112:	187,857
+	agent113:	100,192
+	agent114:	137,674
+	agent115:	62,620
+	agent116:	150,190
+	agent117:	375,960
+	agent118:	375,480
+	agent119:	362,964
+	agent120:	363,428
+	agent121:	162,912
+	agent122:	187,736
+	agent123:	125,238
+	agent124:	162,704
+	agent125:	375,708
+	agent126:	363,185
+	agent127:	200,256
+	agent128:	187,860
+	agent129:	87,612
+	agent130:	175,336
+	agent131:	187,737
+	agent132:	200,382
+	agent133:	200,510
+	agent134:	187,857
+	agent135:	150,192
+	agent136:	137,764
+	agent137:	175,336
+	agent138:	162,708
+	agent139:	175,336
+	agent140:	162,708
+	agent141:	250,477
+	agent142:	488,115
+	agent143:	350,672
+	agent144:	338,148
+	agent145:	350,448
+	agent146:	338,148
+	agent147:	212,907
+	agent148:	237,801
+	agent149:	212,907
+	agent150:	237,801
+	agent151:	488,436
+	agent152:	526,344
+	agent153:	475,912
+	agent154:	475,608
+	agent155:	213,044
+	agent156:	212,772
+	agent157:	212,908
+	agent158:	212,772
+	agent159:	87,612
+	agent160:	87,668
+	agent161:	87,612
+	agent162:	87,668
+	agent163:	150,192
+	agent164:	150,288
+	agent165:	150,192
+	agent166:	150,288
+	agent167:	137,676
+	agent168:	137,764
+	agent169:	262,996
+	agent170:	237,796
+	agent171:	137,665
+	agent172:	137,753
+	agent173:	50,096
+	agent174:	37,548
+	agent175:	112,716
+	agent176:	112,644
+	agent177:	112,716
+	agent178:	112,644
+	agent179:	338,148
+	agent180:	538,188
+	agent181:	450,864
+	agent182:	287,868
+	agent183:	776,488
+	agent184:	688,820
+	agent185:	37,572
+	agent186:	62,580
+	agent187:	37,572
+	agent188:	62,580
+	agent189:	250,636
+	agent190:	250,475
+	agent191:	112,716
+	agent192:	137,676
+	agent193:	112,716
+	agent194:	137,676
+	agent195:	87,612
+	agent196:	87,668
+	agent197:	87,612
+	agent198:	87,668
+	agent199:	137,760
+	agent200:	150,188
+	agent201:	300,375
+	agent202:	325,615
+	agent203:	175,216
+	agent204:	187,852
+	agent205:	237,956
+	agent206:	250,320
+	agent207:	363,185
+	agent208:	312,892
+	agent209:	312,900
+	agent210:	263,004
+	agent211:	312,900
+	agent212:	263,004
+	agent213:	225,432
+	agent214:	250,320
+	agent215:	200,256
+	agent216:	250,480
+	agent217:	388,244
+	agent218:	262,836
+	agent219:	62,620
+	agent220:	62,580
+	agent221:	62,620
+	agent222:	62,580
+	agent223:	87,612
+	agent224:	87,668
+	agent225:	37,572
+	agent226:	37,548
+	agent227:	87,668
+	agent228:	87,612
+	agent229:	62,620
+	agent230:	37,548
+	agent231:	87,668
+	agent232:	87,612
+	agent233:	187,740
+	agent234:	187,860
+	agent235:	62,620
+	agent236:	62,580
+	agent237:	162,708
+	agent238:	162,812
+	agent239:	288,044
+	agent240:	262,828
+	agent241:	187,860
+	agent242:	187,740
+	agent243:	187,860
+	agent244:	187,740
+	agent245:	288,052
+	agent246:	287,868
+	agent247:	162,708
+	agent248:	187,860
+	agent249:	162,708
+	agent250:	187,860
+	agent251:	488,427
+	agent252:	250,317
+	agent253:	175,216
+	agent254:	175,328
+	agent255:	37,572
+	agent256:	62,580
+	agent257:	312,888
+	agent258:	313,088
+	agent259:	50,096
+	agent260:	62,580
+	agent261:	37,548
+	agent262:	50,064
+	agent263:	175,336
+	agent264:	162,708
+	agent265:	112,716
+	agent266:	125,160
+	agent267:	112,644
+	agent268:	125,240
+	agent269:	312,900
+	agent270:	300,768
+	agent271:	312,900
+	agent272:	300,768
+	agent273:	350,672
+	agent274:	376,200
+	agent275:	350,896
+	agent276:	375,720
+	agent277:	438,060
+	agent278:	450,864
+	agent279:	75,144
+	agent280:	62,580
+	agent281:	238,108
+	agent282:	237,804
+	agent283:	237,956
+	agent284:	250,480
+	agent285:	150,288
+	agent286:	137,676
+	agent287:	37,548
+	agent288:	37,572
+	agent289:	62,619
+	agent290:	75,095
+	agent291:	112,716
+	agent292:	112,644
+	agent293:	150,288
+	agent294:	225,288
+	agent295:	125,160
+	agent296:	125,240
+	agent297:	37,548
+	agent298:	12,524
+	agent299:	300,576
+	agent300:	275,528
+	agent301:	300,384
+	agent302:	275,528
+	agent303:	250,320
+	agent304:	212,908
+	agent305:	250,320
+	agent306:	212,908
+	agent307:	87,724
+	agent308:	87,612
+	agent309:	225,288
+	agent310:	212,908
+	agent311:	275,352
+	agent312:	263,004
+	agent313:	262,836
+	agent314:	263,172
+	agent315:	12,516
+	agent316:	25,047
+	agent317:	62,620
+	agent318:	62,580
+	agent319:	62,620
+	agent320:	62,580
+	agent321:	212,768
+	agent322:	187,856
+	agent323:	212,768
+	agent324:	187,736
+	agent325:	187,860
+	agent326:	187,740
+	agent327:	187,860
+	agent328:	187,980
+	agent329:	87,612
+	agent330:	125,240
+	agent331:	175,224
+	agent332:	150,384
+	agent333:	175,336
+	agent334:	150,192
+	agent335:	112,644
+	agent336:	87,668
+	agent337:	75,144
+	agent338:	75,096
+	agent339:	162,812
+	agent340:	162,812
+	agent341:	338,148
+	agent342:	337,932
+	agent343:	337,932
+	agent344:	338,148
+	agent345:	212,772
+	agent346:	213,044
+	agent347:	212,908
+	agent348:	212,908
+	agent349:	212,908
+	agent350:	212,772
+	agent351:	112,716
+	agent352:	112,716
+	agent353:	313,100
+	agent354:	313,300
+	agent355:	162,812
+	agent356:	162,708
+	agent357:	37,572
+	agent358:	37,548
+	agent359:	175,336
+	agent360:	187,740
+	agent361:	62,580
+	agent362:	62,620
+	agent363:	187,860
+	agent364:	175,224
+	agent365:	137,852
+	agent366:	175,336
+	agent367:	212,908
+	agent368:	175,224
+	agent369:	237,956
+	agent370:	237,804
+	agent371:	112,716
+	agent372:	112,644
+	agent373:	150,288
+	agent374:	137,676
+	agent375:	162,812
+	agent376:	175,224
+	agent377:	212,908
+	agent378:	212,772
+	agent379:	300,576
+	agent380:	313,100
+	agent381:	137,764
+	agent382:	137,676
+	agent383:	150,288
+	agent384:	162,812
+	agent385:	237,804
+	agent386:	237,956
+	agent387:	187,860
+	agent388:	200,256
+	agent389:	87,724
+	agent390:	62,620
+	agent391:	187,740
+	agent392:	200,384
+	agent393:	112,642
+	agent394:	112,714
+	agent395:	237,804
+	agent396:	237,956
+	agent397:	112,716
+	agent398:	112,644
+	agent399:	112,716
+	agent400:	125,160
+	agent401:	263,340
+	agent402:	275,528
+	agent403:	200,384
+	agent404:	212,908
+	agent405:	212,908
+	agent406:	200,256
+	agent407:	12,516
+	agent408:	12,524
+	agent409:	62,620
+	agent410:	62,580
+	agent411:	62,620
+	agent412:	62,580
+	agent413:	112,716
+	agent414:	112,644
+	agent415:	87,668
+	agent416:	87,612
+	agent417:	62,620
+	agent418:	62,580
+	agent419:	112,644
+	agent420:	112,716
+	agent421:	100,192
+	agent422:	100,128
+	agent423:	50,064
+	agent424:	50,096
+	agent425:	62,620
+	agent426:	62,580
+	agent427:	112,716
+	agent428:	112,644
+	agent429:	50,064
+	agent430:	37,572
+	agent431:	87,612
+	agent432:	87,668
+	agent433:	112,716
+	agent434:	112,644
+	agent435:	112,716
+	agent436:	112,644
+	agent437:	112,644
+	agent438:	112,716
+	agent439:	187,860
+	agent440:	200,384
+	agent441:	125,159
+	agent442:	62,620
+	agent443:	37,572
+	agent444:	37,548
+	agent445:	112,644
+	agent446:	112,716
+	agent447:	75,096
+	agent448:	62,620
+	agent449:	250,480
+	agent450:	200,512
+	agent451:	62,580
+	agent452:	62,620
+	agent453:	12,516
+	agent454:	12,524
+	agent455:	187,860
+	agent456:	187,860
+	agent457:	87,612
+	agent458:	87,668
+	agent459:	87,612
+	agent460:	87,668
+	agent461:	87,668
+	agent462:	87,668
+	agent463:	137,852
+	agent464:	150,191
+	agent465:	87,666
+	agent466:	75,095
+	agent467:	112,714
+	agent468:	100,126
+	agent469:	137,674
+	agent470:	137,762
+	agent471:	50,096
+	agent472:	50,064
+	agent473:	162,708
+	agent474:	162,812
+	agent475:	112,716
+	agent476:	112,644
+	agent477:	237,956
+	agent478:	263,004
+	agent479:	237,956
+	agent480:	187,740
+	agent481:	162,708
+	agent482:	162,812
+	agent483:	112,644
+	agent484:	125,240
+	agent485:	87,610
+	agent486:	87,666
+	agent487:	37,572
+	agent488:	37,548
+	agent489:	112,642
+	agent490:	112,714
+	agent491:	87,664
+	agent492:	87,608
+	agent493:	87,608
+	agent494:	87,664
+	agent495:	62,620
+	agent496:	62,580
+	agent497:	250,471
+	agent498:	337,923
+	agent499:	87,668
+	agent500:	100,128
+	agent501:	300,375
+	agent502:	250,471
+	agent503:	200,248
+	agent504:	225,424
+	agent505:	337,923
+	agent506:	400,759
+	agent507:	112,716
+	agent508:	125,160
+	agent509:	137,764
+	agent510:	150,192
+	agent511:	187,732
+	agent512:	200,376
+	agent513:	212,908
+	agent514:	150,192
+	agent515:	112,716
+	agent516:	125,240
+	agent517:	162,812
+	agent518:	162,812
+	agent519:	37,548
+	agent520:	37,572
+	agent521:	112,640
+	agent522:	112,712
+	agent523:	112,716
+	agent524:	112,644
+	agent525:	112,716
+	agent526:	112,644
+	agent527:	112,716
+	agent528:	112,644
+	agent529:	37,572
+	agent530:	37,548
+	agent531:	62,580
+	agent532:	125,239
+	agent533:	112,644
+	agent534:	137,764
+	agent535:	50,096
+	agent536:	37,548
+	agent537:	87,668
+	agent538:	87,612
+	agent539:	87,612
+	agent540:	87,668
+	agent541:	125,240
+	agent542:	112,644
+	agent543:	112,644
+	agent544:	112,716
+	agent545:	62,620
+	agent546:	75,096
+	agent547:	112,716
+	agent548:	112,644
+	agent549:	112,644
+	agent550:	125,240
+	agent551:	112,716
+	agent552:	112,644
+	agent553:	187,740
+	agent554:	187,860
+	agent555:	288,052
+	agent556:	288,052
+	agent557:	288,048
+	agent558:	288,048
+	agent559:	162,812
+	agent560:	162,708
+	agent561:	187,860
+	agent562:	187,740
+	agent563:	300,384
+	agent564:	250,480
+	agent565:	187,860
+	agent566:	187,860
+	agent567:	62,620
+	agent568:	62,580
+	agent569:	87,612
+	agent570:	87,668
+	agent571:	112,644
+	agent572:	112,644
+	agent573:	87,668
+	agent574:	100,128
+	agent575:	187,860
+	agent576:	187,860
+	agent577:	162,812
+	agent578:	162,708
+	agent579:	75,096
+	agent580:	62,620
+	agent581:	62,620
+	agent582:	62,580
+	agent583:	263,004
+	agent584:	275,528
+	agent585:	87,612
+	agent586:	137,764
+	agent587:	100,192
+	agent588:	87,612
+	agent589:	62,620
+	agent590:	62,580
+	agent591:	250,480
+	agent592:	237,804
+	agent593:	187,860
+	agent594:	212,772
+	agent595:	87,612
+	agent596:	87,668
+	agent597:	187,860
+	agent598:	175,224
+	agent599:	212,768
+	agent600:	212,904
+	agent601:	125,160
+	agent602:	112,716
+	agent603:	87,668
+	agent604:	100,128
+	agent605:	75,096
+	agent606:	75,144
+	agent607:	212,772
+	agent608:	187,740
+	agent609:	87,612
+	agent610:	75,144
+	agent611:	137,676
+	agent612:	137,764
+	agent613:	250,476
+	agent614:	262,832
+	agent615:	250,320
+	agent616:	237,956
+	agent617:	87,668
+	agent618:	162,708
+	agent619:	300,576
+	agent620:	312,900
+	agent621:	212,908
+	agent622:	212,772
+	agent623:	87,668
+	agent624:	87,668
+	agent625:	87,668
+	agent626:	87,612
+	agent627:	150,192
+	agent628:	150,288
+	agent629:	125,240
+	agent630:	125,160
+	agent631:	112,644
+	agent632:	75,192
+	agent633:	125,160
+	agent634:	125,160
+	agent635:	125,240
+	agent636:	125,160
+	agent637:	87,612
+	agent638:	87,668
+	agent639:	112,644
+	agent640:	112,716
+	agent641:	237,956
+	agent642:	250,320
+	agent643:	237,956
+	agent644:	250,320
+	agent645:	100,128
+	agent646:	87,668
+	agent647:	112,708
+	agent648:	112,636
+	agent649:	12,516
+	agent650:	12,524
+	agent651:	150,283
+	agent652:	137,672
+	agent653:	162,812
+	agent654:	150,192
+	agent655:	363,182
+	agent656:	350,435
+	agent657:	313,089
+	agent658:	287,857
+	agent659:	262,827
+	agent660:	237,947
+	agent661:	37,572
+	agent662:	37,548
+	agent663:	62,620
+	agent664:	62,580
+	agent665:	288,048
+	agent666:	287,864
+	agent667:	588,252
+	agent668:	438,340
+	agent669:	37,548
+	agent670:	62,620
+	agent671:	112,644
+	agent672:	112,716
+	agent673:	150,286
+	agent674:	162,810
+	agent675:	150,286
+	agent676:	162,706
+	agent677:	112,642
+	agent678:	112,714
+	agent679:	62,580
+	agent680:	62,620
+	agent681:	62,580
+	agent682:	62,620
+	agent683:	62,620
+	agent684:	62,580
+	agent685:	62,580
+	agent686:	62,620
+	agent687:	62,580
+	agent688:	62,620
+	agent689:	62,620
+	agent690:	62,580
+	agent691:	62,620
+	agent692:	62,580
+	agent693:	62,620
+	agent694:	87,612
+	agent695:	62,620
+	agent696:	62,580
+	agent697:	37,572
+	agent698:	37,548
+	agent699:	12,516
+	agent700:	12,524
+	agent701:	12,516
+	agent702:	12,524
+	agent703:	112,644
+	agent704:	112,716
+	agent705:	37,572
+	agent706:	37,548
+	agent707:	37,572
+	agent708:	37,548
+	agent709:	300,760
+	agent710:	338,140
+	agent711:	62,580
+	agent712:	62,620
+	agent713:	438,340
+	agent714:	450,576
+	agent715:	125,160
+	agent716:	125,240
+	agent717:	350,448
+	agent718:	375,960
+	agent719:	350,896
+	agent720:	375,720
+	agent721:	350,448
+	agent722:	338,148
+	agent723:	350,672
+	agent724:	338,364
+	agent725:	162,812
+	agent726:	162,812
+	agent727:	162,812
+	agent728:	162,708
+	agent729:	212,908
+	agent730:	187,740
+	agent731:	212,772
+	agent732:	187,980
+	agent733:	87,612
+	agent734:	100,192
+	agent735:	50,064
+	agent736:	62,620
+	agent737:	50,064
+	agent738:	62,620
+	agent739:	87,666
+	agent740:	100,126
+	agent741:	225,288
+	agent742:	187,860
+	agent743:	162,812
+	agent744:	162,708
+	agent745:	125,240
+	agent746:	137,676
+	agent747:	187,736
+	agent748:	162,808
+	agent749:	62,620
+	agent750:	62,580
+	agent751:	112,644
+	agent752:	150,192
+	agent753:	37,548
+	agent754:	50,096
+	agent755:	125,160
+	agent756:	112,716
+	agent757:	75,144
+	agent758:	62,580
+	agent759:	62,620
+	agent760:	75,096
+	agent761:	62,620
+	agent762:	62,580
+	agent763:	175,224
+	agent764:	175,336
+	agent765:	125,156
+	agent766:	112,712
+	agent767:	551,052
+	agent768:	488,120
+	agent769:	150,288
+	agent770:	87,612
+	agent771:	112,644
+	agent772:	112,716
+	agent773:	87,612
+	agent774:	62,620
+	agent775:	100,192
+	agent776:	87,612
+	agent777:	187,852
+	agent778:	338,138
+	agent779:	350,440
+	agent780:	425,808
+	agent781:	350,664
+	agent782:	425,536
+	agent783:	162,708
+	agent784:	162,916
+	agent785:	187,738
+	agent786:	150,288
+	agent787:	162,812
+	agent788:	150,288
+	agent789:	75,096
+	agent790:	112,715
+	agent791:	75,096
+	agent792:	87,668
+	agent793:	87,612
+	agent794:	75,144
+	agent795:	75,144
+	agent796:	62,620
+	agent797:	62,620
+	agent798:	75,096
+	agent799:	87,612
+	agent800:	100,192
+	agent801:	187,740
+	agent802:	212,908
+	agent803:	87,612
+	agent804:	100,192
+	agent805:	62,580
+	agent806:	62,620
+	agent807:	87,612
+	agent808:	87,668
+	agent809:	62,580
+	agent810:	62,620
+	agent811:	112,716
+	agent812:	112,644
+	agent813:	87,612
+	agent814:	87,668
+	agent815:	62,620
+	agent816:	62,580
+	agent817:	137,676
+	agent818:	125,160
+	agent819:	112,716
+	agent820:	112,644
+	agent821:	62,620
+	agent822:	62,580
+	agent823:	112,716
+	agent824:	112,644
+	agent825:	263,172
+	agent826:	275,352
+	agent827:	275,704
+	agent828:	225,432
+	agent829:	237,804
+	agent830:	237,956
+	agent831:	112,712
+	agent832:	112,640
+	agent833:	37,572
+	agent834:	37,548
+	agent835:	137,760
+	agent836:	137,672
+	agent837:	87,666
+	agent838:	87,610
+	agent839:	100,192
+	agent840:	112,788
+	agent841:	87,668
+	agent842:	87,612
+	agent843:	137,764
+	agent844:	150,192
+	agent845:	137,764
+	agent846:	150,288
+	agent847:	112,644
+	agent848:	112,716
+	agent849:	112,644
+	agent850:	112,716
+	agent851:	125,236
+	agent852:	162,704
+	agent853:	263,001
+	agent854:	125,160
+	agent855:	162,708
+	agent856:	150,287
+	agent857:	87,668
+	agent858:	112,787
+	agent859:	137,675
+	agent860:	100,192
+	agent861:	137,672
+	agent862:	125,239
+	agent863:	87,668
+	agent864:	87,668
+	agent865:	162,810
+	agent866:	162,706
+	agent867:	187,734
+	agent868:	187,854
+	agent869:	162,812
+	agent870:	162,708
+	agent871:	137,760
+	agent872:	137,672
+	agent873:	62,620
+	agent874:	62,580
+	agent875:	87,612
+	agent876:	87,668
+	agent877:	87,668
+	agent878:	87,612
+	agent879:	137,672
+	agent880:	150,283
+	agent881:	112,640
+	agent882:	112,712
+	agent883:	87,612
+	agent884:	87,668
+	agent885:	87,612
+	agent886:	87,668
+	agent887:	87,612
+	agent888:	87,668
+	agent889:	87,666
+	agent890:	87,610
+	agent891:	87,666
+	agent892:	87,610
+	agent893:	112,642
+	agent894:	112,714
+	agent895:	50,096
+	agent896:	37,548
+	agent897:	162,704
+	agent898:	162,808
+	agent899:	150,284
+	agent900:	137,672
+	agent901:	87,668
+	agent902:	87,612
+	agent903:	62,580
+	agent904:	62,620
+	agent905:	137,757
+	agent906:	125,153
+	agent907:	162,703
+	agent908:	237,947
+	agent909:	187,852
+	agent910:	225,280
+	agent911:	225,576
+	agent912:	300,576
+	agent913:	62,620
+	agent914:	62,580
+	agent915:	62,580
+	agent916:	62,580
+Amount of information received (by agent, in bytes): 
+	agent001:	137,692
+	agent002:	137,700
+	agent003:	425,624
+	agent004:	450,668
+	agent005:	62,600
+	agent006:	75,106
+	agent007:	75,095
+	agent008:	62,589
+	agent009:	75,103
+	agent010:	87,623
+	agent011:	87,622
+	agent012:	87,614
+	agent013:	187,786
+	agent014:	187,778
+	agent015:	187,786
+	agent016:	187,778
+	agent017:	212,848
+	agent018:	262,959
+	agent019:	438,171
+	agent020:	463,217
+	agent021:	137,712
+	agent022:	137,712
+	agent023:	112,680
+	agent024:	112,664
+	agent025:	62,595
+	agent026:	62,587
+	agent027:	37,552
+	agent028:	50,075
+	agent029:	187,788
+	agent030:	187,780
+	agent031:	62,602
+	agent032:	62,594
+	agent033:	287,938
+	agent034:	287,930
+	agent035:	287,930
+	agent036:	287,938
+	agent037:	187,780
+	agent038:	187,780
+	agent039:	237,838
+	agent040:	237,846
+	agent041:	262,868
+	agent042:	237,846
+	agent043:	350,561
+	agent044:	375,567
+	agent045:	388,114
+	agent046:	338,014
+	agent047:	363,050
+	agent048:	375,589
+	agent049:	112,662
+	agent050:	112,670
+	agent051:	162,744
+	agent052:	162,752
+	agent053:	112,668
+	agent054:	87,624
+	agent055:	275,434
+	agent056:	312,979
+	agent057:	87,614
+	agent058:	87,622
+	agent059:	87,622
+	agent060:	87,622
+	agent061:	87,614
+	agent062:	87,622
+	agent063:	187,825
+	agent064:	225,394
+	agent065:	200,341
+	agent066:	187,833
+	agent067:	112,672
+	agent068:	112,664
+	agent069:	112,672
+	agent070:	112,664
+	agent071:	62,598
+	agent072:	62,590
+	agent073:	37,550
+	agent074:	62,596
+	agent075:	137,700
+	agent076:	162,738
+	agent077:	112,672
+	agent078:	125,187
+	agent079:	50,064
+	agent080:	87,641
+	agent081:	50,073
+	agent082:	50,073
+	agent083:	112,664
+	agent084:	125,187
+	agent085:	112,672
+	agent086:	125,179
+	agent087:	137,704
+	agent088:	137,712
+	agent089:	187,790
+	agent090:	150,229
+	agent091:	150,221
+	agent092:	137,706
+	agent093:	137,697
+	agent094:	125,182
+	agent095:	137,698
+	agent096:	137,706
+	agent097:	175,257
+	agent098:	175,257
+	agent099:	375,592
+	agent100:	400,661
+	agent101:	262,971
+	agent102:	225,395
+	agent103:	87,644
+	agent104:	87,636
+	agent105:	87,642
+	agent106:	87,634
+	agent107:	137,716
+	agent108:	162,748
+	agent109:	112,680
+	agent110:	112,696
+	agent111:	200,343
+	agent112:	187,793
+	agent113:	100,176
+	agent114:	137,754
+	agent115:	62,612
+	agent116:	150,254
+	agent117:	375,696
+	agent118:	375,712
+	agent119:	363,164
+	agent120:	363,172
+	agent121:	162,784
+	agent122:	187,840
+	agent123:	125,206
+	agent124:	162,784
+	agent125:	375,612
+	agent126:	363,121
+	agent127:	200,320
+	agent128:	187,820
+	agent129:	87,636
+	agent130:	175,296
+	agent131:	187,833
+	agent132:	200,342
+	agent133:	200,334
+	agent134:	187,825
+	agent135:	150,248
+	agent136:	137,716
+	agent137:	175,272
+	agent138:	162,764
+	agent139:	175,272
+	agent140:	162,764
+	agent141:	250,389
+	agent142:	488,323
+	agent143:	350,664
+	agent144:	338,140
+	agent145:	350,672
+	agent146:	338,140
+	agent147:	212,843
+	agent148:	237,881
+	agent149:	212,843
+	agent150:	237,881
+	agent151:	488,404
+	agent152:	525,936
+	agent153:	475,816
+	agent154:	475,832
+	agent155:	212,868
+	agent156:	212,884
+	agent157:	212,876
+	agent158:	212,884
+	agent159:	87,644
+	agent160:	87,636
+	agent161:	87,644
+	agent162:	87,636
+	agent163:	150,272
+	agent164:	150,256
+	agent165:	150,272
+	agent166:	150,256
+	agent167:	137,724
+	agent168:	137,724
+	agent169:	262,932
+	agent170:	237,884
+	agent171:	137,713
+	agent172:	137,705
+	agent173:	50,080
+	agent174:	37,564
+	agent175:	112,684
+	agent176:	112,676
+	agent177:	112,676
+	agent178:	112,684
+	agent179:	338,124
+	agent180:	538,492
+	agent181:	450,760
+	agent182:	287,980
+	agent183:	776,376
+	agent184:	688,708
+	agent185:	37,556
+	agent186:	62,604
+	agent187:	37,556
+	agent188:	62,604
+	agent189:	250,412
+	agent190:	250,459
+	agent191:	112,684
+	agent192:	137,724
+	agent193:	112,684
+	agent194:	137,724
+	agent195:	87,652
+	agent196:	87,644
+	agent197:	87,644
+	agent198:	87,636
+	agent199:	137,712
+	agent200:	150,244
+	agent201:	300,503
+	agent202:	325,527
+	agent203:	175,288
+	agent204:	187,796
+	agent205:	237,876
+	agent206:	250,408
+	agent207:	363,137
+	agent208:	313,044
+	agent209:	313,052
+	agent210:	262,932
+	agent211:	313,052
+	agent212:	262,932
+	agent213:	225,368
+	agent214:	250,408
+	agent215:	200,352
+	agent216:	250,424
+	agent217:	388,180
+	agent218:	262,964
+	agent219:	62,596
+	agent220:	62,604
+	agent221:	62,596
+	agent222:	62,604
+	agent223:	87,644
+	agent224:	87,636
+	agent225:	37,556
+	agent226:	37,564
+	agent227:	87,636
+	agent228:	87,644
+	agent229:	62,588
+	agent230:	37,564
+	agent231:	87,644
+	agent232:	87,636
+	agent233:	187,804
+	agent234:	187,796
+	agent235:	62,604
+	agent236:	62,612
+	agent237:	162,772
+	agent238:	162,764
+	agent239:	287,956
+	agent240:	262,940
+	agent241:	187,796
+	agent242:	187,804
+	agent243:	187,796
+	agent244:	187,804
+	agent245:	287,980
+	agent246:	287,988
+	agent247:	162,764
+	agent248:	187,796
+	agent249:	162,764
+	agent250:	187,796
+	agent251:	488,315
+	agent252:	250,397
+	agent253:	175,288
+	agent254:	175,272
+	agent255:	37,556
+	agent256:	62,604
+	agent257:	312,992
+	agent258:	312,992
+	agent259:	50,072
+	agent260:	62,604
+	agent261:	37,556
+	agent262:	50,072
+	agent263:	175,296
+	agent264:	162,788
+	agent265:	112,676
+	agent266:	125,208
+	agent267:	112,684
+	agent268:	125,200
+	agent269:	313,100
+	agent270:	300,560
+	agent271:	313,100
+	agent272:	300,560
+	agent273:	350,672
+	agent274:	375,696
+	agent275:	350,664
+	agent276:	375,712
+	agent277:	438,340
+	agent278:	450,848
+	agent279:	75,120
+	agent280:	62,604
+	agent281:	237,908
+	agent282:	237,924
+	agent283:	237,916
+	agent284:	250,440
+	agent285:	150,248
+	agent286:	137,732
+	agent287:	37,564
+	agent288:	37,556
+	agent289:	62,603
+	agent290:	75,119
+	agent291:	112,692
+	agent292:	112,700
+	agent293:	150,272
+	agent294:	225,384
+	agent295:	125,224
+	agent296:	125,216
+	agent297:	37,564
+	agent298:	12,516
+	agent299:	300,496
+	agent300:	275,448
+	agent301:	300,504
+	agent302:	275,448
+	agent303:	250,408
+	agent304:	212,852
+	agent305:	250,408
+	agent306:	212,852
+	agent307:	87,644
+	agent308:	87,660
+	agent309:	225,392
+	agent310:	212,860
+	agent311:	275,472
+	agent312:	262,948
+	agent313:	262,956
+	agent314:	262,940
+	agent315:	12,524
+	agent316:	25,039
+	agent317:	62,596
+	agent318:	62,604
+	agent319:	62,596
+	agent320:	62,604
+	agent321:	212,832
+	agent322:	187,792
+	agent323:	212,832
+	agent324:	187,800
+	agent325:	187,820
+	agent326:	187,828
+	agent327:	187,820
+	agent328:	187,812
+	agent329:	87,644
+	agent330:	125,200
+	agent331:	175,312
+	agent332:	150,256
+	agent333:	175,304
+	agent334:	150,272
+	agent335:	112,676
+	agent336:	87,628
+	agent337:	75,120
+	agent338:	75,136
+	agent339:	162,796
+	agent340:	162,796
+	agent341:	338,100
+	agent342:	338,108
+	agent343:	338,108
+	agent344:	338,100
+	agent345:	212,884
+	agent346:	212,868
+	agent347:	212,876
+	agent348:	212,876
+	agent349:	212,844
+	agent350:	212,852
+	agent351:	112,676
+	agent352:	112,676
+	agent353:	313,044
+	agent354:	313,036
+	agent355:	162,780
+	agent356:	162,788
+	agent357:	37,556
+	agent358:	37,564
+	agent359:	175,288
+	agent360:	187,836
+	agent361:	62,604
+	agent362:	62,596
+	agent363:	187,820
+	agent364:	175,312
+	agent365:	137,732
+	agent366:	175,304
+	agent367:	212,860
+	agent368:	175,304
+	agent369:	237,884
+	agent370:	237,892
+	agent371:	112,668
+	agent372:	112,676
+	agent373:	150,232
+	agent374:	137,716
+	agent375:	162,756
+	agent376:	175,280
+	agent377:	212,852
+	agent378:	212,860
+	agent379:	300,520
+	agent380:	313,044
+	agent381:	137,708
+	agent382:	137,716
+	agent383:	150,264
+	agent384:	162,780
+	agent385:	237,924
+	agent386:	237,916
+	agent387:	187,812
+	agent388:	200,336
+	agent389:	87,652
+	agent390:	62,620
+	agent391:	187,812
+	agent392:	200,320
+	agent393:	112,674
+	agent394:	112,666
+	agent395:	237,948
+	agent396:	237,940
+	agent397:	112,684
+	agent398:	112,692
+	agent399:	112,692
+	agent400:	125,216
+	agent401:	262,972
+	agent402:	275,496
+	agent403:	200,320
+	agent404:	212,844
+	agent405:	212,876
+	agent406:	200,352
+	agent407:	12,524
+	agent408:	12,516
+	agent409:	62,596
+	agent410:	62,604
+	agent411:	62,596
+	agent412:	62,604
+	agent413:	112,684
+	agent414:	112,692
+	agent415:	87,636
+	agent416:	87,644
+	agent417:	62,596
+	agent418:	62,604
+	agent419:	112,684
+	agent420:	112,676
+	agent421:	100,160
+	agent422:	100,160
+	agent423:	50,088
+	agent424:	50,072
+	agent425:	62,596
+	agent426:	62,604
+	agent427:	112,684
+	agent428:	112,676
+	agent429:	50,088
+	agent430:	37,556
+	agent431:	87,636
+	agent432:	87,644
+	agent433:	112,676
+	agent434:	112,684
+	agent435:	112,676
+	agent436:	112,684
+	agent437:	112,684
+	agent438:	112,676
+	agent439:	187,884
+	agent440:	200,400
+	agent441:	125,223
+	agent442:	62,596
+	agent443:	37,556
+	agent444:	37,564
+	agent445:	112,684
+	agent446:	112,676
+	agent447:	75,120
+	agent448:	62,596
+	agent449:	250,488
+	agent450:	200,384
+	agent451:	62,604
+	agent452:	62,596
+	agent453:	12,524
+	agent454:	12,516
+	agent455:	187,836
+	agent456:	187,836
+	agent457:	87,652
+	agent458:	87,644
+	agent459:	87,660
+	agent460:	87,652
+	agent461:	87,652
+	agent462:	87,652
+	agent463:	137,724
+	agent464:	150,263
+	agent465:	87,642
+	agent466:	75,119
+	agent467:	112,682
+	agent468:	100,158
+	agent469:	137,722
+	agent470:	137,714
+	agent471:	50,080
+	agent472:	50,080
+	agent473:	162,764
+	agent474:	162,756
+	agent475:	112,684
+	agent476:	112,692
+	agent477:	237,892
+	agent478:	262,948
+	agent479:	237,908
+	agent480:	187,844
+	agent481:	162,772
+	agent482:	162,764
+	agent483:	112,684
+	agent484:	125,192
+	agent485:	87,642
+	agent486:	87,634
+	agent487:	37,556
+	agent488:	37,564
+	agent489:	112,698
+	agent490:	112,690
+	agent491:	87,648
+	agent492:	87,656
+	agent493:	87,656
+	agent494:	87,648
+	agent495:	62,596
+	agent496:	62,604
+	agent497:	250,407
+	agent498:	338,059
+	agent499:	87,628
+	agent500:	100,168
+	agent501:	300,495
+	agent502:	250,399
+	agent503:	200,312
+	agent504:	225,352
+	agent505:	338,051
+	agent506:	400,647
+	agent507:	112,676
+	agent508:	125,200
+	agent509:	137,716
+	agent510:	150,248
+	agent511:	187,796
+	agent512:	200,312
+	agent513:	212,844
+	agent514:	150,248
+	agent515:	112,692
+	agent516:	125,208
+	agent517:	162,764
+	agent518:	162,764
+	agent519:	37,564
+	agent520:	37,556
+	agent521:	112,680
+	agent522:	112,672
+	agent523:	112,676
+	agent524:	112,684
+	agent525:	112,676
+	agent526:	112,684
+	agent527:	112,676
+	agent528:	112,684
+	agent529:	37,556
+	agent530:	37,564
+	agent531:	62,604
+	agent532:	125,215
+	agent533:	112,684
+	agent534:	137,716
+	agent535:	50,080
+	agent536:	37,564
+	agent537:	87,644
+	agent538:	87,652
+	agent539:	87,652
+	agent540:	87,644
+	agent541:	125,200
+	agent542:	112,692
+	agent543:	112,700
+	agent544:	112,692
+	agent545:	62,596
+	agent546:	75,120
+	agent547:	112,684
+	agent548:	112,692
+	agent549:	112,700
+	agent550:	125,208
+	agent551:	112,684
+	agent552:	112,692
+	agent553:	187,828
+	agent554:	187,820
+	agent555:	288,052
+	agent556:	288,052
+	agent557:	287,952
+	agent558:	287,952
+	agent559:	162,764
+	agent560:	162,772
+	agent561:	187,796
+	agent562:	187,804
+	agent563:	300,560
+	agent564:	250,440
+	agent565:	187,804
+	agent566:	187,804
+	agent567:	62,596
+	agent568:	62,604
+	agent569:	87,636
+	agent570:	87,628
+	agent571:	112,676
+	agent572:	112,676
+	agent573:	87,628
+	agent574:	100,160
+	agent575:	187,812
+	agent576:	187,812
+	agent577:	162,756
+	agent578:	162,764
+	agent579:	75,128
+	agent580:	62,596
+	agent581:	62,604
+	agent582:	62,612
+	agent583:	263,004
+	agent584:	275,528
+	agent585:	87,652
+	agent586:	137,724
+	agent587:	100,168
+	agent588:	87,652
+	agent589:	62,596
+	agent590:	62,604
+	agent591:	250,400
+	agent592:	237,884
+	agent593:	187,812
+	agent594:	212,852
+	agent595:	87,644
+	agent596:	87,636
+	agent597:	187,804
+	agent598:	175,288
+	agent599:	212,840
+	agent600:	212,832
+	agent601:	125,216
+	agent602:	112,684
+	agent603:	87,636
+	agent604:	100,160
+	agent605:	75,128
+	agent606:	75,112
+	agent607:	212,924
+	agent608:	187,876
+	agent609:	87,652
+	agent610:	75,112
+	agent611:	137,724
+	agent612:	137,716
+	agent613:	250,396
+	agent614:	262,928
+	agent615:	250,408
+	agent616:	237,900
+	agent617:	87,636
+	agent618:	162,756
+	agent619:	300,544
+	agent620:	313,084
+	agent621:	212,836
+	agent622:	212,844
+	agent623:	87,644
+	agent624:	87,644
+	agent625:	87,644
+	agent626:	87,652
+	agent627:	150,248
+	agent628:	150,232
+	agent629:	125,216
+	agent630:	125,224
+	agent631:	112,684
+	agent632:	75,120
+	agent633:	125,208
+	agent634:	125,208
+	agent635:	125,200
+	agent636:	125,208
+	agent637:	87,644
+	agent638:	87,636
+	agent639:	112,692
+	agent640:	112,684
+	agent641:	237,908
+	agent642:	250,440
+	agent643:	237,908
+	agent644:	250,440
+	agent645:	100,168
+	agent646:	87,636
+	agent647:	112,660
+	agent648:	112,668
+	agent649:	12,524
+	agent650:	12,516
+	agent651:	150,227
+	agent652:	137,720
+	agent653:	162,764
+	agent654:	150,240
+	agent655:	363,110
+	agent656:	350,595
+	agent657:	313,033
+	agent658:	288,025
+	agent659:	262,939
+	agent660:	237,883
+	agent661:	37,556
+	agent662:	37,564
+	agent663:	62,596
+	agent664:	62,604
+	agent665:	287,952
+	agent666:	287,960
+	agent667:	588,524
+	agent668:	438,292
+	agent669:	37,564
+	agent670:	62,596
+	agent671:	112,692
+	agent672:	112,684
+	agent673:	150,262
+	agent674:	162,786
+	agent675:	150,262
+	agent676:	162,794
+	agent677:	112,682
+	agent678:	112,674
+	agent679:	62,604
+	agent680:	62,596
+	agent681:	62,604
+	agent682:	62,596
+	agent683:	62,596
+	agent684:	62,604
+	agent685:	62,604
+	agent686:	62,596
+	agent687:	62,604
+	agent688:	62,596
+	agent689:	62,596
+	agent690:	62,604
+	agent691:	62,596
+	agent692:	62,604
+	agent693:	62,596
+	agent694:	87,636
+	agent695:	62,596
+	agent696:	62,604
+	agent697:	37,556
+	agent698:	37,564
+	agent699:	12,524
+	agent700:	12,516
+	agent701:	12,524
+	agent702:	12,516
+	agent703:	112,684
+	agent704:	112,676
+	agent705:	37,556
+	agent706:	37,564
+	agent707:	37,556
+	agent708:	37,564
+	agent709:	300,472
+	agent710:	338,068
+	agent711:	62,596
+	agent712:	62,588
+	agent713:	438,332
+	agent714:	450,856
+	agent715:	125,224
+	agent716:	125,216
+	agent717:	350,680
+	agent718:	375,704
+	agent719:	350,664
+	agent720:	375,712
+	agent721:	350,672
+	agent722:	338,140
+	agent723:	350,664
+	agent724:	338,132
+	agent725:	162,796
+	agent726:	162,796
+	agent727:	162,796
+	agent728:	162,804
+	agent729:	212,876
+	agent730:	187,844
+	agent731:	212,884
+	agent732:	187,828
+	agent733:	87,652
+	agent734:	100,168
+	agent735:	50,080
+	agent736:	62,596
+	agent737:	50,080
+	agent738:	62,596
+	agent739:	87,626
+	agent740:	100,158
+	agent741:	225,392
+	agent742:	187,812
+	agent743:	162,772
+	agent744:	162,780
+	agent745:	125,208
+	agent746:	137,732
+	agent747:	187,800
+	agent748:	162,752
+	agent749:	62,596
+	agent750:	62,604
+	agent751:	112,676
+	agent752:	150,240
+	agent753:	37,556
+	agent754:	50,064
+	agent755:	125,192
+	agent756:	112,668
+	agent757:	75,120
+	agent758:	62,604
+	agent759:	62,604
+	agent760:	75,136
+	agent761:	62,596
+	agent762:	62,604
+	agent763:	175,296
+	agent764:	175,296
+	agent765:	125,204
+	agent766:	112,672
+	agent767:	550,884
+	agent768:	488,272
+	agent769:	150,272
+	agent770:	87,668
+	agent771:	112,692
+	agent772:	112,684
+	agent773:	87,644
+	agent774:	62,604
+	agent775:	100,160
+	agent776:	87,644
+	agent777:	187,804
+	agent778:	338,058
+	agent779:	350,560
+	agent780:	425,704
+	agent781:	350,552
+	agent782:	425,712
+	agent783:	162,772
+	agent784:	162,756
+	agent785:	187,810
+	agent786:	150,248
+	agent787:	162,796
+	agent788:	150,240
+	agent789:	75,128
+	agent790:	112,683
+	agent791:	75,128
+	agent792:	87,636
+	agent793:	87,652
+	agent794:	75,128
+	agent795:	75,128
+	agent796:	62,604
+	agent797:	62,604
+	agent798:	75,128
+	agent799:	87,644
+	agent800:	100,152
+	agent801:	187,804
+	agent802:	212,836
+	agent803:	87,644
+	agent804:	100,152
+	agent805:	62,604
+	agent806:	62,596
+	agent807:	87,644
+	agent808:	87,636
+	agent809:	62,604
+	agent810:	62,596
+	agent811:	112,676
+	agent812:	112,684
+	agent813:	87,644
+	agent814:	87,636
+	agent815:	62,588
+	agent816:	62,596
+	agent817:	137,716
+	agent818:	125,192
+	agent819:	112,676
+	agent820:	112,684
+	agent821:	62,596
+	agent822:	62,604
+	agent823:	112,676
+	agent824:	112,684
+	agent825:	262,980
+	agent826:	275,504
+	agent827:	275,528
+	agent828:	225,440
+	agent829:	237,940
+	agent830:	237,932
+	agent831:	112,672
+	agent832:	112,680
+	agent833:	37,556
+	agent834:	37,564
+	agent835:	137,712
+	agent836:	137,720
+	agent837:	87,634
+	agent838:	87,642
+	agent839:	100,176
+	agent840:	112,684
+	agent841:	87,652
+	agent842:	87,660
+	agent843:	137,724
+	agent844:	150,264
+	agent845:	137,740
+	agent846:	150,256
+	agent847:	112,692
+	agent848:	112,684
+	agent849:	112,692
+	agent850:	112,684
+	agent851:	125,236
+	agent852:	162,800
+	agent853:	262,937
+	agent854:	125,232
+	agent855:	162,796
+	agent856:	150,255
+	agent857:	87,652
+	agent858:	112,683
+	agent859:	137,723
+	agent860:	100,160
+	agent861:	137,720
+	agent862:	125,199
+	agent863:	87,644
+	agent864:	87,644
+	agent865:	162,754
+	agent866:	162,762
+	agent867:	187,806
+	agent868:	187,798
+	agent869:	162,780
+	agent870:	162,788
+	agent871:	137,712
+	agent872:	137,720
+	agent873:	62,596
+	agent874:	62,604
+	agent875:	87,644
+	agent876:	87,636
+	agent877:	87,636
+	agent878:	87,644
+	agent879:	137,720
+	agent880:	150,227
+	agent881:	112,680
+	agent882:	112,672
+	agent883:	87,652
+	agent884:	87,644
+	agent885:	87,652
+	agent886:	87,644
+	agent887:	87,652
+	agent888:	87,644
+	agent889:	87,642
+	agent890:	87,650
+	agent891:	87,642
+	agent892:	87,650
+	agent893:	112,682
+	agent894:	112,674
+	agent895:	50,072
+	agent896:	37,564
+	agent897:	162,768
+	agent898:	162,760
+	agent899:	150,228
+	agent900:	137,720
+	agent901:	87,636
+	agent902:	87,644
+	agent903:	62,604
+	agent904:	62,596
+	agent905:	137,701
+	agent906:	125,201
+	agent907:	162,783
+	agent908:	237,891
+	agent909:	187,788
+	agent910:	225,360
+	agent911:	225,456
+	agent912:	300,568
+	agent913:	62,596
+	agent914:	62,604
+	agent915:	62,596
+	agent916:	62,596
+Size of the largest message sent (by type, in bytes): 
+	improve:	147
+	ok:	230
+	- Overall maximum:	230
