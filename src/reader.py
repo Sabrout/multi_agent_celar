@@ -66,7 +66,7 @@ class Reader():
                                        no_messages=no_messages, info_size=info_size, agents=agents))
 
 def main():
-    reader = Reader(nbScen=6)
+    reader = Reader(nbScen=2)
 
 
 if __name__ == "__main__":
