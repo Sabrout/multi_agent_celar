@@ -3,7 +3,7 @@ This program comes with ABSOLUTELY NO WARRANTY.
 This is free software, and you are welcome to redistribute it
 under certain conditions. Use the option -license to display the license.
 
-Parsing the input problem file xml/scen06.xml
+Parsing the input problem file xml/scen06_absolute.xml
 Parsing the input agent configuration file frodo2/agents/MGM/MGMagentJaCoP.xml
 Setting up the agents...
 Constraint graph:
@@ -2136,208 +2136,208 @@ graph {
 }
 
 Starting the algorithm...
-var `var879' = 100
-var `var652' = 792
+var `var879' = 680
+var `var652' = 484
 var `var54' = 380
-var `var261' = 540
-var `var661' = 722
-var `var662' = 484
-var `var617' = 442
-var `var590' = 512
-var `var589' = 750
-var `var262' = 778
-var `var288' = 680
-var `var471' = 680
-var `var287' = 442
-var `var472' = 442
-var `var624' = 114
-var `var623' = 352
-var `var359' = 680
-var `var365' = 380
-var `var360' = 442
-var `var215' = 282
-var `var366' = 142
-var `var216' = 44
-var `var303' = 442
-var `var310' = 512
-var `var286' = 484
-var `var285' = 722
-var `var618' = 680
-var `var309' = 750
-var `var306' = 778
-var `var304' = 680
-var `var305' = 540
-var `var796' = 72
-var `var797' = 498
-var `var79' = 100
-var `var81' = 666
+var `var261' = 652
+var `var661' = 352
+var `var662' = 114
+var `var590' = 498
+var `var617' = 498
+var `var589' = 268
+var `var287' = 484
+var `var471' = 540
+var `var288' = 722
+var `var472' = 310
+var `var262' = 414
+var `var624' = 428
+var `var623' = 666
+var `var359' = 540
+var `var365' = 778
+var `var360' = 778
+var `var215' = 526
+var `var366' = 540
+var `var216' = 764
+var `var303' = 100
+var `var310' = 338
+var `var286' = 338
+var `var285' = 100
+var `var618' = 268
+var `var309' = 100
+var `var306' = 338
+var `var304' = 338
+var `var305' = 100
+var `var796' = 44
+var `var797' = 44
+var `var79' = 282
 var `var53' = 142
-var `var82' = 428
-var `var651' = 554
-var `var880' = 338
-var `var80' = 338
-var `var596' = 352
-var `var595' = 114
-var `var289' = 722
-var `var325' = 100
-var `var764' = 100
-var `var763' = 338
-var `var264' = 324
-var `var263' = 86
-var `var328' = 142
-var `var327' = 380
-var `var326' = 338
-var `var604' = 708
-var `var603' = 470
-var `var646' = 156
-var `var267' = 764
+var `var81' = 512
+var `var651' = 722
+var `var82' = 282
+var `var880' = 442
+var `var80' = 512
+var `var596' = 498
+var `var595' = 268
+var `var289' = 310
+var `var325' = 498
+var `var764' = 540
+var `var763' = 310
+var `var264' = 736
+var `var263' = 498
+var `var328' = 736
+var `var327' = 498
+var `var326' = 736
+var `var604' = 666
+var `var603' = 428
+var `var646' = 366
+var `var267' = 428
 var `var265' = 428
-var `var520' = 58
-var `var519' = 296
-var `var743' = 86
-var `var664' = 128
-var `var663' = 366
-var `var744' = 324
-var `var236' = 484
-var `var235' = 722
-var `var645' = 394
-var `var606' = 498
-var `var605' = 736
-var `var268' = 526
+var `var236' = 456
+var `var235' = 268
+var `var645' = 128
+var `var520' = 44
+var `var519' = 282
+var `var606' = 310
+var `var605' = 540
+var `var560' = 268
+var `var559' = 456
+var `var602' = 456
+var `var635' = 268
+var `var601' = 268
+var `var743' = 540
+var `var664' = 526
+var `var663' = 282
+var `var744' = 310
+var `var566' = 142
+var `var588' = 156
+var `var268' = 666
+var `var585' = 156
 var `var266' = 666
-var `var566' = 526
-var `var588' = 414
-var `var585' = 680
-var `var560' = 722
-var `var559' = 484
-var `var602' = 764
-var `var635' = 708
-var `var601' = 526
-var `var580' = 652
-var `var626' = 708
-var `var625' = 470
-var `var579' = 414
-var `var237' = 540
-var `var518' = 470
-var `var517' = 708
-var `var238' = 778
-var `var350' = 428
-var `var592' = 778
-var `var578' = 526
-var `var622' = 540
-var `var577' = 764
-var `var621' = 778
-var `var234' = 750
-var `var233' = 512
-var `var562' = 694
-var `var330' = 792
-var `var352' = 428
-var `var561' = 456
-var `var351' = 666
-var `var329' = 554
-var `var801' = 764
-var `var349' = 666
-var `var85' = 296
-var `var83' = 694
-var `var748' = 722
-var `var766' = 694
-var `var787' = 100
-var `var86' = 58
-var `var84' = 456
-var `var607' = 526
-var `var269' = 394
-var `var584' = 338
-var `var583' = 100
+var `var580' = 666
+var `var625' = 666
+var `var579' = 428
+var `var626' = 428
+var `var237' = 128
+var `var518' = 128
+var `var517' = 352
+var `var238' = 352
+var `var350' = 380
+var `var578' = 380
+var `var592' = 380
+var `var622' = 380
+var `var577' = 428
+var `var621' = 428
+var `var234' = 428
+var `var233' = 380
+var `var562' = 380
+var `var330' = 268
+var `var352' = 456
+var `var561' = 428
+var `var351' = 268
+var `var329' = 456
+var `var801' = 380
+var `var349' = 428
+var `var85' = 366
+var `var83' = 366
+var `var748' = 128
+var `var766' = 128
+var `var86' = 128
+var `var84' = 128
+var `var787' = 282
 var `var608' = 282
-var `var271' = 484
-var `var270' = 156
-var `var292' = 414
-var `var291' = 652
-var `var555' = 380
-var `var556' = 142
-var `var272' = 722
-var `var284' = 666
-var `var283' = 428
-var `var282' = 128
-var `var281' = 366
-var `var721' = 428
-var `var720' = 338
-var `var146' = 498
-var `var344' = 736
-var `var145' = 254
-var `var343' = 498
-var `var144' = 296
-var `var342' = 114
-var `var143' = 540
-var `var341' = 352
-var `var724' = 680
-var `var722' = 666
-var `var273' = 708
-var `var278' = 456
-var `var277' = 694
-var `var276' = 324
-var `var275' = 86
-var `var274' = 470
-var `var718' = 428
-var `var717' = 666
-var `var714' = 666
-var `var713' = 428
-var `var719' = 100
-var `var723' = 442
-var `var629' = 484
-var `var789' = 470
-var `var788' = 338
-var `var798' = 736
-var `var598' = 86
-var `var613' = 114
-var `var630' = 722
-var `var600' = 282
-var `var666' = 282
-var `var765' = 456
-var `var324' = 394
-var `var665' = 44
-var `var786' = 282
-var `var323' = 156
-var `var565' = 764
-var `var587' = 652
-var `var785' = 44
-var `var322' = 156
-var `var586' = 442
-var `var321' = 394
-var `var747' = 484
-var `var802' = 526
-var `var746' = 352
-var `var768' = 16
-var `var745' = 114
-var `var800' = 268
-var `var16' = 296
-var `var790' = 708
-var `var591' = 540
-var `var13' = 44
-var `var290' = 484
-var `var14' = 282
-var `var15' = 58
-var `var633' = 456
-var `var599' = 44
-var `var632' = 282
-var `var631' = 44
-var `var597' = 324
-var `var795' = 310
-var `var794' = 114
-var `var793' = 352
-var `var594' = 44
-var `var792' = 484
-var `var593' = 282
-var `var791' = 722
-var `var614' = 352
-var `var636' = 470
-var `var558' = 470
-var `var557' = 708
-var `var634' = 694
-var `var799' = 30
-var `var767' = 254
-Total optimal cost: 6548062
-Algorithm finished in 24,254 ms (simulated time)
+var `var292' = 282
+var `var291' = 72
+var `var269' = 282
+var `var584' = 282
+var `var583' = 282
+var `var607' = 282
+var `var271' = 282
+var `var272' = 282
+var `var270' = 282
+var `var556' = 282
+var `var555' = 282
+var `var284' = 282
+var `var283' = 310
+var `var282' = 310
+var `var281' = 310
+var `var721' = 282
+var `var720' = 282
+var `var146' = 310
+var `var344' = 310
+var `var145' = 310
+var `var144' = 310
+var `var342' = 310
+var `var341' = 310
+var `var343' = 310
+var `var724' = 310
+var `var723' = 310
+var `var722' = 310
+var `var273' = 282
+var `var278' = 282
+var `var277' = 282
+var `var276' = 282
+var `var275' = 282
+var `var274' = 282
+var `var718' = 282
+var `var717' = 282
+var `var714' = 282
+var `var713' = 282
+var `var719' = 282
+var `var143' = 310
+var `var629' = 310
+var `var789' = 114
+var `var788' = 282
+var `var798' = 282
+var `var598' = 310
+var `var630' = 72
+var `var613' = 128
+var `var600' = 128
+var `var666' = 128
+var `var765' = 310
+var `var324' = 128
+var `var665' = 310
+var `var786' = 310
+var `var323' = 296
+var `var565' = 380
+var `var587' = 394
+var `var785' = 128
+var `var322' = 128
+var `var586' = 394
+var `var321' = 296
+var `var747' = 310
+var `var802' = 428
+var `var746' = 310
+var `var768' = 128
+var `var745' = 142
+var `var800' = 72
+var `var16' = 128
+var `var591' = 428
+var `var13' = 296
+var `var790' = 352
+var `var290' = 72
+var `var14' = 128
+var `var15' = 296
+var `var633' = 310
+var `var599' = 310
+var `var632' = 72
+var `var631' = 310
+var `var597' = 128
+var `var795' = 282
+var `var794' = 324
+var `var793' = 86
+var `var594' = 310
+var `var792' = 114
+var `var593' = 128
+var `var791' = 352
+var `var614' = 310
+var `var636' = 456
+var `var558' = 310
+var `var557' = 128
+var `var634' = 456
+var `var799' = 310
+var `var767' = 310
+Total optimal cost: -929344
+Algorithm finished in 26,340 ms (simulated time)
 Number of messages sent (by type): 
 	improve:	528,800
 	ok:	528,800
@@ -2746,409 +2746,409 @@ Number of messages received (by agent):
 	agent200:	800
 Amount of information sent (by type, in bytes): 
 	improve:	21,961,064
-	ok:	11,141,502
-	- Total:	33,102,566
+	ok:	11,161,086
+	- Total:	33,122,150
 Amount of information sent (by agent, in bytes): 
-	agent001:	187,722
-	agent002:	187,842
-	agent003:	187,722
-	agent004:	187,842
+	agent001:	187,962
+	agent002:	187,962
+	agent003:	187,842
+	agent004:	188,082
 	agent005:	37,566
 	agent006:	12,514
 	agent007:	50,056
 	agent008:	87,657
-	agent009:	50,089
-	agent010:	50,057
-	agent011:	112,704
-	agent012:	125,147
+	agent009:	50,057
+	agent010:	50,089
+	agent011:	112,776
+	agent012:	125,307
 	agent013:	112,704
-	agent014:	125,227
-	agent015:	350,672
-	agent016:	337,932
-	agent017:	350,448
+	agent014:	125,147
+	agent015:	350,448
+	agent016:	338,364
+	agent017:	350,672
 	agent018:	338,148
-	agent019:	125,160
-	agent020:	137,764
-	agent021:	187,860
-	agent022:	187,740
-	agent023:	62,580
-	agent024:	62,620
+	agent019:	125,240
+	agent020:	137,676
+	agent021:	187,740
+	agent022:	187,860
+	agent023:	62,660
+	agent024:	62,660
 	agent025:	162,812
 	agent026:	162,708
 	agent027:	12,516
 	agent028:	25,048
 	agent029:	162,812
-	agent030:	150,192
-	agent031:	112,716
-	agent032:	125,160
-	agent033:	112,644
-	agent034:	125,240
-	agent035:	312,900
-	agent036:	300,576
-	agent037:	312,900
+	agent030:	150,288
+	agent031:	112,788
+	agent032:	125,240
+	agent033:	112,716
+	agent034:	125,160
+	agent035:	313,300
+	agent036:	300,768
+	agent037:	313,300
 	agent038:	300,576
-	agent039:	350,672
-	agent040:	375,480
-	agent041:	350,448
+	agent039:	350,896
+	agent040:	375,720
+	agent041:	350,896
 	agent042:	375,720
-	agent043:	438,060
-	agent044:	450,864
+	agent043:	438,620
+	agent044:	451,440
 	agent045:	237,956
-	agent046:	237,804
+	agent046:	237,956
 	agent047:	237,956
-	agent048:	250,320
-	agent049:	137,676
-	agent050:	137,764
-	agent051:	37,572
-	agent052:	37,548
-	agent053:	62,579
-	agent054:	75,143
-	agent055:	112,644
-	agent056:	112,716
+	agent048:	250,960
+	agent049:	137,852
+	agent050:	137,940
+	agent051:	37,548
+	agent052:	37,572
+	agent053:	62,619
+	agent054:	75,095
+	agent055:	112,716
+	agent056:	112,788
 	agent057:	150,192
 	agent058:	137,764
-	agent059:	150,192
-	agent060:	137,764
-	agent061:	137,676
-	agent062:	137,764
-	agent063:	212,768
+	agent059:	150,288
+	agent060:	137,852
+	agent061:	137,852
+	agent062:	137,852
+	agent063:	213,040
 	agent064:	187,856
-	agent065:	212,904
-	agent066:	187,736
-	agent067:	162,708
-	agent068:	150,288
+	agent065:	212,768
+	agent066:	187,856
+	agent067:	162,812
+	agent068:	150,192
 	agent069:	162,812
-	agent070:	150,192
-	agent071:	87,668
-	agent072:	125,160
+	agent070:	150,288
+	agent071:	87,612
+	agent072:	125,320
 	agent073:	237,956
-	agent074:	237,804
-	agent075:	237,804
-	agent076:	237,956
-	agent077:	212,772
-	agent078:	212,908
-	agent079:	112,644
-	agent080:	112,716
+	agent074:	238,108
+	agent075:	237,956
+	agent076:	238,108
+	agent077:	212,908
+	agent078:	213,044
+	agent079:	112,716
+	agent080:	112,788
 	agent081:	75,144
 	agent082:	87,612
-	agent083:	62,580
-	agent084:	100,192
-	agent085:	50,064
-	agent086:	50,096
-	agent087:	162,708
-	agent088:	162,812
+	agent083:	62,620
+	agent084:	100,256
+	agent085:	50,160
+	agent086:	50,160
+	agent087:	162,812
+	agent088:	162,708
 	agent089:	37,572
 	agent090:	37,548
-	agent091:	287,868
-	agent092:	288,052
-	agent093:	287,864
+	agent091:	288,420
+	agent092:	288,420
+	agent093:	288,048
 	agent094:	288,048
 	agent095:	162,812
-	agent096:	162,708
-	agent097:	187,740
+	agent096:	162,916
+	agent097:	187,860
 	agent098:	187,860
-	agent099:	187,860
+	agent099:	187,980
 	agent100:	187,860
-	agent101:	162,708
+	agent101:	162,916
 	agent102:	162,812
-	agent103:	75,096
+	agent103:	75,192
 	agent104:	62,620
-	agent105:	263,004
-	agent106:	275,352
-	agent107:	87,668
-	agent108:	137,676
+	agent105:	263,340
+	agent106:	275,880
+	agent107:	87,612
+	agent108:	137,764
 	agent109:	100,192
-	agent110:	87,612
+	agent110:	87,668
 	agent111:	62,620
 	agent112:	62,580
 	agent113:	250,480
-	agent114:	237,804
-	agent115:	187,740
+	agent114:	238,260
+	agent115:	187,860
 	agent116:	212,908
-	agent117:	87,612
+	agent117:	87,724
 	agent118:	87,668
-	agent119:	187,740
+	agent119:	187,860
 	agent120:	175,336
-	agent121:	212,768
-	agent122:	212,904
-	agent123:	125,160
-	agent124:	112,716
+	agent121:	212,904
+	agent122:	212,768
+	agent123:	125,320
+	agent124:	112,644
 	agent125:	87,668
 	agent126:	100,128
-	agent127:	75,096
+	agent127:	75,144
 	agent128:	75,144
-	agent129:	212,772
+	agent129:	212,908
 	agent130:	187,980
 	agent131:	250,476
-	agent132:	262,832
-	agent133:	62,580
-	agent134:	87,668
-	agent135:	212,772
+	agent132:	263,000
+	agent133:	62,620
+	agent134:	87,724
+	agent135:	212,908
 	agent136:	212,908
-	agent137:	37,548
-	agent138:	37,572
+	agent137:	37,572
+	agent138:	37,548
 	agent139:	87,668
-	agent140:	87,612
-	agent141:	125,160
-	agent142:	125,240
-	agent143:	112,644
+	agent140:	87,668
+	agent141:	125,320
+	agent142:	125,320
+	agent143:	112,788
 	agent144:	75,144
-	agent145:	125,240
-	agent146:	125,160
-	agent147:	125,160
+	agent145:	125,320
+	agent146:	125,240
+	agent147:	125,320
 	agent148:	125,240
-	agent149:	100,192
-	agent150:	87,612
-	agent151:	25,047
-	agent152:	12,516
-	agent153:	37,572
-	agent154:	37,548
-	agent155:	62,580
+	agent149:	100,128
+	agent150:	87,668
+	agent151:	25,031
+	agent152:	12,524
+	agent153:	37,548
+	agent154:	37,572
+	agent155:	62,620
 	agent156:	62,620
-	agent157:	287,864
-	agent158:	288,048
-	agent159:	438,340
-	agent160:	450,576
-	agent161:	350,672
-	agent162:	375,480
-	agent163:	350,448
+	agent157:	288,048
+	agent158:	288,232
+	agent159:	438,620
+	agent160:	451,728
+	agent161:	350,896
+	agent162:	375,720
+	agent163:	350,896
 	agent164:	375,720
-	agent165:	350,448
-	agent166:	338,148
+	agent165:	350,896
+	agent166:	338,580
 	agent167:	350,672
-	agent168:	337,932
-	agent169:	162,708
-	agent170:	162,812
-	agent171:	125,160
-	agent172:	137,764
-	agent173:	187,736
-	agent174:	162,808
+	agent168:	338,364
+	agent169:	162,812
+	agent170:	162,708
+	agent171:	125,320
+	agent172:	137,852
+	agent173:	187,976
+	agent174:	162,912
 	agent175:	125,240
-	agent176:	125,160
-	agent177:	125,156
+	agent176:	125,240
+	agent177:	125,236
 	agent178:	112,712
-	agent179:	550,700
-	agent180:	488,120
+	agent179:	551,052
+	agent180:	488,432
 	agent181:	187,738
-	agent182:	150,288
-	agent183:	162,708
-	agent184:	150,288
+	agent182:	150,384
+	agent183:	162,916
+	agent184:	150,576
 	agent185:	75,144
-	agent186:	112,643
+	agent186:	112,715
 	agent187:	75,096
 	agent188:	87,668
 	agent189:	87,612
 	agent190:	75,144
-	agent191:	75,096
-	agent192:	62,620
-	agent193:	62,580
-	agent194:	75,144
-	agent195:	87,612
-	agent196:	100,192
-	agent197:	187,860
-	agent198:	212,772
+	agent191:	75,144
+	agent192:	62,580
+	agent193:	62,620
+	agent194:	75,096
+	agent195:	87,668
+	agent196:	100,128
+	agent197:	187,980
+	agent198:	212,908
 	agent199:	12,516
-	agent200:	25,047
+	agent200:	25,031
 Amount of information received (by agent, in bytes): 
-	agent001:	187,778
-	agent002:	187,770
-	agent003:	187,778
-	agent004:	187,770
+	agent001:	187,866
+	agent002:	187,866
+	agent003:	187,874
+	agent004:	187,858
 	agent005:	37,550
 	agent006:	12,522
 	agent007:	50,080
-	agent008:	87,633
-	agent009:	50,065
-	agent010:	50,081
-	agent011:	112,672
-	agent012:	125,195
-	agent013:	112,672
-	agent014:	125,187
-	agent015:	350,560
-	agent016:	338,044
-	agent017:	350,568
-	agent018:	338,036
-	agent019:	125,216
-	agent020:	137,716
-	agent021:	187,796
-	agent022:	187,804
-	agent023:	62,604
-	agent024:	62,596
-	agent025:	162,756
-	agent026:	162,764
+	agent008:	87,625
+	agent009:	50,081
+	agent010:	50,065
+	agent011:	112,720
+	agent012:	125,235
+	agent013:	112,728
+	agent014:	125,251
+	agent015:	350,864
+	agent016:	338,300
+	agent017:	350,856
+	agent018:	338,308
+	agent019:	125,232
+	agent020:	137,756
+	agent021:	187,916
+	agent022:	187,908
+	agent023:	62,628
+	agent024:	62,628
+	agent025:	162,844
+	agent026:	162,852
 	agent027:	12,524
 	agent028:	25,032
-	agent029:	162,756
-	agent030:	150,248
-	agent031:	112,676
-	agent032:	125,200
-	agent033:	112,684
-	agent034:	125,192
-	agent035:	313,012
-	agent036:	300,488
-	agent037:	313,012
-	agent038:	300,488
-	agent039:	350,552
-	agent040:	375,608
-	agent041:	350,560
-	agent042:	375,600
-	agent043:	438,204
-	agent044:	450,712
-	agent045:	237,876
-	agent046:	237,884
-	agent047:	237,876
-	agent048:	250,400
-	agent049:	137,724
-	agent050:	137,716
-	agent051:	37,564
-	agent052:	37,556
-	agent053:	62,603
-	agent054:	75,103
-	agent055:	112,684
-	agent056:	112,676
-	agent057:	150,248
-	agent058:	137,716
-	agent059:	150,248
-	agent060:	137,716
-	agent061:	137,724
-	agent062:	137,716
-	agent063:	212,832
-	agent064:	187,784
-	agent065:	212,824
-	agent066:	187,792
-	agent067:	162,764
-	agent068:	150,232
-	agent069:	162,756
-	agent070:	150,240
-	agent071:	87,636
-	agent072:	125,200
-	agent073:	237,876
-	agent074:	237,884
-	agent075:	237,884
-	agent076:	237,876
-	agent077:	212,844
-	agent078:	212,836
-	agent079:	112,684
-	agent080:	112,676
-	agent081:	75,112
-	agent082:	87,652
-	agent083:	62,604
-	agent084:	100,160
-	agent085:	50,080
-	agent086:	50,080
-	agent087:	162,764
-	agent088:	162,756
-	agent089:	37,556
-	agent090:	37,564
-	agent091:	287,972
-	agent092:	287,964
-	agent093:	287,952
-	agent094:	287,944
-	agent095:	162,764
-	agent096:	162,772
-	agent097:	187,804
-	agent098:	187,796
-	agent099:	187,796
-	agent100:	187,804
-	agent101:	162,764
-	agent102:	162,756
-	agent103:	75,128
-	agent104:	62,596
-	agent105:	262,924
-	agent106:	275,448
-	agent107:	87,644
-	agent108:	137,724
-	agent109:	100,160
-	agent110:	87,652
-	agent111:	62,596
-	agent112:	62,604
-	agent113:	250,392
-	agent114:	237,884
-	agent115:	187,796
-	agent116:	212,828
-	agent117:	87,644
-	agent118:	87,636
-	agent119:	187,796
-	agent120:	175,272
-	agent121:	212,832
-	agent122:	212,824
-	agent123:	125,208
-	agent124:	112,684
-	agent125:	87,636
-	agent126:	100,168
-	agent127:	75,120
-	agent128:	75,120
-	agent129:	212,852
-	agent130:	187,796
-	agent131:	250,396
-	agent132:	262,920
-	agent133:	62,604
-	agent134:	87,628
-	agent135:	212,844
-	agent136:	212,836
+	agent029:	162,788
+	agent030:	150,264
+	agent031:	112,700
+	agent032:	125,232
+	agent033:	112,708
+	agent034:	125,240
+	agent035:	313,308
+	agent036:	300,776
+	agent037:	313,308
+	agent038:	300,784
+	agent039:	350,872
+	agent040:	375,944
+	agent041:	350,872
+	agent042:	375,944
+	agent043:	438,580
+	agent044:	451,096
+	agent045:	238,084
+	agent046:	238,084
+	agent047:	238,084
+	agent048:	250,600
+	agent049:	137,780
+	agent050:	137,772
+	agent051:	37,588
+	agent052:	37,580
+	agent053:	62,611
+	agent054:	75,151
+	agent055:	112,756
+	agent056:	112,748
+	agent057:	150,328
+	agent058:	137,788
+	agent059:	150,320
+	agent060:	137,780
+	agent061:	137,780
+	agent062:	137,780
+	agent063:	212,936
+	agent064:	187,888
+	agent065:	212,952
+	agent066:	187,888
+	agent067:	162,788
+	agent068:	150,272
+	agent069:	162,788
+	agent070:	150,264
+	agent071:	87,708
+	agent072:	125,280
+	agent073:	238,084
+	agent074:	238,076
+	agent075:	238,084
+	agent076:	238,076
+	agent077:	212,924
+	agent078:	212,916
+	agent079:	112,764
+	agent080:	112,756
+	agent081:	75,136
+	agent082:	87,668
+	agent083:	62,612
+	agent084:	100,176
+	agent085:	50,112
+	agent086:	50,104
+	agent087:	162,844
+	agent088:	162,852
+	agent089:	37,564
+	agent090:	37,572
+	agent091:	288,252
+	agent092:	288,252
+	agent093:	288,080
+	agent094:	288,080
+	agent095:	162,828
+	agent096:	162,820
+	agent097:	187,892
+	agent098:	187,892
+	agent099:	187,884
+	agent100:	187,892
+	agent101:	162,836
+	agent102:	162,844
+	agent103:	75,136
+	agent104:	62,628
+	agent105:	263,172
+	agent106:	275,720
+	agent107:	87,692
+	agent108:	137,772
+	agent109:	100,208
+	agent110:	87,684
+	agent111:	62,628
+	agent112:	62,636
+	agent113:	250,528
+	agent114:	237,988
+	agent115:	187,876
+	agent116:	212,924
+	agent117:	87,668
+	agent118:	87,676
+	agent119:	187,860
+	agent120:	175,336
+	agent121:	212,952
+	agent122:	212,960
+	agent123:	125,272
+	agent124:	112,756
+	agent125:	87,668
+	agent126:	100,200
+	agent127:	75,176
+	agent128:	75,168
+	agent129:	213,084
+	agent130:	187,980
+	agent131:	250,508
+	agent132:	263,032
+	agent133:	62,628
+	agent134:	87,660
+	agent135:	212,948
+	agent136:	212,948
 	agent137:	37,564
-	agent138:	37,556
-	agent139:	87,636
-	agent140:	87,644
-	agent141:	125,200
-	agent142:	125,192
-	agent143:	112,676
-	agent144:	75,112
-	agent145:	125,192
-	agent146:	125,200
-	agent147:	125,208
-	agent148:	125,200
-	agent149:	100,160
-	agent150:	87,644
-	agent151:	25,039
-	agent152:	12,524
-	agent153:	37,556
-	agent154:	37,564
-	agent155:	62,604
-	agent156:	62,596
-	agent157:	287,952
-	agent158:	287,944
-	agent159:	438,196
-	agent160:	450,720
-	agent161:	350,552
-	agent162:	375,608
-	agent163:	350,560
-	agent164:	375,600
-	agent165:	350,568
-	agent166:	338,036
-	agent167:	350,560
-	agent168:	338,044
-	agent169:	162,764
-	agent170:	162,756
-	agent171:	125,208
-	agent172:	137,716
-	agent173:	187,800
-	agent174:	162,760
-	agent175:	125,192
-	agent176:	125,208
-	agent177:	125,204
-	agent178:	112,680
-	agent179:	550,860
-	agent180:	488,272
-	agent181:	187,794
-	agent182:	150,232
-	agent183:	162,764
-	agent184:	150,240
-	agent185:	75,112
-	agent186:	112,675
-	agent187:	75,120
-	agent188:	87,628
-	agent189:	87,636
-	agent190:	75,112
+	agent138:	37,572
+	agent139:	87,668
+	agent140:	87,668
+	agent141:	125,288
+	agent142:	125,288
+	agent143:	112,732
+	agent144:	75,168
+	agent145:	125,272
+	agent146:	125,280
+	agent147:	125,272
+	agent148:	125,272
+	agent149:	100,184
+	agent150:	87,652
+	agent151:	25,047
+	agent152:	12,516
+	agent153:	37,564
+	agent154:	37,556
+	agent155:	62,628
+	agent156:	62,628
+	agent157:	288,080
+	agent158:	288,072
+	agent159:	438,580
+	agent160:	451,088
+	agent161:	350,872
+	agent162:	375,944
+	agent163:	350,872
+	agent164:	375,944
+	agent165:	350,848
+	agent166:	338,292
+	agent167:	350,856
+	agent168:	338,300
+	agent169:	162,812
+	agent170:	162,820
+	agent171:	125,240
+	agent172:	137,764
+	agent173:	187,864
+	agent174:	162,816
+	agent175:	125,224
+	agent176:	125,216
+	agent177:	125,260
+	agent178:	112,736
+	agent179:	551,100
+	agent180:	488,496
+	agent181:	187,874
+	agent182:	150,288
+	agent183:	162,892
+	agent184:	150,336
+	agent185:	75,168
+	agent186:	112,739
+	agent187:	75,136
+	agent188:	87,652
+	agent189:	87,652
+	agent190:	75,120
 	agent191:	75,120
-	agent192:	62,596
-	agent193:	62,604
-	agent194:	75,112
-	agent195:	87,636
-	agent196:	100,144
-	agent197:	187,796
-	agent198:	212,836
-	agent199:	12,524
+	agent192:	62,604
+	agent193:	62,596
+	agent194:	75,128
+	agent195:	87,660
+	agent196:	100,200
+	agent197:	187,876
+	agent198:	212,932
+	agent199:	12,516
 	agent200:	25,039
 Size of the largest message sent (by type, in bytes): 
 	improve:	147

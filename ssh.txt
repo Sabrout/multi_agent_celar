@@ -5,7 +5,7 @@
 
 
 
-ssh -X compute@31.36.160.158
+ssh compute@31.36.160.158
 $/|/@quatre2
 
 
