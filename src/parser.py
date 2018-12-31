@@ -3,11 +3,16 @@ from lxml import etree
 
 
 class Parser():
+    CONDITION = 0
+    ABSOLUTE = 1
 
-    def __init__(self, nbScen=1, nbAgents=None, cst='a'):
+    def __init__(self, cost_type, nbScen=1, nbAgents=None, cst='a'):
 
         # Problem Name
         nbScen = 'scen{0:02}'.format(nbScen)
+
+        if cost_type != Parser.ABSOLUTE and cost_type != Parser.CONDITION:
+            raise Exception('INVALID COST TYPE')
 
         # ------------ #
         # Reading Text
@@ -46,18 +51,21 @@ class Parser():
         # Cost
         cost_file = open('bin/'+nbScen+'/cst.txt', 'r')
         cost = []
-        for i in cost_file:
-            if not '=' in i:
-                continue
-            line = list(filter(lambda a: a != '', i[:-1].split(' ')))
-            if line[0][0] == cst:
-                cost.append(line[2])
-        cost_file.close()
-        if len(cost) > 0:
-            cost = cost[::-1]
-            cost = [str(int(cost[-1])*100)] + cost
-        else:
-            cost = ['0', '0', '0', '0', '0']
+        if cost_type == Parser.CONDITION:
+            for i in cost_file:
+                if not '=' in i:
+                    continue
+                line = list(filter(lambda a: a != '', i[:-1].split(' ')))
+                if line[0][0] == cst:
+                    cost.append(line[2])
+            cost_file.close()
+            if len(cost) > 0:
+                cost = cost[::-1]
+                cost = [str(int(cost[-1])*100)] + cost
+            else:
+                cost = ['0', '0', '0', '0', '0']
+        if cost_type == Parser.ABSOLUTE:
+            cost = ['32', '16', '8', '4', '2']
 
         # ------------ #
         # Writing XMLs
@@ -96,21 +104,36 @@ class Parser():
                                             domain='dom'+var[i][1], agent=str_to_format.format(i+1))
         # Predicates
         predicates = etree.SubElement(root, "predicates", nbPredicates=str(operation_eq+operation_gt))
-        if operation_gt:
-            predicate = etree.SubElement(predicates, "predicate", name="gt")
-            parameters = etree.SubElement(predicate, "parameters")
-            parameters.text = ' int X1 int X2 int K int C'
-            expression = etree.SubElement(predicate, "expression")
-            functional = etree.SubElement(expression, "functional")
-            functional.text = 'mul(sub(abs(sub(X1, X2)), K), C)'
-        if operation_eq:
-            predicate = etree.SubElement(predicates, "predicate", name="eq")
-            parameters = etree.SubElement(predicate, "parameters")
-            parameters.text = ' int X1 int X2 int K int C'
-            expression = etree.SubElement(predicate, "expression")
-            functional = etree.SubElement(expression, "functional")
-            functional.text = 'mul(add(abs(sub(abs(sub(X1, X2)), K)), 1), C)'
-        # Relations
+        if cost_type == Parser.ABSOLUTE:
+            if operation_gt:
+                predicate = etree.SubElement(predicates, "predicate", name="gt")
+                parameters = etree.SubElement(predicate, "parameters")
+                parameters.text = ' int X1 int X2 int K int C'
+                expression = etree.SubElement(predicate, "expression")
+                functional = etree.SubElement(expression, "functional")
+                functional.text = 'mul(sub(abs(sub(X1, X2)), K), C)'
+            if operation_eq:
+                predicate = etree.SubElement(predicates, "predicate", name="eq")
+                parameters = etree.SubElement(predicate, "parameters")
+                parameters.text = ' int X1 int X2 int K int C'
+                expression = etree.SubElement(predicate, "expression")
+                functional = etree.SubElement(expression, "functional")
+                functional.text = 'mul(add(abs(sub(abs(sub(X1, X2)), K)), 1), C)'
+        if cost_type == Parser.CONDITION:
+            if operation_gt:
+                predicate = etree.SubElement(predicates, "predicate", name="gt")
+                parameters = etree.SubElement(predicate, "parameters")
+                parameters.text = ' int X1 int X2 int K int C'
+                expression = etree.SubElement(predicate, "expression")
+                functional = etree.SubElement(expression, "functional")
+                functional.text = 'if(gt(abs(sub(X1, X2)), K), 0, C)'
+            if operation_eq:
+                predicate = etree.SubElement(predicates, "predicate", name="eq")
+                parameters = etree.SubElement(predicate, "parameters")
+                parameters.text = ' int X1 int X2 int K int C'
+                expression = etree.SubElement(predicate, "expression")
+                functional = etree.SubElement(expression, "functional")
+                functional.text = 'if(eq(abs(sub(X1, X2)), K), 0, C)'
         # Constraints
         constraints = etree.SubElement(root, "constraints", nbConstraints=str(len(const)))
         for i in const:
@@ -129,14 +152,20 @@ class Parser():
         # print(etree.tostring(root, pretty_print=True).decode("utf-8"))
 
         # Write XMLs
-        file = open('xml/'+nbScen+'.xml', 'w')
+        output_file_name = ""
+        if cost_type == Parser.CONDITION:
+            output_file_name = 'xml/'+nbScen+'_condition.xml'
+        if cost_type == Parser.ABSOLUTE:
+            output_file_name = 'xml/'+nbScen+'_absolute.xml'
+        file = open(output_file_name, 'w')
         file.write(etree.tostring(root, pretty_print=True).decode("utf-8"))
         file.close()
 
 
 def main():
     for i in range(1, 12):
-        parser = Parser(nbScen=i)
+        parser = Parser(Parser.CONDITION, nbScen=i)
+        parser = Parser(Parser.ABSOLUTE, nbScen=i)
 
 
 if __name__ == "__main__":
