@@ -418,14 +418,14 @@
 
 
 <predicates>
-    <function name="EQ">
+    <function name="eq">
       <parameters>int X1 int X2 int Z</parameters>
       <expression>
         <functional>if(eq(abs(sub(X1, X2)),Z)0,100)</functional>
       </expression>
     </function>
 
-    <function name="GT">
+    <function name="gt">
       <parameters>int X1 int X2 int Z</parameters>
       <expression>
         <functional>if(gt(abs(sub(X1, X2)),Z),0,100)</functional>
