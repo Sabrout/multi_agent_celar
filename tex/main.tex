@@ -81,26 +81,51 @@
 
 \title{The CELAR Radio Link Frequency Assignment Problems}
 \author{Paul Viallard\\
-  \texttt{\href{mailto:paul.viallard@etu.univ-st-etienne.fr}{paul.viallard@etu.univ-st-etienne.fr}} 
-\\\\ Omar Elsabrout\\
-\texttt{\href{mailto:omar.elsabrout@etu.univ-st-etienne.fr}{omar.elsabrout@etu.univ-st-etienne.fr}}}
-\date{27 December 2018}
+	\texttt{\href{mailto:paul.viallard@etu.univ-st-etienne.fr}{paul.viallard@etu.univ-st-etienne.fr}} 
+	\\\\ Omar Elsabrout\\
+	\texttt{\href{mailto:omar.elsabrout@etu.univ-st-etienne.fr}{omar.elsabrout@etu.univ-st-etienne.fr}}}
+\date{2 January 2019}
 
 % ----------------------------------- %
 %               Document              %
 % ----------------------------------- %
 
 \begin{document}
-  \maketitle
-
-	\begin{abstract}
+	\maketitle
 	
+	\begin{abstract}
+		As the technical problems grow with time to be more difficult and sophisticated to solve, researchers thrive to explore new solution techniques to solve those problems and export them into real-life applications. Our scope is on huge constrained problems and the usage of multi-agent systems to solve them. Our consideration of multi agents is due to the fact of extremely big number of variables constraints involved in these problems. In our experimental project, we utilize FRODO\cite{FRODO} an open-source framework for distributed constraint optimization. The purpose of our project is to understand the inner workings of distributed constraint solving algorithms and report the best possible solutions we reach for the CLEAR, Centre d’Électronique de l’Armement, radio link frequency assignment.
 	\end{abstract}
 	
 	\section{Introduction}
-
+	As a practical application to our understanding of distributed constraint problem solving, we aim to solve The CLEAR radio link frequency assignment problems made available in the framework of the European project EUCLID CALMA (Combinatorial Algorithms for Military Applications) build from a real network with simplified data. It contains benchmarks of current solvers in order to evaluate our work and grow the community in general.
+	
+	To go further into details, the cordiality of our constraints is always two, meaning that all of our constraints are binary and do not involve more than two variables. Those variables are non-linear and have finite domains. Moreover, these provided problems are real-world size problems. To draw the picture, the largest of them are composed of around one thousand variables and almost five thousand constraints.
+	
+	In our report, we provide a description of the problems and data in hand, our approach to model the problems and prepare the data for the FRODO solver, our configuration of FRODO and the reasons behind them and finally results and our analysis of the experiment. All source code of Python scripts and XML files are available for further testing.
+	
+	\section{Problem Description}
+	Explicitly, the radio link frequency assignment problem tackles the task of giving different frequencies to radio data links in pairs to avoid interference. Each radio link is represented by a variable whose domain is the set of all frequencies that are available for this link. 
+	
+	The essential constraints involve two variables $F_1$ and $F_2$:\[|F_1 - F_2| > K_{12}\] 
+	As described in the problem's documentation, the two variables represent two radio links which are close to each other and it may cause an interference. Naturally, the constant $K_{12}$ depends on the position of the two links and also on the physical environment. It is obtained using a mathematical model of electromagnetic waves propagation which is out of the scope of our work. We are more interested in solving the problems than interested in the actual physical details (as long as they do not contribute in our results).
+	
+	In addition, for each two radio links, two frequencies must be assigned in a way that one is for the communications from A to B and the other is for the communications from B to A. In the case of the CELAR instances, a technological constraint appears which states that the distance in frequency from A to B and from B to A must be exactly equal to 238.
+	
+	\subsection{Criteria Optimization}
+	\label{criteria}
+	In order to evaluate the obtained frequency assignments, we need standards upon which we build our judgment of this obtained solution. In the scope of our project, we focus on two main criteria. First, minimization of frequency values. In other words, the frequencies assigned to data links must be minimized for related engineering power consumption concerns. The second criterion is minimizing the number of used frequencies as there will be data links far from each other so they can use the same frequencies. This facilitates installing future data links with the same domains of frequencies.
+	
+	\subsection{Provided Information}
+	For each problem instance, we are provided by domains, variables, constraints and criteria all in separate text files. These files together describe the details of the problem. However, the domain file specifies the numerical values for the available domains to which variables can be assigned to. Moreover, variable files assign them to the aforementioned domains. Next, constraint files involve variables using their number from the variable files. Lastly, criteria files explain the cost of soft constraints (if any) as guidance towards the best feasible solver. All further details of syntax are available in the documentation of CLEAR.
+	
+	\section{Modeling}
+	
+	\section{Parser}
+	\section{FRODO Configuration}
+	\section{Results}
 	\section{Conclusion and Perspectives}
 	\newpage
 	\bibliography{bib.bib}
-
+	
 \end{document} 
