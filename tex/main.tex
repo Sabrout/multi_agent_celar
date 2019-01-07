@@ -120,6 +120,25 @@
 	For each problem instance, we are provided by domains, variables, constraints and criteria all in separate text files. These files together describe the details of the problem. However, the domain file specifies the numerical values for the available domains to which variables can be assigned to. Moreover, variable files assign them to the aforementioned domains. Next, constraint files involve variables using their number from the variable files. Lastly, criteria files explain the cost of soft constraints (if any) as guidance towards the best feasible solver. All further details of syntax are available in the documentation of CLEAR.
 	
 	\section{Modeling}
+	When it comes to modeling, we discuss two different parts regarding transforming the problems fro the provided format into another format fit for FRODO. The first part is our objective functions regarding cost assignment for constraints to abide the two target criteria previously mentioned in subsection \ref{criteria}. On the other hand, the second part discusses the relation between the number of agents and variables whether it can be optimized or it is not worthy of our computation resources.
+	\subsection{Objective Cost Functions}
+	We propose our own objective functions to replace the essential constraints introduced by the CLEAR problem itself. The goal behind this move is to customize the resulting cost out of each constraint to achieve minimization of frequency values and minimizing also the number of used frequencies. Furthermore, we also alter the concept of hard constraints in our problems to be completely formed of only soft constraints with an extremely high cost. The reason behind this decision is that it makes the development part easier to debug, it gives a clearer analysis of the performance of the objective function and lastly it leads the investigation to know whether we can reach a fairly expensive solution if the problem is unfeasible or not.
+	
+	Our first objective cost function targets the minimization of number of frequencies as the formula:
+	\[if(|F_1 - F_2| \geq K_{12}), \text{then return 0}, \text{else return } a_t\]
+	$a_t$ here corresponds to a vector $a$ that has 5 costs starting with the cost of a hard constraint then the 4 costs provided for soft constraints in descending order. It is represented in an example as the following:
+	\begin{align}
+		a_0 &= 10000 &\text{ hard}\\
+		a_1 &= 1000 &\text{ soft}\\
+		a_2 &= 100 &\text{ soft}\\
+		a_3 &= 10 &\text{ soft}\\
+		a_4 &= 1 &\text{ soft}
+	\end{align}
+	On the other hand, our second objective cost function tackles the minimization of frequency values as the formula:
+	\[a_t||F_1 - F_2| - K_{12}|\]
+	Such formula follows the same notation as the previous one with the modification that involves the values of $F_1$, $F_2$ and $K_{12}$ into the return value of the total cost. Both formulas are used for all the tested problems with different resulting solutions.
+	\subsection{Agents and Variables}
+	Our default strategy for choosing the number of agents is to assign it the same as the number of variables involved in each problem. With this being decided, we aim to have each agent in charge of each link, or in this context a broadcasting tower, as it leaves the problem simply modeled and realistically applicable. Without a doubt, we can change the strategy with another for more optimization. However, it would require more knowledge of the nature of frequencies and the basis upon which the constraints are formed. Due to the huge number of constraints and variables presented in each problem, optimizing the strategy requires a heavier study and considered out of the scope of our interest in the behavior of our solver. 
 	
 	\section{Parser}
 	\section{FRODO Configuration}
