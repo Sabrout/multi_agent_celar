@@ -141,7 +141,17 @@
 	Our default strategy for choosing the number of agents is to assign it the same as the number of variables involved in each problem. With this being decided, we aim to have each agent in charge of each link, or in this context a broadcasting tower, as it leaves the problem simply modeled and realistically applicable. Without a doubt, we can change the strategy with another for more optimization. However, it would require more knowledge of the nature of frequencies and the basis upon which the constraints are formed. Due to the huge number of constraints and variables presented in each problem, optimizing the strategy requires a heavier study and considered out of the scope of our interest in the behavior of our solver. 
 	
 	\section{Parser}
-	\section{FRODO Configuration}
+	Our implementation of a parser tool to read the problem's text files is built in a Python 3.6 environment. We utilize a Python based library named LXML\cite{lxml} to construct XML files representing the input problems for FRODO. The parser reads the files \texttt{var.txt}, \texttt{dom.txt}, \texttt{ctr.txt} and \texttt{cst.txt} for each provided instance corresponding to the variable names, used numerical domains, constraints applied on variables and preferred cost per constraint respectively. With the exception of instances 1, 2 and 3 of containing only hard constraints, we ignore costs files and modify the previously mentioned formulas accordingly. All further details on the actual format of text files are available in the CLEAR documentation so we do not repeat them in our report to avoid redundancy. Nonetheless, we move on to explain the construction fo our XML files in the format presented in figure \ref{file_format}.
+	\begin{figure}
+		\centering
+		\includegraphics[scale=0.5]{figure/xml.png}
+		\caption{A summarized representation of XML file of instance 7.}
+		\label{file_format}
+	\end{figure}
+
+	For each instance we generate two different XML files for the two objective cost functions. Those two XML files are similar in the parts regarding variables, agents, constraints and domains. On the other hand, they are different when it comes to defining predicates to which the constraints are referenced.
+	
+	\section{Configuration}
 	\section{Results}
 	\section{Conclusion and Perspectives}
 	\newpage
