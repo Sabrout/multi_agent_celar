@@ -161,7 +161,38 @@
 	\texttt{java -cp [frodo.jar path] frodo2.algorithms.AgentFactory [instance XML path] frodo2/agents/MGM/MGMagentJaCoP.xml > [output file path]}
 	
 	Next, we read the output file with another parser we implemented to save the results and prepare it for plotting and analysis.
+	
 	\section{Results}
+	Finally, we reach the part where we present the output of our experiments. 
+	
+	
+	\begin{tabular}{ |p{3cm}||p{3cm}|p{3cm}|p{3cm}|  }
+		\hline
+		\multicolumn{4}{|c|}{Country List} \\
+		\hline
+		Country Name     or Area Name& ISO ALPHA 2 Code &ISO ALPHA 3 Code&ISO numeric Code\\
+		\hline
+		Afghanistan   & AF    &AFG&   004\\
+		Aland Islands&   AX  & ALA   &248\\
+		Albania &AL & ALB&  008\\
+		Algeria    &DZ & DZA&  012\\
+		American Samoa&   AS  & ASM&016\\
+		Andorra& AD  & AND   &020\\
+		Angola& AO  & AGO&024\\
+		\hline
+	\end{tabular}
+	
+	
+	
+	
+	
+	
+	\begin{figure}
+		\centering
+		\includegraphics[scale=0.8]{figure/messages.png}
+		\caption{A graph showing the number of messages sent and received per agent across the tested problem instances.}
+		\label{results:messages}
+	\end{figure}
 	\section{Conclusion and Perspectives}
 	\newpage
 	\bibliography{bib.bib}

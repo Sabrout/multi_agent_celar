@@ -16,10 +16,13 @@ class Report():
         self.agents = np.array(agents) # agent = [messages sent, messages received, info sent, info received]
 
     def get_sorted_vars(self):
-        return self.vars.sort(key=lambda x: x[0])[:, -1]
+        return self.vars.sort(key=lambda x: x[0])
 
     def get_sent_messages(self):
-        return self.agents[:, 0]
+        if len(self.agents) > 0:
+            return self.agents[:, 0]
+        else:
+            return []
 
     def get_received_messages(self):
         return self.agents[:, 1]
@@ -36,10 +39,19 @@ class Report():
     def get_no_vars(self):
         return len(self.vars)
 
+    def print_all(self):
+        print("Alogrithm: " + self.algo)
+        print("Cost Type: " + self.cost_type)
+        print("Number of Variables: {}".format(len(self.vars)))
+        print("Optimal Cost: {}".format(self.cost))
+        print("Simulation Time: {}".format(self.time))
+        print("Number of Messages: {}".format(self.messages))
+        print("Size of Information: ".format(self.info))
+        print("Number of Agents: {}".format(len(self.agents)))
 
-def main():
-    print()
+# def main():
+#     print()
 
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()
