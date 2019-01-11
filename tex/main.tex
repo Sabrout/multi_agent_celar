@@ -152,6 +152,15 @@
 	For each instance we generate two different XML files for the two objective cost functions. Those two XML files are similar in the parts regarding variables, agents, constraints and domains. On the other hand, they are different when it comes to defining predicates to which the constraints are referenced.
 	
 	\section{Configuration}
+	When it comes to the discussion of the environmental setup of our experiments, we are dictated to define the configuration of our used hardware, used framework and the parameters of such framework. The reason behind the need to explain such configurations is to state the conditions of the experiment to be able to subjectively compare it with other benchmarks.
+	
+	Our hardware configuration includes 
+	
+	While on the other hand, we continue to state our configuration of the FRODO framework. There exist 19 algorithms available to use to solve our problem. However, not all of them have the same performance. Some of them run in exponential time and others are polynomial. Since we have limited hardware resources and instances of problems with huge number of constraints. We decided to use only one polynomial time algorithm which is MGM with two different implemented objective cost functions. The actual detailed comparison of performances among the 19 algorithms can be presented by doing a literature review on their papers which is not the aim of our project since we can never run all algorithms on our hardware. We focus on the performances of our implemented cost functions using MGM. We run the following command to use FRODO:
+	
+	\texttt{java -cp [frodo.jar path] frodo2.algorithms.AgentFactory [instance XML path] frodo2/agents/MGM/MGMagentJaCoP.xml > [output file path]}
+	
+	Next, we read the output file with another parser we implemented to save the results and prepare it for plotting and analysis.
 	\section{Results}
 	\section{Conclusion and Perspectives}
 	\newpage
