@@ -154,7 +154,7 @@
 	\section{Configuration}
 	When it comes to the discussion of the environmental setup of our experiments, we are dictated to define the configuration of our used hardware, used framework and the parameters of such framework. The reason behind the need to explain such configurations is to state the conditions of the experiment to be able to subjectively compare it with other benchmarks.
 	
-	Our hardware configuration includes 
+	Our hardware configuration includes an Intel Core i7-8700K processor with 12 cores of 3.7GHz and 24 threads. Such a processor is assumed to be sufficient for the task but it takes long periods to calculate a solution for instances. One other important factor is the available memory which is 64GB of RAM to save the calculated constraints in memory to speed up the search for variable assignments.
 	
 	While on the other hand, we continue to state our configuration of the FRODO framework. There exist 19 algorithms available to use to solve our problem. However, not all of them have the same performance. Some of them run in exponential time and others are polynomial. Since we have limited hardware resources and instances of problems with huge number of constraints. We decided to use only one polynomial time algorithm which is MGM with two different implemented objective cost functions. The actual detailed comparison of performances among the 19 algorithms can be presented by doing a literature review on their papers which is not the aim of our project since we can never run all algorithms on our hardware. We focus on the performances of our implemented cost functions using MGM. We run the following command to use FRODO:
 	
