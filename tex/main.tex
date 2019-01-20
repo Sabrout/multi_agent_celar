@@ -98,7 +98,7 @@
 	\end{abstract}
 	
 	\section{Introduction}
-	As a practical application to our understanding of distributed constraint problem solving, we aim to solve The CLEAR radio link frequency assignment problems made available in the framework of the European project EUCLID CALMA (Combinatorial Algorithms for Military Applications) build from a real network with simplified data. It contains benchmarks of current solvers in order to evaluate our work and grow the community in general.
+	As a practical application to our understanding of distributed constraint problem solving, we aim to solve the CLEAR radio link frequency assignment problems made available in the framework of the European project EUCLID CALMA (Combinatorial Algorithms for Military Applications) build from a real network with simplified data. It contains benchmarks of current solvers in order to evaluate our work and grow the community in general.
 	
 	To go further into details, the cordiality of our constraints is always two, meaning that all of our constraints are binary and do not involve more than two variables. Those variables are non-linear and have finite domains. Moreover, these provided problems are real-world size problems. To draw the picture, the largest of them are composed of around one thousand variables and almost five thousand constraints.
 	
@@ -121,10 +121,10 @@
 	
 	\section{Modeling}
 	When it comes to modeling, we discuss two different parts regarding transforming the problems fro the provided format into another format fit for FRODO. The first part is our objective functions regarding cost assignment for constraints to abide the two target criteria previously mentioned in subsection \ref{criteria}. On the other hand, the second part discusses the relation between the number of agents and variables whether it can be optimized or it is not worthy of our computation resources.
-	\subsection{Objective Cost Functions}
+	\subsection{Objective Cost Functions}\label{costfun}
 	We propose our own objective functions to replace the essential constraints introduced by the CLEAR problem itself. The goal behind this move is to customize the resulting cost out of each constraint to achieve minimization of frequency values and minimizing also the number of used frequencies. Furthermore, we also alter the concept of hard constraints in our problems to be completely formed of only soft constraints with an extremely high cost. The reason behind this decision is that it makes the development part easier to debug, it gives a clearer analysis of the performance of the objective function and lastly it leads the investigation to know whether we can reach a fairly expensive solution if the problem is unfeasible or not.
 	
-	Our first objective cost function targets the minimization of number of frequencies as the formula:
+	Our first objective cost function, named \textbf{condition}, targets the minimization of number of frequencies as the formula:
 	\[if(|F_1 - F_2| \geq K_{12}), \text{then return 0}, \text{else return } a_t\]
 	$a_t$ here corresponds to a vector $a$ that has 5 costs starting with the cost of a hard constraint then the 4 costs provided for soft constraints in descending order. It is represented in an example as the following:
 	\begin{align}
@@ -134,7 +134,7 @@
 		a_3 &= 10 &\text{ soft}\\
 		a_4 &= 1 &\text{ soft}
 	\end{align}
-	On the other hand, our second objective cost function tackles the minimization of frequency values as the formula:
+	On the other hand, our second objective cost function, named \textbf{absolute}, tackles the minimization of frequency values as the formula:
 	\[a_t||F_1 - F_2| - K_{12}|\]
 	Such formula follows the same notation as the previous one with the modification that involves the values of $F_1$, $F_2$ and $K_{12}$ into the return value of the total cost. Both formulas are used for all the tested problems with different resulting solutions.
 	\subsection{Agents and Variables}
@@ -158,42 +158,44 @@
 	
 	While on the other hand, we continue to state our configuration of the FRODO framework. There exist 19 algorithms available to use to solve our problem. However, not all of them have the same performance. Some of them run in exponential time and others are polynomial. Since we have limited hardware resources and instances of problems with huge number of constraints. We decided to use only one polynomial time algorithm which is MGM with two different implemented objective cost functions. The actual detailed comparison of performances among the 19 algorithms can be presented by doing a literature review on their papers which is not the aim of our project since we can never run all algorithms on our hardware. We focus on the performances of our implemented cost functions using MGM. We run the following command to use FRODO:
 	
-	\texttt{java -cp [frodo.jar path] frodo2.algorithms.AgentFactory [instance XML path] frodo2/agents/MGM/MGMagentJaCoP.xml > [output file path]}
+	\noindent\texttt{java -cp [frodo.jar path] frodo2.algorithms.AgentFactory [instance XML path] frodo2/agents/MGM/MGMagentJaCoP.xml > [output file path]}
 	
 	Next, we read the output file with another parser we implemented to save the results and prepare it for plotting and analysis.
 	
 	\section{Results}
-	Finally, we reach the part where we present the output of our experiments. 
+	Finally, we reach the part where we present the output of our experiments. As we mentioned before, we ran our models on the problems 2, 5, 6, 9 and 11 since each one represents a sub-sample of a group of similar problems. Moreover, after several trials of running all the algorithms available in FRODO, we came to realize some of them have exponential time complexity so they do not terminate on our hardware setup. Hence, we use only the MGM algorithm with different objective functions, \textbf{condition} and \textbf{absolute} respectively, as discussed in subsection \ref{costfun}. The results of each experiment are described in the following table:\\
 	
-	
-	\begin{tabular}{ |p{3cm}||p{3cm}|p{3cm}|p{3cm}|  }
+	\begin{tabular}{ |p{0.75cm}||p{1.5cm}|p{1.3cm}|p{1.75cm}|p{1.6cm}|p{1.5cm}| }
 		\hline
-		\multicolumn{4}{|c|}{Country List} \\
+		Prob. No.& Cost Type & Variables& Optimal Cost & Simulation Time (ms)& Messages\\
 		\hline
-		Country Name     or Area Name& ISO ALPHA 2 Code &ISO ALPHA 3 Code&ISO numeric Code\\
 		\hline
-		Afghanistan   & AF    &AFG&   004\\
-		Aland Islands&   AX  & ALA   &248\\
-		Albania &AL & ALB&  008\\
-		Algeria    &DZ & DZA&  012\\
-		American Samoa&   AS  & ASM&016\\
-		Andorra& AD  & AND   &020\\
-		Angola& AO  & AGO&024\\
+		2 & Hard & 200 & 0 & 26,106 & 988,000\\
+		5 & Condition & 400 & 25,800,000 & 41,396 & 2,078,400\\
+		5 & Absolute & 400 &  25,700,000 & 41,500 & 2,078,400\\
+		6 & Condition & 200 & 117,145 & 26,126 & 1,057,600\\
+		6 & Absolute & 200 & 929,344 & 26,340 & 1,057,600\\
+		9 & Condition & 680 & 312,663 & 41,629 & 3,282,400\\
+		9 & Absolute & 680 & 2,997,494 & 43,326 & 3,282,400\\
+		11 & Condition & 680 & 6,900,000 & 43,685 & 3,282,400\\
+		11 & Absolute & 680 & 755,328 & 42,695 & 3,282,400\\
 		\hline
-	\end{tabular}
+	\end{tabular}\\
+	\\
+	We state the number of each instance with the type of the cost function, number of variables, optimal total cost, simulation in time in milliseconds and finally the number of sent messages among all agents.
 	
+	As we can remark, the instance 2 is a special case since it does not contain any soft constraints with multiple costs. Since the problem is feasible. It was solved in a fairly short simulation time and number of messages. More interestingly, we find that the usage of different cost functions does not mean necessarily a different number of messages and simulation time. Furthermore, we deduce that the number of variables and agents is not the only factor for the total optimal cost. However, it also depends on the used cost and the difficulty of the problem whether it is solvable or not. For instance, we find instance 9 and 11 have the same number of variables and the same number of messages. On the other hand, they have different costs on both cost functions. 
 	
-	
-	
-	
-	
+	We observe in more details the number of messages sent among agents in Figure \ref{results:messages} where we find in each instance roughly the same number of message except an arbitrary group of agents where most of the communication to solve the problem is executed. Those agents are represented by a spike in the graph. In addition, we deduce that the number of messages per agent is proportional to the number of agents involved in solving the problem as in instance 11 where it dominates all the numbers.
 	\begin{figure}
 		\centering
 		\includegraphics[scale=0.8]{figure/messages.png}
 		\caption{A graph showing the number of messages sent and received per agent across the tested problem instances.}
 		\label{results:messages}
 	\end{figure}
-	\section{Conclusion and Perspectives}
+
+	\section{Conclusion}
+	To sum up, we introduced the CLEAR radio link frequency assignment problem, we described the problem in details by explaining the variables and the constraints. Next, we presented our approach of modeling and objective cost functions. Then, we briefly presented the development of our parser to convert the problem text file format into an XML format ready to be processed by FRODO with stating the configuration used in FRODO. Finally, we presented our results and explained our insights of the correlations among optimal cost, simulation time and number of variables. For sure, we find the CLEAR problem interesting and requires more dedication to have advanced results to compete with mentioned benchmarks on the website.
 	\newpage
 	\bibliography{bib.bib}
 	

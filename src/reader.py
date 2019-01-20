@@ -92,8 +92,8 @@ def main():
             j = reader.reports[1]
         j.print_all()
         messages.append(j.get_sent_messages())
-    reader.plot(messages, ["Instance No.2", "Instance No.5", "Instance No.6", "Instance No.9",
-         "Instance No.11"], "Agents", "Number of Messages", "messages")
+    # reader.plot(messages, ["Instance No.2", "Instance No.5", "Instance No.6", "Instance No.9",
+    #      "Instance No.11"], "Agents", "Number of Messages", "messages")
 
 
 if __name__ == "__main__":
