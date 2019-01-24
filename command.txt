@@ -1,0 +1,1 @@
+java -cp frodo2/frodo2.jar frodo2.algorithms.AgentFactory xml/scen06.xml frodo2/agents/MGM/MGMagentJaCoP.xml > output/scen06/output_scen06_MGM.csv
